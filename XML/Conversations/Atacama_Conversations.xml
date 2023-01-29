@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+	<conversation ID="Jademouth_Atacama">
+		<node ID="Start">
+			<text>
+				Come in, come in! Kick the dirt off and find a place to rest.
+			</text>
+			<choice ID="AtacamaAsphodel" Target="Asphodel" IfHaveActiveQuest="The Earl of Omonporch">What do you know about the Earl of Omonporch?</choice>
+			<choice ID="AtacamaStory" GotoID="Story">What's your story?</choice>
+			<choice ID="AtacamaInformal" GotoID="Informal">You're much more informal than the other Consortium merchants I've met.</choice>
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+		<node ID="Story">
+			<text>Atacama, at your service. I serve as the chandler here for travelers like yourself. Jademouth sees a great deal of traffic from caravaneers and nomads crossing to and from the banana groves, and every now and then, oddities from Omonporch and beyond end up here. Why not take a look?
+
+			I also stock plenty of prospecting supplies if you're a delver yourself.</text>
+			<choice UseID="AtacamaAsphodel" />
+			<choice UseID="AtacamaInformal" />
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+		<node ID="Informal">
+			<text>I get that a lot. Truth be told, I've become a tad estranged from the Consortium since my assignment here, though I remain on good terms. Jademouth is something of an anathema for phyta looking to bask in the sun, and so I confess I dreaded it when I got the news.
+				
+			Having been here some time now, though, I can see how shortsighted I was to worry without having ever been here myself. Perhaps the locals have just rubbed off on me, but the longer I stay away from the socialites, the more genuine I feel. It's not like anyone wants to take my position here. Hah!</text>
+			<choice UseID="AtacamaAsphodel" />
+			<choice UseID="AtacamaStory" />
+			<choice UseID="AtacamaInformal" />
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+		<node ID="Asphodel">
+			<text>Ugh. Don't even get me started. Asphodel is a weed with more interest in presiding over xyr imaginary earldom with copies of xemself than doing anything useful.</text>
+			<choice GotoID="Lease">How can I convince Asphodel to lease the Spindle to Barathrum?</choice>
+		</node>
+		<node ID="Lease">
+			<text>Asphodel is many things, but most of all xe wants recognition. If you're looking to get into xyr good graces, you would be wise to bring some kind of tribute. Xe is mostly concerned with clout, so I would be ready to call in favors of your own.
+				
+			Whatever the case, though, your best chance would be to go along with whatever tiring idea xe has. Just don't cause any trouble. Asphodel was mercurial even before xe took xyr spawn and left for Omonporch, and if you cross any lines, it's unlikely that you will be able to salvage a diplomatic route.</text>
+			<choice GotoID="End">Thank you, Atacama. Live and drink.</choice>
+		</node>
+	</conversation>
+</conversations>

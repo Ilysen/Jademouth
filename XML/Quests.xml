@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+	<quest Name="Chaos Theory" Level="25" Manager="ChaosTheoryManager"
+		Factions="Jademouth" Reputation="100"
+		Accomplishment="You helped Bright to find a treatment for her mutated albinism."
+		Hagiograph="In the month of =month= of =year=, =name= delved deep into the Moon Stair, fighting back the hordes of Girsh Nephilim and liberating a mysterious panacea."
+		HagiographCategory="FindsObject">
+
+		<step Name="Find a dram of warm static" XP="2500">
+			<text>Hunt down a dram of pure warm static. Bright said to look for the Alchemist in Bethesda Susa or to brave the Moon Stair, but both options are very dangerous.</text>
+		</step>
+
+		<step Name="Return the warm static" XP="500">
+			<text>Return the warm static to Bright in Jademouth.</text>
+		</step>
+
+		<step Name="Speak to Bright" XP="5000">
+			<text>Speak to Bright about your reward.</text>
+		</step>
+	</quest>
+</quests>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell rough gemstones. -->
+	<object Name="Jademouth_Miner" Inherits="NPC">
+		<part Name="Render" DisplayName="gem prospector" Tile="Creatures/Prospector.png"
+			ColorString="&amp;W" TileColor="&amp;y" DetailColor="W" RenderString="f" />
+		<part Name="Description"
+			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= gear is worn but well-maintained." />
+		<part Name="Brain" Wanders="true" Factions="Jademouth-100" />
+		<part Name="AISelfPreservation" Threshold="30" />
+		<part Name="ConversationScript" ConversationID="JademouthMiner" />
+		<stat Name="Level" Value="15" />
+		<stat Name="AV" Value="5" />
+		<stat Name="Hitpoints" Value="40" />
+		<stat Name="Strength" Boost="6" />
+		<stat Name="Toughness" Boost="4" />
+		<stat Name="Willpower" Boost="4" />
+		<part Name="GenericInventoryRestocker" />
+		<tag Name="GenericInventoryRestockerPopulationTable" Value="JademouthMinerGems" />
+		<tag Name="InventoryPopulationTable" Value="JademouthMinerTool" />
+		<inventoryobject Blueprint="Leather Boots" />
+		<inventoryobject Blueprint="Filthy Toga" />
+		<inventoryobject Blueprint="Leather Gloves" />
+		<inventoryobject Blueprint="Miner's Helmet" />
+		<property Name="WontSell" Value="Pickaxe,NanopneumaticJackhammer" />
+		<tag Name="WontSellTag" Value="Ammo" />
+		<skill Name="Endurance_PoisonTolerance" />
+		<skill Name="Endurance_Calloused" />
+		<skill Name="Cudgel" />
+		<skill Name="Cudgel_Slam" />
+		<removepart Name="RandomTile" />
+		<property Name="Role" Value="Brute" />
+	</object>
+	<!-- Atacama, a fractus from the Consortium of Phyta. Xe sells tier 4 stuff as well as
+	pickaxes,
+	spine fruit, and Jademouth recoilers. -->
+	<object Name="Jademouth_Atacama" Inherits="SapientMutatedSucculent">
+		<part Name="Render" DisplayName="Atacama" Tile="Terrain/sw_fracti1.bmp" ColorString="g"
+			TileColor="g" DetailColor="W" RenderString="#" />
+		<part Name="Description"
+			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Though open to the sky, Atacama ensures that =pronouns.possessive= parlor is a tidy one." />
+		<part Name="ConversationScript" ConversationID="Jademouth_Atacama" />
+		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Jademouth-50" />
+		<part Name="Interesting" />
+		<stat Name="Level" Value="27" />
+		<stat Name="Hitpoints" sValue="300" />
+		<stat Name="Strength" Boost="4" />
+		<inventoryobject Blueprint="Clay Pot" />
+		<mutation Name="Burgeoning" Level="3" />
+		<mutation Name="Confusion" Level="4" />
+		<mutation Name="ForceBubble" Level="2" />
+		<mutation Name="Telepathy" Level="1" />
+		<mutation Name="PhotosyntheticSkin" Level="1" />
+		<skill Name="Cudgel" />
+		<skill Name="Persuasion_Berate" />
+		<property Name="Role" Value="NPC" />
+		<builder Name="Jademouth_AtacamaWares" />
+		<tag Name="NoSleep" />
+		<xtagGrammar Proper="true"></xtagGrammar>
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+		<tag Name="PronounSet" Value="xe/xem/xyr" />
+	</object>
+	<!-- Bright the tinker. Questgiver for Chaos Theory, which adds data disks for every item mod to
+	her shop (alchemist style) for a 2x markup. -->
+	<object Name="Jademouth_Bright" Inherits="HumanTinker4">
+		<part Name="Render" DisplayName="Bright" Tile="creatures/caste_flipped_21.bmp"
+			RenderString="a" />
+		<part Name="ConversationScript" ConversationID="Jademouth_Bright" />
+		<part Name="Brain" Wanders="false" Factions="Jademouth-100" />
+		<part Name="Description"
+			Short="Bright's albino skin is so white as to be nearly reflective in the salt sun, while =pronouns.possessive= reddish eyes are kept at a squint near any source of light. =pronouns.Possessive= four hands each come with a sixth finger, and =pronouns.subjective= juggles several tasks at once as =pronouns.subjective= moves about =pronouns.possessive= dimly-lit makeshift workspace." />
+		<mutation Name="Albino" Level="1" />
+		<mutation Name="DarkVision" Level="1" />
+		<mutation Name="MultipleArms" Level="10" />
+		<mutation Name="HeightenedAgility" Level="5" />
+		<mutation Name="Regeneration" Level="5" />
+		<skill Name="Tinkering_Tinker2" />
+		<skill Name="Customs_TrashDivining" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+		<tag Name="Gender" Value="female" />
+		<xtagGrammar Proper="true" />
+	</object>
+	<!-- This is a dummy object; it isn't spawned in on its own, but rather used for reference by C#
+	to update Bright's description after Chaos Theory -->
+	<object Name="Jademouth_Bright_PostQuest" Inherits="Jademouth_Bright">
+		<part Name="Description"
+			Short="Bright's skin glows softly as =pronouns.subjective= moves about her workshop. Though =pronouns.subjective='s still adapting to only having two arms again, =pronouns.possessive= movements have a new purpose. =pronouns.Subjective= smiles more readily and more often, now." />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients. -->
+	<object Name="Jademouth_Fizz" Inherits="BaseSlug">
+		<part Name="Body" Anatomy="SlugWithHands" />
+		<part Name="Render" DisplayName="Fizz" RenderString="Q"
+			Tile="Creatures/sw_slog.bmp" ColorString="&amp;w" TileColor="&amp;w"
+			DetailColor="g" />
+		<part Name="Description"
+			Short="Fizz undulates slowly as =pronouns.subjective= =verb:move:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the batch with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease." />
+		<part Name="Brain" Factions="Jademouth-100,Mollusks-25" Wanders="false" />
+		<mutation Name="AcidSlimeGlands" />
+		<stat Name="Strength" Value="26" />
+		<stat Name="Agility" Value="22" />
+		<stat Name="Toughness" Value="24" />
+		<stat Name="Intelligence" Value="16" />
+		<stat Name="Willpower" Value="16" />
+		<stat Name="Ego" Value="16" />
+		<stat Name="Level" Value="20" />
+		<stat Name="Hitpoints" Value="100" />
+		<inventoryobject Blueprint="Girshworm_Crush" Number="1" />
+		<part Name="GivesRep" />
+		<part Name="ConversationScript" ConversationID="Jademouth_Fizz" />
+		<part Name="GenericInventoryRestocker" />
+		<tag Name="GenericInventoryRestockerPopulationTable" Value="ChefInventory" />
+		<tag Name="Gender" Value="nonspecific" />
+		<skill Name="Endurance_Weathered" />
+		<skill Name="CookingAndGathering" />
+		<skill Name="CookingAndGathering_Harvestry" />
+		<skill Name="CookingAndGathering_Spicer" />
+		<skill Name="CookingAndGathering_CarbideChef" />
+		<tag Name="NoSleep" />
+		<xtagGrammar Proper="true" />
+		<stat Name="AcidResistance" Value="100" />
+		<tag Name="SharesRecipe" Value="JademouthGravy" />
+		<tag Name="SharesRecipeText" Value="Would you show me how to make your gravy?" />
+		<tag Name="WaterRitualLiquid" Value="water" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+	</object>
+	<!-- Cat the warden. Is an esper. -->
+	<object Name="Jademouth_Warden_Cat" Inherits="NPC">
+		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png"
+			ColorString="&amp;B" RenderString="w" DetailColor="m" />
+		<part Name="Description"
+			Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and unassuming frame, however, conceal the glimmer of a powerful esper whose psyche brushes in close proximity to yours as =pronouns.subjective= probes your intent." />
+		<part Name="ConversationScript" ConversationID="Jademouth_Warden_Cat" />
+		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
+		<stat Name="Strength" Value="16" />
+		<stat Name="Agility" Value="24" />
+		<stat Name="Toughness" Value="22" />
+		<stat Name="Intelligence" Value="20" />
+		<stat Name="Willpower" Value="24" />
+		<stat Name="Ego" Value="28" />
+		<stat Name="Hitpoints" Value="250" />
+		<mutation Name="Esper" Level="1" />
+		<!-- Cat's mutation levels come from her ego bonus -->
+		<mutation Name="Confusion" Level="1" />
+		<mutation Name="LifeDrain" Level="1" />
+		<mutation Name="SunderMind" Level="1" />
+		<mutation Name="MentalMirror" Level="1" />
+		<mutation Name="Telepathy" Level="1" />
+		<inventoryobject Blueprint="Flexivest" Number="1" />
+		<inventoryobject Blueprint="Issachari Sun Veil" Number="1" />
+		<inventoryobject Blueprint="Worn Burnoose" Number="1" />
+		<inventoryobject Blueprint="Waterskin" Number="3" />
+		<inventoryobject Blueprint="Sandals" Number="1" />
+		<skill Name="Acrobatics" />
+		<skill Name="Acrobatics_Dodge" />
+		<skill Name="Acrobatics_Tumble" />
+		<skill Name="Tactics_Juke" />
+		<skill Name="Discipline" />
+		<skill Name="Discipline_FastingWay" />
+		<skill Name="Discipline_IronMind" />
+		<skill Name="Survival" />
+		<skill Name="Survival_MountainsSurvival" />
+		<skill Name="Persuasion_Berate" />
+		<stat Name="Level" Value="30" />
+		<tag Name="Genotype" Value="Mutated Human" />
+		<part Name="GivesRep" />
+		<tag Name="staticFaction1" Value="Jademouth,friend,defending their home" />
+		<tag Name="NoHatedFactions" Value="Consortium,Jademouth" />
+		<tag Name="NoFriendFactions" Value="Seekers of the Sightless Way" />
+		<tag Name="Gender" Value="female" />
+		<tag Name="NoSleep" />
+		<xtagGrammar Proper="true" />
+		<tag Name="Mayor" Value="Jademouth"></tag>
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+</objects>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+	<conversation ID="Jademouth_Warden_Cat">
+		<node ID="Start">
+			<text>
+				Please stay peaceful in Jademouth. We like it quiet.~
+				If you have any questions, I'm the one to ask.~
+				Moon and sun.~
+				Can I help you?
+			</text>
+			<choice ID="CatJademouth" GotoID="Jademouth">What is this place?</choice>
+			<choice ID="CatUnassuming" GotoID="Unassuming">You don't look much like a warden.</choice>
+			<choice ID="CatSeekers" GotoID="CatsHuntBirds">I can feel your psyche. Do you have trouble with Seekers?</choice>
+			<choice ID="CatMerchants" GotoID="Merchants">I'm looking to trade. Who can I talk to?</choice>
+			<choice ID="CatMayor" GotoID="Mayor">Do you have a mayor?</choice>
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+		<node ID="Jademouth">
+			<text>This is Jademouth. We are a mining village, struck out from the marl.</text>
+			<choice ID="CatMerchants2" GotoID="Merchants">Do any merchants live here?</choice>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="Unassuming">
+			<text>Mhm.</text>
+			<choice ID="CatReasonForThat" GotoID="ReasonForThat">Is there a reason for that?</choice>
+			<choice ID="OtherQuestions" GotoID="Start">I had other questions.</choice>
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+		<node ID="ReasonForThat">
+			<text>There is.</text>
+			<choice ID="CatPry" GotoID="Pry">What is it?</choice>
+			<choice GotoID="End">Nevermind. Live and drink.</choice>
+		</node>
+		<node ID="Pry">
+			<text>Looks can be deceiving.</text>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">I see. Live and drink.</choice>
+		</node>
+		<node ID="CatsHuntBirds">
+			<text>Don't you know? Cats hunt birds.</text>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">I see. Live and drink.</choice>
+		</node>
+		<node ID="Merchants">
+			<text>Atacama is from the Consortium and xe can help you with vittle and supplies. Fizz has food and spices. There's also Bright. Other than that, you could talk with some of the miners directly if you're here for gemstones.</text>
+			<choice ID="CatFizz" GotoID="Fizz">Who's Fizz?</choice>
+			<choice ID="CatAtacama" GotoID="Atacama">Tell me about Atacama.</choice>
+			<choice ID="CatBright" GotoID="Bright" IfNotFinishedQuest="Chaos Theory">What does Bright do?</choice>
+			<choice ID="CatBright_PostQuest" GotoID="Bright_PostQuest" IfFinishedQuest="Chaos Theory">What does Bright do?</choice>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="Fizz">
+			<text>Fizz is a chef. They like to make food for the miners, but I'm sure they'd invite you to have some of their gravy too. Don't be put off by their mannerisms; they are very good at what they do and they can provide you with ingredients if you're a cook yourself.</text>
+			<choice UseID="CatAtacama" />
+			<choice UseID="CatBright" />
+			<choice UseID="CatBright_PostQuest" />
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="Atacama">
+			<text>Atacama is a fractus plant. Xyr tent is open to the sky, so it shouldn't be hard to find. Xe handles most of our trade with outsiders like yourself.</text>
+			<choice UseID="CatFizz" />
+			<choice UseID="CatBright" />
+			<choice UseID="CatBright_PostQuest" />
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="Bright">
+			<text>{{w|*Cat's expression is unreadable underneath =pronouns.possessive= veil, but you feel telepathic waves of... is it disdain? Pity? Regret?*}}
+				
+				Bright does a lot of things. She calls herself our tinker.</text>
+			<choice UseID="CatFizz" />
+			<choice UseID="CatAtacama" />
+			<choice ID="CatDontGetAlong" GotoID="DontGetAlong" SetBooleanState="Jademouth_CatMentionedBright,true">You don't seem to think very highly of her.</choice>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="Bright_PostQuest">
+			<text>{{w|*You feel telepathic waves of conflicting emotions.*}}
+				
+				Bright's our tinker.</text>
+			<choice UseID="CatFizz" />
+			<choice UseID="CatAtacama" />
+			<choice ID="CatIsThatAll" GotoID="IsThatAll" SetBooleanState="Jademouth_CatMentionedBright,true">Is that all?</choice>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="DontGetAlong">
+			<text>We don't get along.</text>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">I see. Live and drink.</choice>
+		</node>
+		<node ID="IsThatAll">
+			<text>What are you- oh, shut up!</text>
+			<choice GotoID="End">You'll work it out. Live and drink.</choice>
+		</node>
+		<node ID="Mayor">
+			<text>We do not. We decide things for ourselves in Jademouth. If something insists that we have a figurehead, then I fill that role.</text>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+	</conversation>
+</conversations>

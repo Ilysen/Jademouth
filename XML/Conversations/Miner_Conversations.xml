@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+	<conversation ID="JademouthMiner">
+		<node ID="Start">
+			<text>
+				Mm.~
+				{{emote|*nods*}}~
+				Livendrink.~
+				Lookin' for gems?~
+				Watch the rocks.~
+				I need a break.~
+				Need something?~
+				How's it going?
+			</text>
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+	</conversation>
+</conversations>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions>
+	<faction Name="Jademouth" DisplayName="denizens of Jademouth" Old="false"
+		FormatWithArticle="true" InitialPlayerReputation="0">
+		<feeling About="Baboons" Value="-100" />
+		<feeling About="*" Value="0" />
+		<interests>
+			<interest Tags="mountains" />
+			<interest Tags="mountainstream" />
+			<interest Tags="dromad" WillBuy="false" WillSell="true" />
+			<interest Tags="oddity" WillBuy="true" WillSell="false" />
+		</interests>
+	</faction>
+</factions>

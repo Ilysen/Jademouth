@@ -1,0 +1,111 @@
+<objects>
+	<object Name="TerrainJademouth" Inherits="Terrain">
+		<part Name="Render" DisplayName="Jademouth"
+			Tile="terrain/tile_location6.bmp" TileColor="&amp;G^k" DetailColor="y"
+			RenderString="254" ColorString="&amp;g^G" />
+		<part Name="Description"
+			Short="Parasangs beneath the earth, laborers haul millions-year-old gemstones from the roots of ancient mountains to be kissed by the salt sun." />
+		<tag Name="NoBiomes" Value="1" />
+		<xtagGrammar Proper="true"></xtagGrammar>
+		<tag Name="OverlayColor" Value="&amp;W" />
+		<tag Name="Terrain" Value="Mountains" />
+	</object>
+	<object Name="Jademouth_MarbleFloor" Inherits="MarbleFloor">
+		<tag Name="SpawnBlocker" />
+	</object>
+	<object Name="JademouthRecoiler" Inherits="BaseRecoiler">
+		<part Name="Render" DisplayName="{{G|Jademouth}} recoiler" DetailColor="G" />
+		<part Name="Teleporter" DestinationZone="JoppaWorld.42.6.1.2.10" DestinationX="59"
+			DestinationY="14" />
+		<part Name="TinkerItem" CanBuild="false" />
+		<part Name="Commerce" Value="25" />
+		<tag Name="Tier" Value="2" />
+	</object>
+	<object Name="Jademouth_BlackoutCurtains" Inherits="BeltCurtains">
+		<part Name="Render" DisplayName="blackout curtains" RenderString="20" ColorString="&amp;y"
+			DetailColor="K" Tile="Tiles2/sw_belt_curtains.bmp" Occluding="true" />
+		<part Name="Description"
+			Short="Brinestalks were flattened into thick wafers and draped to block the light." />
+		<tag Name="NoConveyor" Value="*delete" />
+	</object>
+	<object Name="Jademouth_BrightSign" Inherits="Sign">
+		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_datadisc.bmp" Occluding="false" />
+		<part Name="Chat" Says="Workshop" ShowInShortDescription="true" />
+	</object>
+	<object Name="Jademouth_LightSign" Inherits="Sign">
+		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_datadisc.bmp" Occluding="false" />
+		<part Name="Chat" Says="NO LIGHT PLEASE" ShowInShortDescription="true" />
+	</object>
+	<object Name="Jademouth_KitchenSign" Inherits="Sign">
+		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_bottle.bmp" Occluding="false" />
+		<part Name="Chat" Says="Gravy" ShowInShortDescription="true" />
+	</object>
+	<object Name="Jademouth_Bookshelf" Inherits="UndergroundBookshelf">
+		<part Name="Physics" Owner="Jademouth" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+	</object>
+	<object Name="Jademouth_FusionPowerStation" Inherits="Fusion Power Station">
+		<part Name="Physics" Owner="Jademouth" />
+		<part Name="TinkerItem" SubstituteBlueprint="Fusion Power Station" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+	</object>
+	<object Name="Jademouth_PowerLine" Inherits="PowerLine">
+		<part Name="Physics" Owner="Jademouth" />
+		<part Name="TinkerItem" SubstituteBlueprint="PowerLine" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+	</object>
+	<object Name="Marl" Load="Merge">
+		<tag Name="PaintWith" Value="MarlWalls" />
+	</object>
+	<object Name="WiredMarl" Inherits="Marl">
+		<tag Name="PaintWith" Value="MarlWalls" />
+		<part Name="ModWired" />
+	</object>
+	<object Name="WiredPipeMarl" Inherits="Marl">
+		<tag Name="PaintWith" Value="MarlWalls" />
+		<part Name="ModWired" />
+		<part Name="ModPiping" />
+	</object>
+	<object Name="Jademouth_FusionPumpingStation" Inherits="Fusion Pumping Station">
+		<part Name="Physics" Owner="Jademouth" />
+		<part Name="TinkerItem" SubstituteBlueprint="Fusion Pumping Station" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+	</object>
+	<object Name="Jademouth_GlassHydraulicPipe" Inherits="GlassHydraulicPipe">
+		<part Name="Physics" Owner="Jademouth" />
+		<part Name="TinkerItem" SubstituteBlueprint="GlassHydraulicPipe" />
+		<tag Name="ExcludeFromDynamicEncounters" />
+	</object>
+	<object Name="Jademouth_Oven" Inherits="Oven">
+		<part Name="Render" DisplayName="stone oven" ColorString="&amp;y" DetailColor="R"
+			RenderString="234" Tile="Items/sw_oven.bmp" Occluding="false" RenderIfDark="true" />
+		<part Name="Campfire" PresetMeals="JademouthGravy" />
+		<tag Name="PresetMealMessage" Value="Eat some gravy." />
+		<part Name="Description"
+			Short="Warmth radiates from the crackling fire of the bright stone oven, and with it comes the pungent smell of simmering meat-juices and a whiff of acidic tang." />
+	</object>
+	<object Name="Jademouth_Table" Inherits="Table">
+		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C"
+			RenderString="227" Tile="Assets_Content_Textures_Tiles_sw_table.bmp" Occluding="false"
+			RenderIfDark="true" />
+		<part Name="Physics" Owner="Jademouth" />
+		<tag Name="InventoryPopulationTable" Value="JademouthWorkbench" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+	<object Name="Jademouth_SleekTable" Inherits="Sleek Table">
+		<part Name="Render" DisplayName="workbench" ColorString="&amp;C" DetailColor="C"
+			RenderString="227" Tile="Items/sw_table_sleek.bmp" Occluding="false" RenderIfDark="true" />
+		<part Name="Physics" Owner="Jademouth" />
+		<tag Name="InventoryPopulationTable" Value="JademouthWorkbench" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+	<object Name="Jademouth_MetalTable" Inherits="Metal Table">
+		<part Name="Render" DisplayName="metal workbench" ColorString="&amp;c" DetailColor="C"
+			RenderString="227" Tile="Items/sw_table_metal.bmp" Occluding="false" RenderIfDark="true" />
+		<part Name="Physics" Owner="Jademouth" />
+		<tag Name="InventoryPopulationTable" Value="JademouthWorkbench" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+	</object>
+	<object Name="Jademouth_ChaosTheorySconceSpawner" Inherits="Widget">
+	</object>
+</objects>
