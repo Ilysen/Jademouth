@@ -4,7 +4,7 @@
 			Tile="terrain/tile_location6.bmp" TileColor="&amp;G^k" DetailColor="y"
 			RenderString="254" ColorString="&amp;g^G" />
 		<part Name="Description"
-			Short="Parasangs beneath the earth, laborers haul millions-year-old gemstones from the roots of ancient mountains to be kissed by the salt sun." />
+			Short="The mountain into which Jademouth is carved reigns over the hills as a lonely and ancient monarch. At its base, dust-caked prospectors unearth gemstones to be kissed by the salt sun for the first time." />
 		<tag Name="NoBiomes" Value="1" />
 		<xtagGrammar Proper="true"></xtagGrammar>
 		<tag Name="OverlayColor" Value="&amp;W" />
@@ -15,8 +15,8 @@
 	</object>
 	<object Name="JademouthRecoiler" Inherits="BaseRecoiler">
 		<part Name="Render" DisplayName="{{G|Jademouth}} recoiler" DetailColor="G" />
-		<part Name="Teleporter" DestinationZone="JoppaWorld.42.6.1.2.10" DestinationX="59"
-			DestinationY="14" />
+		<part Name="Teleporter" DestinationZone="JoppaWorld.42.6.1.2.10" DestinationX="57"
+			DestinationY="13" />
 		<part Name="TinkerItem" CanBuild="false" />
 		<part Name="Commerce" Value="25" />
 		<tag Name="Tier" Value="2" />
@@ -82,7 +82,7 @@
 		<part Name="Campfire" PresetMeals="JademouthGravy" />
 		<tag Name="PresetMealMessage" Value="Eat some gravy." />
 		<part Name="Description"
-			Short="Warmth radiates from the crackling fire of the bright stone oven, and with it comes the pungent smell of simmering meat-juices and a whiff of acidic tang." />
+			Short="Warmth radiates from the crackling fire of the bright marl oven, and with it comes the pungent smell of simmering meat-juices and a whiff of acidic tang." />
 	</object>
 	<object Name="Jademouth_Table" Inherits="Table">
 		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C"
@@ -107,5 +107,35 @@
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<object Name="Jademouth_ChaosTheorySconceSpawner" Inherits="Widget">
+	</object>
+	<object Name="Jademouth_RoughJade" Inherits="Gemstone">
+		<part Name="Render" DisplayName="rough {{g|jade}} gemstone" Tile="Items/Jade_Rough.png"
+			RenderString="t" ColorString="&amp;Y" DetailColor="G" />
+		<part Name="RandomColors" MainColor="Y,y" DetailColor="G,g" />
+		<part Name="Commerce" Value="200" />
+		<part Name="Description"
+			Short="The black bellows of the earth are etched into green polish." />
+		<tag Name="RockTumblerOutput" Value="Jademouth_PolishedJade" />
+		<tag Name="Gift" Value="*noinherit" />
+		<tag Name="Tier" Value="3" />
+	</object>
+	<object Name="Jademouth_PolishedJade" Inherits="Polished Gemstone">
+		<part Name="Render" DisplayName="smooth {{g|jade}} gemstone" Tile="Items/Jade_Polished.png"
+			RenderString="t" ColorString="&amp;Y" DetailColor="G" />
+		<part Name="RandomColors" MainColor="Y,y" DetailColor="G,g" />
+		<part Name="Commerce" Value="240" />
+		<part Name="Description"
+			Short="The black bellows of the earth are etched into a pale green egg. All its rough edges have been polished to shine." />
+		<tag Name="Gift" Value="*noinherit" />
+		<tag Name="Tier" Value="3" />
+	</object>
+	<object Name="Jademouth_JadeFigurine" Inherits="Random Figurine">
+		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine"
+			Tile="Items/sw_nugget.bmp" DetailColor="G" RenderString="*" ColorString="&amp;Y"
+			RenderLayer="5" />
+		<part Name="RandomColors" MainColor="Y,y" DetailColor="G,g" />
+		<part Name="Commerce" Value="200" />
+		<part Name="RandomFigurine" Material="jade" />
+		<tag Name="Tier" Value="4" />
 	</object>
 </objects>

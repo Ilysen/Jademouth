@@ -3170,7 +3170,9 @@
   </cell>
   <cell X="54" Y="10"></cell>
   <cell X="54" Y="11"></cell>
-  <cell X="54" Y="12"></cell>
+  <cell X="54" Y="12">
+    <object Name="Techlight1"></object>
+  </cell>
   <cell X="54" Y="13">
     <object Name="Marl"></object>
   </cell>
@@ -3819,7 +3821,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="68" Y="1">
-    <object Name="Marl"></object>
+    <object Name="Techlight3"></object>
   </cell>
   <cell X="68" Y="2">
     <object Name="SaltyWaterDeepPool"></object>
@@ -4204,9 +4206,7 @@
   <cell X="75" Y="14">
     <object Name="Floor Cushion" Owner="Jademouth"></object>
   </cell>
-  <cell X="75" Y="15">
-    <object Name="Hookah" Owner="Jademouth"></object>
-  </cell>
+  <cell X="75" Y="15"></cell>
   <cell X="75" Y="16">
     <object Name="Canvas Folding Chair" Owner="Jademouth"></object>
   </cell>
@@ -4357,7 +4357,6 @@
   </cell>
   <cell X="78" Y="1">
     <object Name="Sleek Table" Owner="Jademouth"></object>
-    <object Name="SalveTonic"></object>
   </cell>
   <cell X="78" Y="2"></cell>
   <cell X="78" Y="3">

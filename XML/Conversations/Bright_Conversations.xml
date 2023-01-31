@@ -9,9 +9,9 @@
 			<choice ID="BrightLight" GotoID="Light">You seem very sensitive to light.</choice>
 			<choice ID="BrightRockTumbler" GotoID="RockTumbler">Do you mind if I use the rock tumbler?</choice>
 			<choice ID="BrightProject" GotoID="Project" IfNotHaveQuest="Chaos Theory">What are you working on?</choice>
-			<choice ID="BrightReminder" GotoID="Reminder" IfHasActiveQuest="Chaos Theory">Remind me what you want me to find for you again?</choice>
+			<choice ID="BrightReminder" GotoID="Reminder" IfHaveActiveQuest="Chaos Theory">Remind me what you want me to find for you again?</choice>
 			<choice ID="BrightGiveStatic" GotoID="GiveStatic"
-				IfHasActiveQuest="Chaos Theory"
+				IfHaveActiveQuest="Chaos Theory"
 				IfFinishedQuestStep="Chaos Theory~Find a dram of warm static"
 				CompleteQuestStep="Chaos Theory~Return the warm static">
 				<text>I have your static. Take it.</text>

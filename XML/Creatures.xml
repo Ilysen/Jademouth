@@ -2,8 +2,9 @@
 <objects>
 	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell rough gemstones. -->
 	<object Name="Jademouth_Miner" Inherits="NPC">
-		<part Name="Render" DisplayName="gem prospector" Tile="Creatures/Prospector.png"
-			ColorString="&amp;W" TileColor="&amp;y" DetailColor="W" RenderString="f" />
+		<part Name="Render" DisplayName="gem prospector" Tile="Creatures/Prospector_01.png"
+			ColorString="&amp;K" TileColor="&amp;K" DetailColor="c" RenderString="f" />
+		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
 		<part Name="Description"
 			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= gear is worn but well-maintained." />
 		<part Name="Brain" Wanders="true" Factions="Jademouth-100" />
@@ -106,7 +107,6 @@
 		<stat Name="Level" Value="20" />
 		<stat Name="Hitpoints" Value="100" />
 		<inventoryobject Blueprint="Girshworm_Crush" Number="1" />
-		<part Name="GivesRep" />
 		<part Name="ConversationScript" ConversationID="Jademouth_Fizz" />
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="ChefInventory" />

@@ -13,19 +13,7 @@
 		</group>
 	</population>
 	<population Name="JademouthMinerGems">
-		<table Name="JademouthRoughGems" Number="0-3" />
-	</population>
-	<population Name="JademouthRoughGems">
-		<!-- Unlike the vanilla gemstones table, this includes rough gems only, and excludes peridot
-		since it comes from meteorites -->
-		<group Name="Items" Style="pickone">
-			<object Weight="800" Blueprint="Rough Agate" />
-			<object Weight="600" Blueprint="Rough Topaz" />
-			<object Weight="400" Blueprint="Rough Jasper" />
-			<object Weight="200" Blueprint="Rough Amethyst" />
-			<object Weight="100" Blueprint="Rough Sapphire" />
-			<object Weight="40" Blueprint="Rough Emerald" />
-		</group>
+		<object Blueprint="Jademouth_RoughJade" Number="0-3" />
 	</population>
 	<!-- Mostly the same as base hills, but with fewer trees and only docile creatures -->
 	<population Name="JademouthOutskirts">
@@ -76,6 +64,53 @@
 	<population Name="Artifact 6R" Load="Merge">
 		<group Name="Items" Load="Merge">
 			<object Weight="1" Number="1" Blueprint="JademouthRecoiler" />
+		</group>
+	</population>
+	<!-- Jade occurs at half the frequency of jasper, to emphasize its rarity -->
+	<population Name="Gemstones" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Weight="200" Number="1" Blueprint="Jademouth_RoughJade" />
+			<object Weight="10" Number="1" Blueprint="Jademouth_RoughJade" />
+		</group>
+	</population>
+	<population Name="Figurines 1" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="1" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 2" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="1" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 3" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="4" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 4" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="15" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 5" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="7" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 6" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="5" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 7" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="5" Number="1" />
+		</group>
+	</population>
+	<population Name="Figurines 8" Load="Merge">
+		<group Name="Items" Load="Merge">
+			<object Blueprint="Jademouth_JadeFigurine" Weight="3" Number="1" />
 		</group>
 	</population>
 </populations>

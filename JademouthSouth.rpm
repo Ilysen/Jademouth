@@ -1037,7 +1037,7 @@
     <object Name="Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="25" Y="7">
-    <object Name="Rough Emerald"></object>
+    <object Name="Jademouth_RoughJade"></object>
     <object Name="Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="25" Y="8">
@@ -1086,7 +1086,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="26" Y="6">
-    <object Name="Rough Emerald"></object>
+    <object Name="Jademouth_RoughJade"></object>
     <object Name="Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="26" Y="7">
@@ -1094,7 +1094,7 @@
   </cell>
   <cell X="26" Y="8">
     <object Name="SmallBoulder Grey"></object>
-    <object Name="Rough Emerald"></object>
+    <object Name="Jademouth_RoughJade"></object>
     <object Name="Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="26" Y="9">
@@ -1150,7 +1150,7 @@
     <object Name="Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="27" Y="8">
-    <object Name="Rough Emerald"></object>
+    <object Name="Jademouth_RoughJade"></object>
     <object Name="Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="27" Y="9">
