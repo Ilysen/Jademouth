@@ -81,7 +81,7 @@
 			<choice GotoID="Reset">This all seems a bit much. Maybe another time.</choice>
 		</node>
 		<node ID="Reward">
-			<text>I happen to have a bit of a knack for item modding. I like collecting different designs, and I copy them onto disks myself. If you can help me with this, I'll be more than happy to share them with you.</text>
+			<text>I happen to have a bit of a knack for item modding. I like collecting different designs, and I copy them onto disks myself. If you can help me with this, I'll be more than happy to help you learn a few designs - anything you have in mind, I've probably got.</text>
 			<choice UseID="BrightAcceptQuest" />
 			<choice UseID="BrightTheory" />
 			<choice GotoID="Reset">Entropic liquid? I'll have to pass.</choice>
@@ -131,7 +131,7 @@
 			
 			It was risky, but it worked. My eyes don't hurt anymore! My skin doesn't prickle! I haven't felt this good in years, =name=. You've done me a favor I can never repay.
 
-			Like I promised, the least I can do is give you access to my data disks. They're all hand-scribed, so they're costly to make, but I promise you that you won't find a better selection in Qud. You're welcome at my door any time.
+			Like I promised, the least I can do is teach you some of my designs. I'll get you some mod disks, free of charge. You're welcome at my door any time.
 
 			Thank you.
 			</text>

@@ -12,12 +12,13 @@ namespace XRL.World.Skills.Cooking
     {
         public JademouthGravy()
         {
+            Components.Add(new PreparedCookingRecipieComponentBlueprint("Congealed Skulk", null, 1));
             Components.Add(new PreparedCookingRecipieComponentBlueprint("Worm Jerky", null, 1));
             Components.Add(new PreparedCookingRecipieComponentLiquid("acid", 1));
-            Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainHP_UnitHP", "CookingDomainAcid_UnitHighResist" }, null, null)));
+            Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainArmor_UnitAV", "CookingDomainDarkness_UnitDV" }, null, null)));
         }
 
-        public override string GetDescription() => "+10-15% max HP\n+40-50 Acid Resist";
+        public override string GetDescription() => "+2 AV\n+4 DV";
 
         public override string GetApplyMessage() => string.Empty;
 

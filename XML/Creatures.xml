@@ -117,6 +117,7 @@
 		<skill Name="CookingAndGathering_Spicer" />
 		<skill Name="CookingAndGathering_CarbideChef" />
 		<tag Name="NoSleep" />
+		<part Name="GivesRep" />
 		<xtagGrammar Proper="true" />
 		<stat Name="AcidResistance" Value="100" />
 		<tag Name="SharesRecipe" Value="JademouthGravy" />

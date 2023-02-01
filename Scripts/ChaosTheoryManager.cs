@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using XRL.Core;
+using XRL.UI;
 using XRL.World.Parts;
 using XRL.World.Parts.Mutation;
+using XRL.World.Tinkering;
 
 namespace XRL.World.QuestManagers
 {
@@ -44,7 +47,6 @@ namespace XRL.World.QuestManagers
 				muts.AddMutation("Psychometry", 5); // replaces Triple-jointed (3 points)
 				muts.AddMutation("ElectricalGeneration", 10); // replaces Multiple Arms (4 points)
 				muts.AddMutation("LightManipulation", 5); // replaces Regeneration (4 points)
-				GameObjectFactory.ApplyBuilder(gameObject, "Jademouth_ArtificerDisks");
 				gameObject.AddPart(new GivesRep());
 				gameObject.SetStringProperty("WaterRitual_Skill", "Tinkering_Tinker2");
 			}
@@ -58,8 +60,43 @@ namespace XRL.World.QuestManagers
             }
 			foreach (GameObject go in The.Player.CurrentZone.FindObjects("Jademouth_LightSign").ToList())
 				go.Destroy(null, true, true, null);
-			ThePlayer.RemovePart(this);
+			HandleReward();
+            The.Player.RemovePart(this);
 		}
+
+		private void HandleReward()
+        {
+			Dictionary<string, GameObject> data = new Dictionary<string, GameObject>();
+            foreach (TinkerData td in TinkerData.TinkerRecipes)
+            {
+				if (td.Type == "Mod" && !TinkerData.RecipeKnown(td))
+				{
+					GameObject newDisk = TinkerData.createDataDisk(td);
+					data.Add(newDisk.DisplayName, newDisk);
+				}
+            }
+			if (data.Count <= 0)
+			{
+				Popup.Show("Since you already know every item mod, you muse on the secrets of data disks with Bright.");
+                Popup.Show("You gain 10000 XP.");
+				The.Player.AwardXP(10000, -1, 0, InfluencedBy: The.Speaker);
+                return;
+			}
+			List<GameObject> chosenDisks = new List<GameObject>();
+			for (int i = 0; i < 3; i++)
+			{
+				string[] choices = data.Keys.ToArray();
+				int choice = Popup.ShowOptionList("", choices, null, 0, $"Choose a data disk to receive, free of charge. You have {3 - i} choice" + (3 - i == 1 ? "" : "s") + " remaining.");
+				GameObject dd = data.GetValue(choices[choice]);
+				chosenDisks.Add(dd);
+				data.Remove(choices[choice]);
+			}
+			foreach (GameObject disk in chosenDisks)
+			{
+				if (The.Player.Inventory.AddObject(disk, false, false, true, null) != null)
+                    Popup.Show($"Bright gives you {disk.a}{disk.DisplayName}.", true, true, true, true);
+            }
+        }
 
 		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Jademouth_Bright");
 
