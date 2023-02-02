@@ -7,7 +7,7 @@
 		HagiographCategory="FindsObject">
 
 		<step Name="Find a dram of warm static" XP="2500">
-			<text>Hunt down a dram of pure warm static. Bright said to look for the Alchemist in Bethesda Susa or to brave the Moon Stair, but both options are very dangerous.</text>
+			<text>Hunt down a dram of pure warm static. Bright said to look for the alchemist in Bethesda Susa or to brave the Moon Stair, but both options are very dangerous.</text>
 		</step>
 
 		<step Name="Return the warm static" XP="500">

@@ -5,12 +5,12 @@
 			<text>
 				Ow, ow. Not so bright. Hi. You here for parts? Need something fixed?
 			</text>
-			<choice ID="BrightTinker" GotoID="Tinker">Are you a tinker?</choice>
-			<choice ID="BrightLight" GotoID="Light">You seem very sensitive to light.</choice>
-			<choice ID="BrightRockTumbler" GotoID="RockTumbler">Do you mind if I use the rock tumbler?</choice>
-			<choice ID="BrightProject" GotoID="Project" IfNotHaveQuest="Chaos Theory">What are you working on?</choice>
-			<choice ID="BrightReminder" GotoID="Reminder" IfHaveActiveQuest="Chaos Theory">Remind me what you want me to find for you again?</choice>
-			<choice ID="BrightGiveStatic" GotoID="GiveStatic"
+			<choice GotoID="Tinker">Are you a tinker?</choice>
+			<choice GotoID="Light">You seem very sensitive to light.</choice>
+			<choice GotoID="RockTumbler">Do you mind if I use the rock tumbler?</choice>
+			<choice GotoID="Project" IfNotHaveQuest="Chaos Theory">What are you working on?</choice>
+			<choice GotoID="Reminder" IfHaveActiveQuest="Chaos Theory">Remind me what you want me to find for you again?</choice>
+			<choice GotoID="GiveStatic"
 				IfHaveActiveQuest="Chaos Theory"
 				IfFinishedQuestStep="Chaos Theory~Find a dram of warm static"
 				CompleteQuestStep="Chaos Theory~Return the warm static">
@@ -24,8 +24,8 @@
 			<text>
 				=name=! It's great to see you well. Stay a while!
 			</text>
-			<choice ID="BrightMutations" GotoID="Mutations">How are things with your mutations?</choice>
-			<choice ID="BrightCat_PostQuest" GotoID="Cat_PostQuest" IfTestState="Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
+			<choice GotoID="Mutations">How are things with your mutations?</choice>
+			<choice GotoID="Cat_PostQuest" IfTestState="Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
 			<choice GotoID="End">Live and drink, Bright.</choice>
 		</node>
 		<node ID="Reset" Inherits="Start">
@@ -33,7 +33,7 @@
 		</node>
 		<node ID="Tinker">
 			<text>Well, I like to think of myself more like an artificer, but yeah. I'm the tinker here, or at least I fill the role of one.</text>
-			<choice ID="BrightArtificer" GotoID="Artificer">What's the difference between a tinker and artificer?</choice>
+			<choice GotoID="Artificer">What's the difference between a tinker and artificer?</choice>
 			<choice ID="BrightOtherQuestions" GotoID="Start">I had other questions.</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
@@ -89,14 +89,16 @@
 		<node ID="Accept">
 			<text>Great! Thank you so much. I'm afraid I'm not actually wholly sure where to find the stuff, but I have some leads. Unfortunately, neither of them are great.
 			
-			The liquid evidently originates from the Moon Stair, but that's probably not a place you want to be. I hear that the Alchemist in Bethesda Susa is an expert in this sort of thing, but that requires finding them, which is easier said than done. I would try to find the Alchemist first, and if that fails, you can try to get it straight from the source.
+			The liquid evidently originates from the Moon Stair, but that's probably not a place you want to be. I hear that the alchemist in Bethesda Susa is an expert in this sort of thing, but that requires finding them, which is easier said than done. I would try to find the alchemist first, and if that fails, you can try to get it straight from the source.
 			
-			Just be careful. I don't know of the dangers you'll face, but I've heard things about the Moon Stair. I wouldn't go there unless you're very sure you can't get it from anywhere else.</text>
+			Should you brave the Moon Stair, you will be searching for a certain type of jell. The warm static is harvested from its body - it may take several attempts, and if you use light-based weaponry like lasers, I suspect it will be destroyed outright.
+		
+			Be careful. I have never been to the Moon Stair, but I have heard stories. Stay away unless you have no other choice. And when you obtain the liquid, do NOT pour it onto anything. Bring it directly here.</text>
 			<choice GotoID="Start">While I'm here, I had other questions.</choice>
 			<choice GotoID="End">I guess I'd better start looking. Live and drink.</choice>
 		</node>
 		<node ID="Reminder">
-			<text>A highly entropic liquid, called warm static. For reasons I'm still working on, I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, you could probably find it there. A much safer idea would be to find the Alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure - if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
+			<text>A highly entropic liquid, called warm static. For reasons I'm still working on, I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze that occurs there. A much safer idea would be to find the alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure - if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
 			<choice UseID="BrightOtherQuestions" />
 			<choice GotoID="End">Thanks. Live and drink.</choice>
 		</node>

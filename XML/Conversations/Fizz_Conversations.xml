@@ -9,7 +9,7 @@
 			<text>
 				Hello
 			</text>
-			<choice ID="FizzHelloInitial" GotoID="Hello" IfNotHaveState="Jademouth_MetFizz">...hello?</choice>
+			<choice GotoID="Hello" IfNotHaveState="Jademouth_MetFizz">...hello?</choice>
 			<choice ID="FizzWhoAreYou" GotoID="WhoAreYou" SetBooleanState="Jademouth_MetFizz,true">Who are you?</choice>
 			<choice GotoID="End" IfNotHaveState="Jademouth_MetFizz">...nevermind.</choice>
 			<choice GotoID="End" IfTestState="Jademouth_MetFizz">Live and drink.</choice>
@@ -25,28 +25,28 @@
 			<text>
 				Fizz
 			</text>
-			<choice ID="FizzWhatYouDo" GotoID="WhatIDo">What do you do here?</choice>
+			<choice GotoID="WhatIDo">What do you do here?</choice>
 			<choice GotoID="End">Live and drink, Fizz.</choice>
 		</node>
 		<node ID="WhatIDo">
 			<text>
 				Gravy
 			</text>
-			<choice ID="FizzGravy" GotoID="Gravy">You do gravy.</choice>
+			<choice GotoID="Gravy">You do gravy.</choice>
 			<choice GotoID="End">Good luck with that.</choice>
 		</node>
 		<node ID="Gravy">
 			<text>
 				Gravy
 			</text>
-			<choice ID="FizzWhatIsGravy" GotoID="WhatIsGravy">What is gravy, then?</choice>
+			<choice GotoID="WhatIsGravy">What is gravy?</choice>
 			<choice GotoID="End">Good luck with that.</choice>
 		</node>
 		<node ID="WhatIsGravy">
 			<text>
 				Meat juice
 			</text>
-			<choice ID="FizzMeatJuice" GotoID="MeatJuice">Meat juice.</choice>
+			<choice GotoID="MeatJuice">Meat juice.</choice>
 			<choice GotoID="End">Good luck with that.</choice>
 		</node>
 		<node ID="MeatJuice">

@@ -2,7 +2,7 @@
 <objects>
 	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell rough gemstones. -->
 	<object Name="Jademouth_Miner" Inherits="NPC">
-		<part Name="Render" DisplayName="gem prospector" Tile="Creatures/Prospector_01.png"
+		<part Name="Render" DisplayName="jade prospector" Tile="Creatures/Prospector_01.png"
 			ColorString="&amp;K" TileColor="&amp;K" DetailColor="c" RenderString="f" />
 		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
 		<part Name="Description"
@@ -29,14 +29,13 @@
 		<skill Name="Endurance_Calloused" />
 		<skill Name="Cudgel" />
 		<skill Name="Cudgel_Slam" />
-		<removepart Name="RandomTile" />
 		<property Name="Role" Value="Brute" />
 	</object>
 	<!-- Atacama, a fractus from the Consortium of Phyta. Xe sells tier 4 stuff as well as
 	pickaxes,
 	spine fruit, and Jademouth recoilers. -->
 	<object Name="Jademouth_Atacama" Inherits="SapientMutatedSucculent">
-		<part Name="Render" DisplayName="Atacama" Tile="Terrain/sw_fracti1.bmp" ColorString="g"
+		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="g"
 			TileColor="g" DetailColor="W" RenderString="#" />
 		<part Name="Description"
 			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Though open to the sky, Atacama ensures that =pronouns.possessive= parlor is a tidy one." />

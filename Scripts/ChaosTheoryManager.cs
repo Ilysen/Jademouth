@@ -66,14 +66,11 @@ namespace XRL.World.QuestManagers
 
 		private void HandleReward()
         {
-			Dictionary<string, GameObject> data = new Dictionary<string, GameObject>();
+			Dictionary<string, TinkerData> data = new Dictionary<string, TinkerData>();
             foreach (TinkerData td in TinkerData.TinkerRecipes)
             {
 				if (td.Type == "Mod" && !TinkerData.RecipeKnown(td))
-				{
-					GameObject newDisk = TinkerData.createDataDisk(td);
-					data.Add(newDisk.DisplayName, newDisk);
-				}
+					data.Add(td.DisplayName, td);
             }
 			if (data.Count <= 0)
 			{
@@ -82,19 +79,19 @@ namespace XRL.World.QuestManagers
 				The.Player.AwardXP(10000, -1, 0, InfluencedBy: The.Speaker);
                 return;
 			}
-			List<GameObject> chosenDisks = new List<GameObject>();
-			for (int i = 0; i < 3; i++)
+			List<TinkerData> chosenData = new List<TinkerData>();
+			for (int i = 0; i < Math.Min(3, data.Count); i++)
 			{
 				string[] choices = data.Keys.ToArray();
-				int choice = Popup.ShowOptionList("", choices, null, 0, $"Choose a data disk to receive, free of charge. You have {3 - i} choice" + (3 - i == 1 ? "" : "s") + " remaining.");
-				GameObject dd = data.GetValue(choices[choice]);
-				chosenDisks.Add(dd);
+				int choice = Popup.ShowOptionList("", choices, null, 0, $"Choose an item mod to learn, free of charge. You have {3 - i} choice" + (3 - i == 1 ? "" : "s") + " remaining.");
+				TinkerData dd = data.GetValue(choices[choice]);
+                chosenData.Add(dd);
 				data.Remove(choices[choice]);
 			}
-			foreach (GameObject disk in chosenDisks)
+			foreach (TinkerData disk in chosenData)
 			{
-				if (The.Player.Inventory.AddObject(disk, false, false, true, null) != null)
-                    Popup.Show($"Bright gives you {disk.a}{disk.DisplayName}.", true, true, true, true);
+				TinkerData.KnownRecipes.Add(disk);
+                Popup.Show("Bright teaches you how to mod your items to be {{W|" + disk.DisplayName + "}}.", true, true, true, true);
             }
         }
 
