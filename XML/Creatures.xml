@@ -31,9 +31,8 @@
 		<skill Name="Cudgel_Slam" />
 		<property Name="Role" Value="Brute" />
 	</object>
-	<!-- Atacama, a fractus from the Consortium of Phyta. Xe sells tier 4 stuff as well as
-	pickaxes,
-	spine fruit, and Jademouth recoilers. -->
+	<!-- Atacama, a fractus from the Consortium of Phyta.
+		Xe sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
 	<object Name="Jademouth_Atacama" Inherits="SapientMutatedSucculent">
 		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="g"
 			TileColor="g" DetailColor="W" RenderString="#" />
@@ -60,8 +59,7 @@
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 		<tag Name="PronounSet" Value="xe/xem/xyr" />
 	</object>
-	<!-- Bright the tinker. Questgiver for Chaos Theory, which adds data disks for every item mod to
-	her shop (alchemist style) for a 2x markup. -->
+	<!-- Bright the tinker. Questgiver for Chaos Theory. -->
 	<object Name="Jademouth_Bright" Inherits="HumanTinker4">
 		<part Name="Render" DisplayName="Bright" Tile="creatures/caste_flipped_21.bmp"
 			RenderString="a" />
@@ -80,14 +78,15 @@
 		<tag Name="Gender" Value="female" />
 		<xtagGrammar Proper="true" />
 	</object>
-	<!-- This is a dummy object; it isn't spawned in on its own, but rather used for reference by C#
-	to update Bright's description after Chaos Theory -->
+	<!-- This is a dummy object; it isn't spawned in on its own, 
+		but rather used for reference by C# to update Bright's description after Chaos Theory -->
 	<object Name="Jademouth_Bright_PostQuest" Inherits="Jademouth_Bright">
 		<part Name="Description"
 			Short="Bright's skin glows softly as =pronouns.subjective= moves about her workshop. Though =pronouns.subjective='s still adapting to only having two arms again, =pronouns.possessive= movements have a new purpose. =pronouns.Subjective= smiles more readily and more often, now." />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
-	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients. -->
+	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients.
+		Probably had the Cloaca Surprise at some point.  -->
 	<object Name="Jademouth_Fizz" Inherits="BaseSlug">
 		<part Name="Body" Anatomy="SlugWithHands" />
 		<part Name="Render" DisplayName="Fizz" RenderString="Q"
@@ -96,6 +95,7 @@
 		<part Name="Description"
 			Short="Fizz undulates slowly as =pronouns.subjective= =verb:move:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the batch with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease." />
 		<part Name="Brain" Factions="Jademouth-100,Mollusks-25" Wanders="false" />
+		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
 		<stat Name="Strength" Value="26" />
 		<stat Name="Agility" Value="22" />
@@ -124,7 +124,7 @@
 		<tag Name="WaterRitualLiquid" Value="water" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
-	<!-- Cat the warden. Is an esper. -->
+	<!-- Cat the warden. Esper. Complicated relationship with Bright. -->
 	<object Name="Jademouth_Warden_Cat" Inherits="NPC">
 		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png"
 			ColorString="&amp;B" RenderString="w" DetailColor="m" />
