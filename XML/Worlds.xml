@@ -39,7 +39,7 @@
 				IncludeStratumInZoneDisplay="false" DisableForcedConnections="Yes">
 				<map FileName="JademouthCenter.rpm"></map>
 				<builder Class="FlagInside"></builder>
-				<builder Class="Music" Track="Kyakukya" Chance="100"></builder>
+				<builder Class="Music" Track="Onward" Chance="100"></builder>
 				<builder Class="IsCheckpoint" Key="Jademouth"></builder>
 			</zone>
 			<zone Level="10" x="2" y="1" Name="eastern passage" NameContext="Jademouth"
@@ -48,7 +48,7 @@
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthEast.rpm"></map>
 				<population Table="JademouthOutskirts"></population>
-				<builder Class="Music" Track="Kyakukya" Chance="100"></builder>
+				<builder Class="Music" Track="Onward" Chance="100"></builder>
 				<builder Class="IsCheckpoint" Key="Jademouth"></builder>
 			</zone>
 			<zone Level="10" x="0" y="2" Name="southwestern outskirts" NameContext="Jademouth"
@@ -64,7 +64,7 @@
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthSouth.rpm"></map>
 				<population Table="JademouthOutskirts"></population>
-				<builder Class="Music" Track="Kyakukya" Chance="100"></builder>
+				<builder Class="Music" Track="Onward" Chance="100"></builder>
 				<builder Class="IsCheckpoint" Key="Jademouth"></builder>
 			</zone>
 			<zone Level="10" x="2" y="2" Name="southeastern outskirts" NameContext="Jademouth"

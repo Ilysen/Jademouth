@@ -60,7 +60,7 @@
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="Atacama">
-			<text>Atacama is a fractus plant. Xyr tent is open to the sky, so it shouldn't be hard to find. Xe handles most of our trade with outsiders like yourself.</text>
+			<text>Atacama is a fractus plant. Xe handles most of our trade with outsiders like yourself. You can find xem just inside on your right. Look for the glowsphere.</text>
 			<choice UseID="CatFizz" />
 			<choice UseID="CatBright" />
 			<choice UseID="CatBright_PostQuest" />
@@ -77,6 +77,11 @@
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>
+		<node ID="DontGetAlong">
+			<text>We don't get along.</text>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">I see. Live and drink.</choice>
+		</node>
 		<node ID="Bright_PostQuest">
 			<text>{{w|*You feel telepathic waves of conflicting emotions.*}}
 				
@@ -86,11 +91,6 @@
 			<choice GotoID="IsThatAll" SetBooleanState="Jademouth_CatMentionedBright,true">Is that all?</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
-		</node>
-		<node ID="DontGetAlong">
-			<text>We don't get along.</text>
-			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="IsThatAll">
 			<text>What are you- oh, stop!</text>

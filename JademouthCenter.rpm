@@ -1670,7 +1670,9 @@
   <cell X="27" Y="4"></cell>
   <cell X="27" Y="5"></cell>
   <cell X="27" Y="6"></cell>
-  <cell X="27" Y="7"></cell>
+  <cell X="27" Y="7">
+    <object Name="Jademouth_KitchenSign"></object>
+  </cell>
   <cell X="27" Y="8"></cell>
   <cell X="27" Y="9">
     <object Name="Marl"></object>
@@ -2066,7 +2068,9 @@
   </cell>
   <cell X="33" Y="3"></cell>
   <cell X="33" Y="4"></cell>
-  <cell X="33" Y="5"></cell>
+  <cell X="33" Y="5">
+    <object Name="Jademouth_KitchenSign"></object>
+  </cell>
   <cell X="33" Y="6">
     <object Name="Marl"></object>
   </cell>
@@ -2076,7 +2080,6 @@
   <cell X="33" Y="8"></cell>
   <cell X="33" Y="9">
     <object Name="Stool" Owner="Jademouth"></object>
-    <object Name="Jademouth_Miner"></object>
   </cell>
   <cell X="33" Y="10">
     <object Name="Table" Owner="Jademouth"></object>
@@ -2309,7 +2312,9 @@
   </cell>
   <cell X="37" Y="7"></cell>
   <cell X="37" Y="8"></cell>
-  <cell X="37" Y="9"></cell>
+  <cell X="37" Y="9">
+    <object Name="Jademouth_Fizz"></object>
+  </cell>
   <cell X="37" Y="10">
     <object Name="Jademouth_Oven"></object>
   </cell>
@@ -2354,7 +2359,9 @@
   </cell>
   <cell X="38" Y="3"></cell>
   <cell X="38" Y="4"></cell>
-  <cell X="38" Y="5"></cell>
+  <cell X="38" Y="5">
+    <object Name="Jademouth_KitchenSign"></object>
+  </cell>
   <cell X="38" Y="6">
     <object Name="Marl"></object>
   </cell>
@@ -3082,9 +3089,7 @@
   <cell X="52" Y="11">
     <object Name="Marl"></object>
   </cell>
-  <cell X="52" Y="12">
-    <object Name="Marl"></object>
-  </cell>
+  <cell X="52" Y="12"></cell>
   <cell X="52" Y="13"></cell>
   <cell X="52" Y="14"></cell>
   <cell X="52" Y="15"></cell>
@@ -3124,15 +3129,11 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="53" Y="10">
-    <object Name="Bed" Owner="Jademouth"></object>
+    <object Name="Jademouth_Bookshelf"></object>
   </cell>
   <cell X="53" Y="11"></cell>
-  <cell X="53" Y="12">
-    <object Name="Marl"></object>
-  </cell>
-  <cell X="53" Y="13">
-    <object Name="Marl"></object>
-  </cell>
+  <cell X="53" Y="12"></cell>
+  <cell X="53" Y="13"></cell>
   <cell X="53" Y="14"></cell>
   <cell X="53" Y="15"></cell>
   <cell X="53" Y="16"></cell>
@@ -3168,14 +3169,12 @@
   <cell X="54" Y="9">
     <object Name="Marl"></object>
   </cell>
-  <cell X="54" Y="10"></cell>
+  <cell X="54" Y="10">
+    <object Name="Jademouth_Bookshelf"></object>
+  </cell>
   <cell X="54" Y="11"></cell>
-  <cell X="54" Y="12">
-    <object Name="Techlight1"></object>
-  </cell>
-  <cell X="54" Y="13">
-    <object Name="Marl"></object>
-  </cell>
+  <cell X="54" Y="12"></cell>
+  <cell X="54" Y="13"></cell>
   <cell X="54" Y="14"></cell>
   <cell X="54" Y="15"></cell>
   <cell X="54" Y="16"></cell>
@@ -3210,20 +3209,15 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="55" Y="10">
-    <object Name="Bed" Owner="Jademouth"></object>
-    <object Name="Jademouth_Miner"></object>
+    <object Name="Techlight1"></object>
   </cell>
-  <cell X="55" Y="11"></cell>
+  <cell X="55" Y="11">
+    <object Name="Low Table" Owner="Jademouth"></object>
+  </cell>
   <cell X="55" Y="12"></cell>
-  <cell X="55" Y="13">
-    <object Name="Marl"></object>
-  </cell>
-  <cell X="55" Y="14">
-    <object Name="Marl"></object>
-  </cell>
-  <cell X="55" Y="15">
-    <object Name="Marl"></object>
-  </cell>
+  <cell X="55" Y="13"></cell>
+  <cell X="55" Y="14"></cell>
+  <cell X="55" Y="15"></cell>
   <cell X="55" Y="16"></cell>
   <cell X="55" Y="17"></cell>
   <cell X="55" Y="18"></cell>
@@ -3257,16 +3251,16 @@
   <cell X="56" Y="9">
     <object Name="Marl"></object>
   </cell>
-  <cell X="56" Y="10"></cell>
-  <cell X="56" Y="11"></cell>
+  <cell X="56" Y="10">
+    <object Name="Jademouth_Atacama"></object>
+  </cell>
+  <cell X="56" Y="11">
+    <object Name="Desk" Owner="Jademouth"></object>
+  </cell>
   <cell X="56" Y="12"></cell>
   <cell X="56" Y="13"></cell>
-  <cell X="56" Y="14">
-    <object Name="Woven Basket" Owner="Jademouth"></object>
-  </cell>
-  <cell X="56" Y="15">
-    <object Name="Marl"></object>
-  </cell>
+  <cell X="56" Y="14"></cell>
+  <cell X="56" Y="15"></cell>
   <cell X="56" Y="16"></cell>
   <cell X="56" Y="17"></cell>
   <cell X="56" Y="18"></cell>
@@ -3301,17 +3295,15 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="57" Y="10">
-    <object Name="Bed" Owner="Jademouth"></object>
+    <object Name="Floating Glowsphere" Owner="Jademouth"></object>
   </cell>
-  <cell X="57" Y="11"></cell>
+  <cell X="57" Y="11">
+    <object Name="Table" Owner="Jademouth"></object>
+  </cell>
   <cell X="57" Y="12"></cell>
   <cell X="57" Y="13"></cell>
-  <cell X="57" Y="14">
-    <object Name="Woven Basket" Owner="Jademouth"></object>
-  </cell>
-  <cell X="57" Y="15">
-    <object Name="Marl"></object>
-  </cell>
+  <cell X="57" Y="14"></cell>
+  <cell X="57" Y="15"></cell>
   <cell X="57" Y="16"></cell>
   <cell X="57" Y="17"></cell>
   <cell X="57" Y="18"></cell>
@@ -3343,16 +3335,14 @@
   <cell X="58" Y="9">
     <object Name="Marl"></object>
   </cell>
-  <cell X="58" Y="10"></cell>
+  <cell X="58" Y="10">
+    <object Name="Jademouth_Bookshelf"></object>
+  </cell>
   <cell X="58" Y="11"></cell>
   <cell X="58" Y="12"></cell>
   <cell X="58" Y="13"></cell>
   <cell X="58" Y="14"></cell>
-  <cell X="58" Y="15">
-    <object Name="Marl"></object>
-    <object Name="Door"></object>
-    <object Name="Door"></object>
-  </cell>
+  <cell X="58" Y="15"></cell>
   <cell X="58" Y="16"></cell>
   <cell X="58" Y="17"></cell>
   <cell X="58" Y="18"></cell>
@@ -3383,18 +3373,13 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="59" Y="10">
-    <object Name="Bed" Owner="Jademouth"></object>
-    <object Name="Jademouth_Miner"></object>
+    <object Name="Jademouth_Bookshelf"></object>
   </cell>
   <cell X="59" Y="11"></cell>
-  <cell X="59" Y="12">
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
-  </cell>
+  <cell X="59" Y="12"></cell>
   <cell X="59" Y="13"></cell>
   <cell X="59" Y="14"></cell>
-  <cell X="59" Y="15">
-    <object Name="Door"></object>
-  </cell>
+  <cell X="59" Y="15"></cell>
   <cell X="59" Y="16"></cell>
   <cell X="59" Y="17"></cell>
   <cell X="59" Y="18"></cell>
@@ -3432,9 +3417,7 @@
   <cell X="60" Y="11"></cell>
   <cell X="60" Y="12"></cell>
   <cell X="60" Y="13"></cell>
-  <cell X="60" Y="14">
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
-  </cell>
+  <cell X="60" Y="14"></cell>
   <cell X="60" Y="15">
     <object Name="Marl"></object>
   </cell>
@@ -3482,7 +3465,7 @@
     <object Name="Armchair" Owner="Jademouth"></object>
   </cell>
   <cell X="61" Y="13">
-    <object Name="Hookah" Owner="Jademouth"></object>
+    <object Name="Table" Owner="Jademouth"></object>
   </cell>
   <cell X="61" Y="14">
     <object Name="Armchair" Owner="Jademouth"></object>
@@ -4374,9 +4357,7 @@
   <cell X="78" Y="7"></cell>
   <cell X="78" Y="8"></cell>
   <cell X="78" Y="9"></cell>
-  <cell X="78" Y="10">
-    <object Name="Jademouth_KitchenSign"></object>
-  </cell>
+  <cell X="78" Y="10"></cell>
   <cell X="78" Y="11">
     <object Name="Marl"></object>
   </cell>
@@ -4440,9 +4421,7 @@
   <cell X="79" Y="6">
     <object Name="Marl"></object>
   </cell>
-  <cell X="79" Y="7">
-    <object Name="Jademouth_KitchenSign"></object>
-  </cell>
+  <cell X="79" Y="7"></cell>
   <cell X="79" Y="8"></cell>
   <cell X="79" Y="9"></cell>
   <cell X="79" Y="10"></cell>

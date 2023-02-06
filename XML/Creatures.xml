@@ -38,7 +38,7 @@
 		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="g"
 			TileColor="g" DetailColor="W" RenderString="#" />
 		<part Name="Description"
-			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Though open to the sky, Atacama ensures that =pronouns.possessive= parlor is a tidy one." />
+			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama ensures that =pronouns.possessive= parlor is a tidy one." />
 		<part Name="ConversationScript" ConversationID="Jademouth_Atacama" />
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Jademouth-50" />
 		<part Name="Interesting" />
