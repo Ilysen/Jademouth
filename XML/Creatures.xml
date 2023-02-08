@@ -61,8 +61,8 @@
 	</object>
 	<!-- Bright the tinker. Questgiver for Chaos Theory. -->
 	<object Name="Jademouth_Bright" Inherits="HumanTinker4">
-		<part Name="Render" DisplayName="Bright" Tile="creatures/caste_flipped_21.bmp"
-			RenderString="a" />
+		<part Name="Render" DisplayName="Bright" Tile="Creatures/Bright_4Arms.png"
+			ColorString="&amp;c" RenderString="a" DetailColor="w" />
 		<part Name="ConversationScript" ConversationID="Jademouth_Bright" />
 		<part Name="Brain" Wanders="false" Factions="Jademouth-100" />
 		<part Name="Description"

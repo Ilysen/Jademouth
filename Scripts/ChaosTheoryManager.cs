@@ -49,6 +49,7 @@ namespace XRL.World.QuestManagers
 				muts.AddMutation("LightManipulation", 5); // replaces Regeneration (4 points)
 				gameObject.AddPart(new GivesRep());
 				gameObject.SetStringProperty("WaterRitual_Skill", "Tinkering_Tinker2");
+				gameObject.pRender.Tile = "Creatures/Bright_2Arms.png"; // GOD I hate this line
 			}
 			foreach (GameObject go in The.Player.CurrentZone.FindObjects("Jademouth_ChaosTheorySconceSpawner"))
 				go.CurrentCell.AddObject("Techlight1", null, null, null, null);
