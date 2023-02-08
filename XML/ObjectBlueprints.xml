@@ -114,7 +114,7 @@
 			RenderString="t" ColorString="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="200" />
 		<part Name="Description"
-			Short="Water was wrung from stone and surged through the earth, carving a river of turquoise and aquamarine in its wake." />
+			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb." />
 		<tag Name="RockTumblerOutput" Value="Jademouth_PolishedJade" />
 		<tag Name="Gift" Value="*noinherit" />
 		<tag Name="Tier" Value="3" />
@@ -124,7 +124,7 @@
 			RenderString="t" ColorString="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="240" />
 		<part Name="Description"
-			Short="Water was wrung from stone and surged through the earth, carving a river of turquoise and aquamarine in its wake. All its rough edges have been polished to shine." />
+			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb. All its rough edges have been polished to shine." />
 		<tag Name="Gift" Value="*noinherit" />
 		<tag Name="Tier" Value="3" />
 	</object>
