@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
-	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell rough gemstones. -->
+	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell polished gemstones. -->
 	<object Name="Jademouth_Miner" Inherits="NPC">
 		<part Name="Render" DisplayName="jade prospector" Tile="Creatures/Prospector_01.png"
 			ColorString="&amp;K" TileColor="&amp;K" DetailColor="c" RenderString="f" />
 		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
 		<part Name="Description"
-			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= gear is worn but well-maintained." />
+			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= gear frays but functions still, an indicator of the care with which it is treated." />
 		<part Name="Brain" Wanders="true" Factions="Jademouth-100" />
 		<part Name="AISelfPreservation" Threshold="30" />
 		<part Name="ConversationScript" ConversationID="JademouthMiner" />
@@ -37,7 +37,7 @@
 		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="g"
 			TileColor="g" DetailColor="W" RenderString="#" />
 		<part Name="Description"
-			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama ensures that =pronouns.possessive= parlor is a tidy one." />
+			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor tidy." />
 		<part Name="ConversationScript" ConversationID="Jademouth_Atacama" />
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Jademouth-50" />
 		<part Name="Interesting" />
@@ -53,6 +53,7 @@
 		<skill Name="Cudgel" />
 		<skill Name="Persuasion_Berate" />
 		<property Name="Role" Value="NPC" />
+		<builder Name="Tier4Wares" />
 		<builder Name="Jademouth_AtacamaWares" />
 		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true"></xtagGrammar>
@@ -66,7 +67,7 @@
 		<part Name="ConversationScript" ConversationID="Jademouth_Bright" />
 		<part Name="Brain" Wanders="false" Factions="Jademouth-100" />
 		<part Name="Description"
-			Short="Bright's albino skin is so white as to be nearly reflective in the salt sun, while =pronouns.possessive= reddish eyes are kept at a squint near any source of light. =pronouns.Possessive= four hands each come with a sixth finger, and =pronouns.subjective= juggles several tasks at once as =pronouns.subjective= moves about =pronouns.possessive= dimly-lit makeshift workspace." />
+			Short="Bright's albino skin is so white as to be nearly reflective, =pronouns.possessive= wide reddish eyes marked from frequent squinting. Four six-fingered hands toil together as =pronouns.subjective= =verb:move:afterpronoun= about =pronouns.possessive= dimly-lit workspace." />
 		<mutation Name="Albino" Level="1" />
 		<mutation Name="DarkVision" Level="1" />
 		<mutation Name="MultipleArms" Level="10" />
@@ -82,7 +83,7 @@
 		but rather used for reference by C# to update Bright's description after Chaos Theory -->
 	<object Name="Jademouth_Bright_PostQuest" Inherits="Jademouth_Bright">
 		<part Name="Description"
-			Short="Bright's skin glows softly as =pronouns.subjective= moves about her workshop. Though =pronouns.subjective='s still adapting to only having two arms again, =pronouns.possessive= movements have a new purpose. =pronouns.Subjective= smiles more readily and more often, now." />
+			Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from their previous partners. The artificer smiles more often, now." />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients.
@@ -93,7 +94,7 @@
 			Tile="Creatures/sw_slog.bmp" ColorString="&amp;w" TileColor="&amp;w"
 			DetailColor="g" />
 		<part Name="Description"
-			Short="Fizz undulates slowly as =pronouns.subjective= =verb:move:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the batch with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease." />
+			Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease." />
 		<part Name="Brain" Factions="Jademouth-100,Mollusks-25" Wanders="false" />
 		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
@@ -129,7 +130,7 @@
 		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png"
 			ColorString="&amp;B" RenderString="w" DetailColor="m" />
 		<part Name="Description"
-			Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and unassuming frame, however, conceal the glimmer of a powerful esper whose psyche brushes in close proximity to yours as =pronouns.subjective= probes your intent." />
+			Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and unassuming frame do little to conceal the glimmer of a powerful esper, whose psyche brushes in close proximity to yours as it probes your intent." />
 		<part Name="ConversationScript" ConversationID="Jademouth_Warden_Cat" />
 		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
 		<stat Name="Strength" Value="16" />

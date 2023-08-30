@@ -11,11 +11,11 @@
 			<choice GotoID="Project" IfNotHaveQuest="Chaos Theory">What are you working on?</choice>
 			<choice GotoID="Reminder" IfHaveActiveQuest="Chaos Theory">Remind me what you want me to find for you again?</choice>
 			<choice GotoID="GiveStatic"
+				IfHaveLiquid="warmstatic"
 				IfHaveActiveQuest="Chaos Theory"
-				IfFinishedQuestStep="Chaos Theory~Find a dram of warm static"
-				CompleteQuestStep="Chaos Theory~Return the warm static">
+				CompleteQuestStep="Chaos Theory~Find a dram of warm static"
+				UseLiquid="warmstatic">
 				<text>I have your static. Take it.</text>
-				<part Name="GiveWarmStatic" />
 			</choice>
 			<choice ID="BrightCat" GotoID="Cat" IfTestState="Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
 			<choice GotoID="End">Live and drink.</choice>

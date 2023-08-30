@@ -13,7 +13,7 @@
 		</group>
 	</population>
 	<population Name="JademouthMinerGems">
-		<object Blueprint="Jademouth_RoughJade" Number="0-3" />
+		<object Blueprint="Jademouth_PolishedJade" Number="1-3" />
 	</population>
 	<!-- Mostly the same as base hills, but with fewer trees and only docile creatures -->
 	<population Name="JademouthOutskirts">
