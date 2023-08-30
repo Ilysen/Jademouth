@@ -36,13 +36,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AtacamaWares.cs" />
-    <Compile Include="ChaosTheoryManager.cs" />
-    <Compile Include="GiveWarmStatic.cs" />
-    <Compile Include="JademouthGravy.cs" />
+    <Compile Include="Scripts\AtacamaWares.cs" />
+    <Compile Include="Scripts\ChaosTheoryManager.cs" />
+    <Compile Include="Scripts\JademouthGravy.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\Managed\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Content Include="XML\Conversations\Atacama_Conversations.xml" />
+    <Content Include="XML\Conversations\Bright_Conversations.xml" />
+    <Content Include="XML\Conversations\Cat_Conversations.xml" />
+    <Content Include="XML\Conversations\Fizz_Conversations.xml" />
+    <Content Include="XML\Conversations\Miner_Conversations.xml" />
+    <Content Include="XML\Creatures.xml" />
+    <Content Include="XML\Factions.xml" />
+    <Content Include="XML\ObjectBlueprints.xml" />
+    <Content Include="XML\PopulationTables.xml" />
+    <Content Include="XML\Quests.xml" />
+    <Content Include="XML\Worlds.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
