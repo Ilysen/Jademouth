@@ -67,7 +67,7 @@
 		<part Name="ConversationScript" ConversationID="Jademouth_Bright" />
 		<part Name="Brain" Wanders="false" Factions="Jademouth-100" />
 		<part Name="Description"
-			Short="Bright's albino skin is so white as to be nearly reflective, =pronouns.possessive= wide reddish eyes marked from frequent squinting. Four six-fingered hands toil together as =pronouns.subjective= =verb:move:afterpronoun= about =pronouns.possessive= dimly-lit workspace." />
+			Short="Bright's albino skin is so white as to be nearly reflective, and =pronouns.possessive= wide reddish eyes are marked from frequent squinting. Four six-fingered hands toil together as =pronouns.subjective= =verb:move:afterpronoun= about =pronouns.possessive= dimly-lit workspace." />
 		<mutation Name="Albino" Level="1" />
 		<mutation Name="DarkVision" Level="1" />
 		<mutation Name="MultipleArms" Level="10" />
@@ -80,10 +80,10 @@
 		<xtagGrammar Proper="true" />
 	</object>
 	<!-- This is a dummy object; it isn't spawned in on its own, 
-		but rather used for reference by C# to update Bright's description after Chaos Theory -->
+		but rather used for reference by C# to update Bright's description after completing her quest -->
 	<object Name="Jademouth_Bright_PostQuest" Inherits="Jademouth_Bright">
 		<part Name="Description"
-			Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from their previous partners. The artificer smiles more often, now." />
+			Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from her arms' missing partners. The artificer smiles more often, now." />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients.

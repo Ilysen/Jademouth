@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="Jademouth_Atacama">
-		<node ID="Start">
+		<start ID="Greeting">
 			<text>
 				Come in, come in! Kick the dirt off and find a place to rest.
 			</text>
@@ -10,7 +10,7 @@
 			<choice ID="AtacamaSunlight" GotoID="Sunlight">Do you not get any sunlight down here?</choice>
 			<choice ID="AtacamaInformal" GotoID="Informal">You seem much less formal than other Consortium merchants.</choice>
 			<choice GotoID="End">Live and drink.</choice>
-		</node>
+		</start>
 		<node ID="Story">
 			<text>Atacama, at your service. I serve as the chandler here for travelers like yourself. Jademouth sees a great deal of traffic from caravaneers and nomads crossing to and from the banana groves, and every now and then, oddities from Omonporch and beyond end up here. Why not take a look?
 

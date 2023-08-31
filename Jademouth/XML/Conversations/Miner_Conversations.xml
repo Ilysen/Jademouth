@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="JademouthMiner">
-		<node ID="Start">
+		<start ID="Greeting">
 			<text>
 				Mm.~
 				{{emote|*nods*}}~
@@ -11,6 +11,6 @@
 				I need a break.
 			</text>
 			<choice GotoID="End">Live and drink.</choice>
-		</node>
+		</start>
 	</conversation>
 </conversations>

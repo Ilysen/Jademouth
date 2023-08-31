@@ -3,6 +3,7 @@
 	<faction Name="Jademouth" DisplayName="denizens of Jademouth" Old="false"
 		FormatWithArticle="true" InitialPlayerReputation="0">
 		<feeling About="Baboons" Value="-100" />
+		<feeling About="Cragmensch" Value="-100" />
 		<feeling About="*" Value="0" />
 		<interests>
 			<interest Tags="mountains" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="Jademouth_Warden_Cat">
-		<node ID="Start">
+		<start ID="Greeting">
 			<text>
 				Please stay peaceful in Jademouth. We like it quiet.~
 				If you have any questions, I'm the one to ask.~
@@ -14,7 +14,7 @@
 			<choice GotoID="Merchants">I'm looking to trade. Who can I talk to?</choice>
 			<choice GotoID="Mayor">Do you have a mayor?</choice>
 			<choice GotoID="End">Live and drink.</choice>
-		</node>
+		</start>
 		<node ID="Jademouth">
 			<text>This is Jademouth. We are a mining village, struck out from the marl. Jade is our livelihood.</text>
 			<choice GotoID="Merchants">Who can I trade with?</choice>

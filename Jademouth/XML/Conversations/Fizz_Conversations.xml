@@ -5,7 +5,7 @@
 			<text>Water</text>
 			<text>I am quenched</text>
 		</node>
-		<node ID="Start">
+		<start ID="Greeting">
 			<text>
 				Hello
 			</text>
@@ -13,7 +13,7 @@
 			<choice ID="FizzWhoAreYou" GotoID="WhoAreYou" SetBooleanState="Jademouth_MetFizz,true">Who are you?</choice>
 			<choice GotoID="End" IfNotHaveState="Jademouth_MetFizz">...nevermind.</choice>
 			<choice GotoID="End" IfTestState="Jademouth_MetFizz">Live and drink.</choice>
-		</node>
+		</start>
 		<node ID="Hello">
 			<text>
 				Hello
@@ -39,7 +39,7 @@
 			<text>
 				Gravy
 			</text>
-			<choice GotoID="WhatIsGravy">What is gravy?</choice>
+			<choice GotoID="WhatIsGravy">Well... what can you tell me about it?</choice>
 			<choice GotoID="End">Good luck with that.</choice>
 		</node>
 		<node ID="WhatIsGravy">
