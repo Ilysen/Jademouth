@@ -11,7 +11,13 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
-### 31 August, 2023 (version 1.1)
+### 31 August, 2023
+
+#### Version 1.1.1
+* Fixed a syntax error that would cause the mod to fail to load on the stable branch. Oops.
+* Fixed a typo in the overmap description for Jademouth.
+
+#### Version 1.1
 Note: 1.1 onwards is licensed under GNU General Public License v3. Version 1.0 remains licensed under the MIT License.
 
 * Chaos Theory now awards a lump sum of XP at the end of the quest, instead of giving some after each step

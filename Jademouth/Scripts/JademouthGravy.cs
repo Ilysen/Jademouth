@@ -15,7 +15,7 @@ namespace XRL.World.Skills.Cooking
 		{
 			Components.Add(new PreparedCookingRecipieComponentBlueprint("Worm Jerky", null, 1));
 			Components.Add(new PreparedCookingRecipieComponentLiquid("acid", 1));
-			Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainHP_UnitHP", "JademouthGravyMolluskReputation" }, null, null)));
+			Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainHP_UnitHP", "JademouthGravyMolluskReputation" })));
 		}
 
 		public override string GetDescription() => "+10-15% max HP\n+300 reputation with mollusks";
@@ -40,7 +40,7 @@ namespace XRL.World.Effects
 		{
 			if (Object.IsPlayer())
 			{
-				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", 300, "Cooking", null, null, true, true, 0);
+				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", 300, "Cooking", silent: true, transient: true);
 				Applied = true;
 			}
 		}
@@ -48,7 +48,7 @@ namespace XRL.World.Effects
 		public override void Remove(GameObject Object, Effect parent)
 		{
 			if (Applied)
-				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", -300, "Cooking", null, null, true, true, 0);
+				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", -300, "Cooking", silent: true, transient: true);
 		}
 
 		private bool Applied;
