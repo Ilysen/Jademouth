@@ -6,7 +6,7 @@
 			ColorString="&amp;K" TileColor="&amp;K" DetailColor="c" RenderString="f" />
 		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
 		<part Name="Description"
-			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= gear frays but functions still, an indicator of the care with which it is treated." />
+			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= things fray at the edges but doggedly persist in form, indicating the care with which they are treated." />
 		<part Name="Brain" Wanders="true" Factions="Jademouth-100" />
 		<part Name="AISelfPreservation" Threshold="30" />
 		<part Name="ConversationScript" ConversationID="JademouthMiner" />

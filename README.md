@@ -13,9 +13,12 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ### 31 August, 2023
 
+#### Version 1.1.2
+* Made prospectors sell rough jade again. What can I say, people liked it!
+* Fixed some grammar regressions in the descriptions for prospectors and the Jademouth overmap tile
+
 #### Version 1.1.1
-* Fixed a syntax error that would cause the mod to fail to load on the stable branch. Oops.
-* Fixed a typo in the overmap description for Jademouth.
+* Fixed a syntax error that would cause the mod to fail to load on the stable branch. Oops
 
 #### Version 1.1
 Note: 1.1 onwards is licensed under GNU General Public License v3. Version 1.0 remains licensed under the MIT License.

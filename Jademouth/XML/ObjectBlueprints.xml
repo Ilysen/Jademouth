@@ -4,7 +4,7 @@
 			Tile="terrain/tile_location6.bmp" TileColor="&amp;G^k" DetailColor="y"
 			RenderString="254" ColorString="&amp;g^G" />
 		<part Name="Description"
-			Short="Jademouth's lonely and ancient monarch reigns over the hills. At its base, dust-caked prospectors lay out gemstones to be see the salt sun for their first time." />
+			Short="Jademouth's lonely and ancient monarch reigns over the hills. At its base, dust-caked prospectors lay out gemstones to see the salt sun for their first time." />
 		<tag Name="NoBiomes" Value="1" />
 		<xtagGrammar Proper="true"></xtagGrammar>
 		<tag Name="OverlayColor" Value="&amp;W" />
