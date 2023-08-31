@@ -67,6 +67,9 @@
 		<part Name="ModWired" />
 		<part Name="ModPiping" />
 	</object>
+	<object Name="Jademouth_EmptyRockTumbler" Inherits="Rock Tumbler">
+		<tag Name="InventoryPopulationTable" Value="*delete" />
+	</object>
 	<object Name="Jademouth_FusionPumpingStation" Inherits="Fusion Pumping Station">
 		<part Name="Physics" Owner="Jademouth" />
 		<part Name="TinkerItem" SubstituteBlueprint="Fusion Pumping Station" />

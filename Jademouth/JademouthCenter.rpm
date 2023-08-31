@@ -2717,7 +2717,7 @@
     <object Name="Jademouth_MetalTable"></object>
   </cell>
   <cell X="35" Y="15">
-    <object Name="FoldingChair"></object>
+    <object Name="FoldingChair" Owner="Jademouth"></object>
   </cell>
   <cell X="36" Y="15">
     <object Name="Jademouth_PowerLine"></object>
@@ -3209,8 +3209,8 @@
     <object Name="Jademouth_Table"></object>
   </cell>
   <cell X="39" Y="18">
-    <object Name="Rock Tumbler"></object>
     <object Name="Jademouth_PowerLine"></object>
+    <object Name="Jademouth_EmptyRockTumbler"></object>
   </cell>
   <cell X="40" Y="18"></cell>
   <cell X="41" Y="18"></cell>
@@ -3363,7 +3363,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="34" Y="19">
-    <object Name="FoldingChair"></object>
+    <object Name="FoldingChair" Owner="Jademouth"></object>
   </cell>
   <cell X="35" Y="19"></cell>
   <cell X="36" Y="19"></cell>
