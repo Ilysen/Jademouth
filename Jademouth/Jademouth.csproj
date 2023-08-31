@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="Scripts\AtacamaWares.cs" />
     <Compile Include="Scripts\ChaosTheoryManager.cs" />
+    <Compile Include="Scripts\ConversationDelegates.cs" />
     <Compile Include="Scripts\JademouthGravy.cs" />
   </ItemGroup>
   <ItemGroup />
