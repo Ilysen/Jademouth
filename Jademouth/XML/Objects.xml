@@ -1,8 +1,7 @@
 <objects>
 	<object Name="TerrainJademouth" Inherits="Terrain">
-		<part Name="Render" DisplayName="Jademouth"
-			Tile="terrain/tile_location6.bmp" TileColor="&amp;G^k" DetailColor="y"
-			RenderString="254" ColorString="&amp;g^G" />
+		<part Name="Render" DisplayName="Jademouth" Tile="terrain/tile_location6.bmp"
+			DetailColor="y" RenderString="127" ColorString="&amp;G^k" />
 		<part Name="Description"
 			Short="Jademouth's lonely and ancient monarch reigns over the hills. At its base, dust-caked prospectors lay out gemstones to see the salt sun for their first time." />
 		<tag Name="NoBiomes" Value="1" />
@@ -114,7 +113,7 @@
 	</object>
 	<object Name="Jademouth_RoughJade" Inherits="Gemstone">
 		<part Name="Render" DisplayName="rough {{g|jade}} gemstone" Tile="Items/Jade_Rough.png"
-			RenderString="t" ColorString="&amp;Y" DetailColor="G" />
+			ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="200" />
 		<part Name="Description"
 			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb." />
@@ -124,7 +123,7 @@
 	</object>
 	<object Name="Jademouth_PolishedJade" Inherits="Polished Gemstone">
 		<part Name="Render" DisplayName="smooth {{g|jade}} gemstone" Tile="Items/Jade_Polished.png"
-			RenderString="t" ColorString="&amp;Y" DetailColor="G" />
+			ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="240" />
 		<part Name="Description"
 			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb. All its rough edges have been polished to shine." />
@@ -132,10 +131,8 @@
 		<tag Name="Tier" Value="3" />
 	</object>
 	<object Name="Jademouth_JadeFigurine" Inherits="Random Figurine">
-		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine"
-			Tile="Items/sw_nugget.bmp" DetailColor="G" RenderString="*" ColorString="&amp;Y"
-			RenderLayer="5" />
-		<part Name="RandomColors" MainColor="Y,y" DetailColor="G,g" />
+		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine" Tile="Items/sw_nugget.bmp"
+			ColorString="&amp;g" DetailColor="G"  RenderString="*" RenderLayer="5" />
 		<part Name="Commerce" Value="200" />
 		<part Name="RandomFigurine" Material="jade" />
 		<tag Name="Tier" Value="4" />

@@ -3,7 +3,7 @@
 	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell polished gemstones. -->
 	<object Name="Jademouth_Miner" Inherits="NPC">
 		<part Name="Render" DisplayName="jade prospector" Tile="Creatures/Prospector_01.png"
-			ColorString="&amp;K" TileColor="&amp;K" DetailColor="c" RenderString="f" />
+			ColorString="&amp;K" DetailColor="c" RenderString="p" />
 		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
 		<part Name="Description"
 			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= things fray at the edges but doggedly persist in form, indicating the care with which they are treated." />
@@ -34,8 +34,8 @@
 	<!-- Atacama, a fractus from the Consortium of Phyta.
 		Xe sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
 	<object Name="Jademouth_Atacama" Inherits="SapientMutatedSucculent">
-		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="g"
-			TileColor="g" DetailColor="W" RenderString="#" />
+		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="&amp;g"
+			DetailColor="W" RenderString="#" />
 		<part Name="Description"
 			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor tidy." />
 		<part Name="ConversationScript" ConversationID="Jademouth_Atacama" />
@@ -62,8 +62,8 @@
 	</object>
 	<!-- Bright the tinker. Questgiver for Chaos Theory. -->
 	<object Name="Jademouth_Bright" Inherits="HumanTinker4">
-		<part Name="Render" DisplayName="Bright" Tile="Creatures/Bright_4Arms.png"
-			ColorString="&amp;c" RenderString="a" DetailColor="w" />
+		<part Name="Render" DisplayName="Bright" Tile="Creatures/Bright_4Arms.png" ColorString="&amp;c"
+			DetailColor="w" />
 		<part Name="ConversationScript" ConversationID="Jademouth_Bright" />
 		<part Name="Brain" Wanders="false" Factions="Jademouth-100" />
 		<part Name="Description"
@@ -86,12 +86,10 @@
 			Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from her arms' missing partners. The artificer smiles more often, now." />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
-	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients.
-		Probably had the Cloaca Surprise at some point.  -->
+	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients. -->
 	<object Name="Jademouth_Fizz" Inherits="BaseSlug">
 		<part Name="Body" Anatomy="SlugWithHands" />
-		<part Name="Render" DisplayName="Fizz" RenderString="Q"
-			Tile="Creatures/sw_slog.bmp" ColorString="&amp;w" TileColor="&amp;w"
+		<part Name="Render" DisplayName="Fizz" Tile="Creatures/sw_slog.bmp" ColorString="&amp;w"
 			DetailColor="g" />
 		<part Name="Description"
 			Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease." />
@@ -171,7 +169,7 @@
 		<tag Name="Gender" Value="female" />
 		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true" />
-		<tag Name="Mayor" Value="Jademouth"></tag>
+		<tag Name="Mayor" Value="Jademouth" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 </objects>
