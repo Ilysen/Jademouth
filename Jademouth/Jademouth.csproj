@@ -58,8 +58,8 @@
     <Content Include="XML\Conversations\Miner_Conversations.xml" />
     <Content Include="XML\Creatures.xml" />
     <Content Include="XML\Factions.xml" />
-    <Content Include="XML\ObjectBlueprints.xml" />
-    <Content Include="XML\PopulationTables.xml" />
+    <Content Include="XML\Objects.xml" />
+    <Content Include="XML\Populations.xml" />
     <Content Include="XML\Quests.xml" />
     <Content Include="XML\Worlds.xml" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
-	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell polished gemstones. -->
+	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell rough gemstones. -->
 	<object Name="Jademouth_Miner" Inherits="NPC">
 		<part Name="Render" DisplayName="jade prospector" Tile="Creatures/Prospector_01.png"
 			ColorString="&amp;K" DetailColor="c" RenderString="p" />
