@@ -40,7 +40,7 @@ namespace XRL.World.Effects
 		{
 			if (Object.IsPlayer())
 			{
-				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", 300, "Cooking", silent: true, transient: true);
+				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", 300, "Cooking", Silent: true, Transient: true);
 				Applied = true;
 			}
 		}
@@ -48,7 +48,7 @@ namespace XRL.World.Effects
 		public override void Remove(GameObject Object, Effect parent)
 		{
 			if (Applied)
-				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", -300, "Cooking", silent: true, transient: true);
+				XRLCore.Core.Game.PlayerReputation.modify("Mollusks", -300, "Cooking", Silent: true, Transient: true);
 		}
 
 		private bool Applied;

@@ -11,6 +11,11 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 16 September, 2023
+
+#### Version 1.1.4
+* Hotfix for an API change in the latest update - should cause no trouble with saves.
+
 ### 12 September, 2023
 
 #### Version 1.1.3
