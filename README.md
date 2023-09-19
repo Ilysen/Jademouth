@@ -11,6 +11,11 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 19 September, 2023
+
+#### Version 1.1.5
+* Prospector detail color now appears as bright green when they have jade to sell, hopefully making shopping easier. Existing saves won't break, but a new save is required for the functionality to work.
+
 ### 16 September, 2023
 
 #### Version 1.1.4

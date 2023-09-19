@@ -40,6 +40,7 @@
     <Compile Include="Scripts\ChaosTheoryManager.cs" />
     <Compile Include="Scripts\ConversationDelegates.cs" />
     <Compile Include="Scripts\JademouthGravy.cs" />
+    <Compile Include="Scripts\ProspectorColorPart.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -18,6 +18,7 @@
 		<stat Name="Willpower" Boost="4" />
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="JademouthMinerGems" />
+		<part Name="Jademouth_ProspectorColorPart" />
 		<tag Name="InventoryPopulationTable" Value="JademouthMinerTool" />
 		<inventoryobject Blueprint="Leather Boots" />
 		<inventoryobject Blueprint="Filthy Toga" />
