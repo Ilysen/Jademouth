@@ -20,6 +20,7 @@
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="JademouthMinerGems" />
 		<part Name="Jademouth_ProspectorColorPart" />
 		<tag Name="InventoryPopulationTable" Value="JademouthMinerTool" />
+		<tag Name="Merchant" />
 		<inventoryobject Blueprint="Leather Boots" />
 		<inventoryobject Blueprint="Filthy Toga" />
 		<inventoryobject Blueprint="Leather Gloves" />
