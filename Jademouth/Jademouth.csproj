@@ -34,6 +34,16 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="JademouthCenter.rpm" />
+    <None Include="JademouthEast.rpm" />
+    <None Include="JademouthNorth.rpm" />
+    <None Include="JademouthNortheast.rpm" />
+    <None Include="JademouthNorthwest.rpm" />
+    <None Include="JademouthSouth.rpm" />
+    <None Include="JademouthSoutheast.rpm" />
+    <None Include="JademouthSouthwest.rpm" />
+    <None Include="JademouthWest.rpm" />
+    <None Include="JoppaWorldNew8.rpm" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Scripts\AtacamaWares.cs" />
@@ -50,6 +60,7 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="XML\Conversations\Atacama_Conversations.xml" />
