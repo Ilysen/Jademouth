@@ -1,7 +1,7 @@
 ﻿namespace XRL.World.Conversations
 {
 	[HasConversationDelegate]
-	public static class JademouthConversationDelegates
+	public static class Ilysen_Jademouth_ConversationDelegates
 	{
 		/// <summary>
 		/// Checks if the context target's current cell is illuminated with <b>normal light.</b> Night vision and the like won't apply.<br/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <factions>
-	<faction Name="Jademouth" DisplayName="denizens of Jademouth" Old="false"
+	<faction Name="Ilysen_Jademouth_JademouthFaction" DisplayName="denizens of Jademouth" Old="false"
 		FormatWithArticle="true" InitialPlayerReputation="0">
 		<feeling About="Baboons" Value="-100" />
 		<feeling About="Cragmensch" Value="-100" />

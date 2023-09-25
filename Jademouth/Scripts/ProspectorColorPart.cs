@@ -8,7 +8,7 @@ namespace XRL.World.Parts
     /// Jade is sold by individual prospectors rather than a main merchant, so this makes shopping easier for the player to do.
     /// </summary>
     [Serializable]
-    public class Jademouth_ProspectorColorPart : IPart
+    public class Ilysen_Jademouth_ProspectorColorPart : IPart
     {
         public override void Register(GameObject Object)
         {

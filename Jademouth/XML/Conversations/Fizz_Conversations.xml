@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
-	<conversation ID="Jademouth_Fizz">
+	<conversation ID="Ilysen_Jademouth_Fizz">
 		<node ID="WaterRitual" load="Merge">
 			<text>Water</text>
 			<text>I am quenched</text>

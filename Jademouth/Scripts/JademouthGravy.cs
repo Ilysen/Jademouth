@@ -9,13 +9,13 @@ namespace XRL.World.Skills.Cooking
 	/// Jademouth Gravy; preset meal, gives +10-15% max HP and +40-50 Acid Resist.
 	/// </summary>
 	[Serializable]
-	public class JademouthGravy : CookingRecipe
+	public class Ilysen_Jademouth_JademouthGravy : CookingRecipe
 	{
-		public JademouthGravy()
+		public Ilysen_Jademouth_JademouthGravy()
 		{
 			Components.Add(new PreparedCookingRecipieComponentBlueprint("Worm Jerky", null, 1));
 			Components.Add(new PreparedCookingRecipieComponentLiquid("acid", 1));
-			Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainHP_UnitHP", "JademouthGravyMolluskReputation" })));
+			Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainHP_UnitHP", "Ilysen_Jademouth_CookingEffectMolluskRep" })));
 		}
 
 		public override string GetDescription() => "+10-15% max HP\n+300 reputation with mollusks";
@@ -32,7 +32,7 @@ namespace XRL.World.Effects
 	/// Used in Jademouth Gravy. Gives +300 mollusk reputation.
 	/// </summary>
 	[Serializable]
-	public class JademouthGravyMolluskReputation : ProceduralCookingEffectUnit
+	public class Ilysen_Jademouth_CookingEffectMolluskRep : ProceduralCookingEffectUnit
 	{
 		public override string GetDescription() => "+300 reputation with mollusks";
 

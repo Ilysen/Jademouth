@@ -24,20 +24,20 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="0" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Techlight1"></object>
   </cell>
   <cell X="0" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="0" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="0" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="0" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="0" Y="12">
     <object Name="Marl"></object>
@@ -100,19 +100,19 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="1" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="1" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="1" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="1" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="1" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="1" Y="12">
     <object Name="Marl"></object>
@@ -131,7 +131,7 @@
   </cell>
   <cell X="1" Y="17">
     <object Name="Marl"></object>
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="1" Y="18">
     <object Name="Marl"></object>
@@ -176,22 +176,22 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="2" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Techlight1"></object>
   </cell>
   <cell X="2" Y="13">
@@ -204,10 +204,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="2" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="2" Y="18">
     <object Name="Marl"></object>
@@ -249,44 +249,44 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="3" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Marl"></object>
   </cell>
   <cell X="3" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Chair" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Chair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="3" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Table" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="3" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Chair" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Chair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="3" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="3" Y="18">
     <object Name="Marl"></object>
@@ -328,45 +328,45 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="4" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Marl"></object>
   </cell>
   <cell X="4" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="4" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="4" Y="19">
     <object Name="Marl"></object>
@@ -405,45 +405,45 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="5" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Jademouth_Oven"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_Oven"></object>
   </cell>
   <cell X="5" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Stool"></object>
   </cell>
   <cell X="5" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="5" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Techlight1"></object>
   </cell>
   <cell X="5" Y="19">
@@ -483,49 +483,49 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="6" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Hookah" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Hookah" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="6" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="6" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="6" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="19">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="6" Y="20">
     <object Name="Marl"></object>
@@ -561,53 +561,53 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="7" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Marl"></object>
   </cell>
   <cell X="7" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Table" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="7" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
-    <object Name="Jademouth_Miner"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Ilysen_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="7" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="19">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="20">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="7" Y="21">
     <object Name="Marl"></object>
@@ -638,53 +638,53 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="8" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Marl"></object>
   </cell>
   <cell X="8" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Table" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="8" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
-    <object Name="Jademouth_Miner"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Ilysen_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="8" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="19">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="20">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="8" Y="21">
     <object Name="Marl"></object>
@@ -713,48 +713,48 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="9" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="9" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="9" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="19">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="9" Y="20">
     <object Name="Marl"></object>
@@ -784,48 +784,48 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="10" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Jademouth_Oven"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_Oven"></object>
   </cell>
   <cell X="10" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="10" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="19">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="10" Y="20">
     <object Name="Marl"></object>
@@ -855,47 +855,47 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="11" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Marl"></object>
   </cell>
   <cell X="11" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Techlight1"></object>
   </cell>
   <cell X="11" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Stool"></object>
   </cell>
   <cell X="11" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="11" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="11" Y="19">
     <object Name="Marl"></object>
@@ -928,47 +928,47 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="12" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Marl"></object>
   </cell>
   <cell X="12" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="12" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Floor Cushion" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="12" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Hookah" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Hookah" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="12" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="12" Y="19">
     <object Name="Marl"></object>
@@ -993,53 +993,53 @@
   <cell X="13" Y="2"></cell>
   <cell X="13" Y="3">
     <object Name="Door"></object>
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="4">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="5">
     <object Name="Door"></object>
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="6">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="7">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="13" Y="19">
     <object Name="Marl"></object>
@@ -1078,37 +1078,37 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="14" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="14" Y="19">
     <object Name="Marl"></object>
@@ -1139,40 +1139,40 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="15" Y="8">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Bench" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="15" Y="9">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Bench" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="15" Y="10">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Ornate Potted Plant 1" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Ornate Potted Plant 1" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="15" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
   </cell>
   <cell X="15" Y="18">
-    <object Name="Jademouth_MarbleFloor"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
     <object Name="Techlight1"></object>
   </cell>
   <cell X="15" Y="19">
@@ -1213,33 +1213,33 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="16" Y="11">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Armchair" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="16" Y="12">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Low Table" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Low Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="16" Y="13">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Armchair" Owner="Jademouth"></object>
-    <object Name="Jademouth_Miner"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Ilysen_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="16" Y="14">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Ornate Potted Plant 4" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Ornate Potted Plant 4" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="16" Y="15">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Armchair" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="16" Y="16">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Low Table" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Low Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="16" Y="17">
-    <object Name="Jademouth_MarbleFloor"></object>
-    <object Name="Armchair" Owner="Jademouth"></object>
+    <object Name="Ilysen_Jademouth_MarbleFloor"></object>
+    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="16" Y="18">
     <object Name="Marl"></object>

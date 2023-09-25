@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
-	<conversation ID="Jademouth_Bright">
+	<conversation ID="Ilysen_Jademouth_Bright">
 		<!-- This doesn't feel like the cleanest way to do this, but it'll do for now -->
 		<node ID="BaseGreetingResponses">
 			<choice GotoID="Tinker">Are you a tinker?</choice>
