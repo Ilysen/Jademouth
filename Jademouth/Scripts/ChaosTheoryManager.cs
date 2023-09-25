@@ -56,33 +56,31 @@ namespace XRL.World.QuestManagers
 
 		private void HandleReward()
 		{
-			Dictionary<string, TinkerData> data = new Dictionary<string, TinkerData>();
-			foreach (TinkerData td in TinkerData.TinkerRecipes)
+			SortedList<string, TinkerData> sortedList = new SortedList<string, TinkerData>();
+			foreach (TinkerData td in TinkerData.TinkerRecipes.Where(x => x.Type == "Mod" && !TinkerData.RecipeKnown(x)))
+				sortedList.Add(td.DisplayName, td);
+			List<int> chosenIndexes = new List<int>();
+			if (sortedList.Count == 0)
+            {
+                Popup.Show("Since you already know every item mod, you muse on the secrets of data disks with Bright.");
+                Popup.Show("You gain 10000 XP.");
+                The.Player.AwardXP(10000, -1, 0, InfluencedBy: The.Speaker);
+                return;
+            }
+			else if (sortedList.Count <= 3)
 			{
-				if (td.Type == "Mod" && !TinkerData.RecipeKnown(td))
-					data.Add(td.DisplayName, td);
+				for (int i = 0; i < sortedList.Count; i++)
+					chosenIndexes.Add(i);
 			}
-			if (data.Count <= 0)
+			else
+				chosenIndexes = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", sortedList.Keys.ToArray(), Amount: 3);
+
+			foreach (int i in chosenIndexes)
 			{
-				Popup.Show("Since you already know every item mod, you muse on the secrets of data disks with Bright.");
-				Popup.Show("You gain 10000 XP.");
-				The.Player.AwardXP(10000, -1, 0, InfluencedBy: The.Speaker);
-				return;
-			}
-			List<TinkerData> chosenData = new List<TinkerData>();
-			for (int i = 0; i < Math.Min(3, data.Count); i++)
-			{
-				string[] choices = data.Keys.ToArray();
-				int choice = Popup.ShowOptionList("", choices, null, 0, $"Choose an item mod to learn, free of charge. You have {3 - i} choice" + (3 - i == 1 ? "" : "s") + " remaining.");
-				TinkerData dd = data.GetValue(choices[choice]);
-				chosenData.Add(dd);
-				data.Remove(choices[choice]);
-			}
-			foreach (TinkerData disk in chosenData)
-			{
-				TinkerData.KnownRecipes.Add(disk);
-				Popup.Show("Bright teaches you how to mod your items to be {{W|" + disk.DisplayName + "}}.", true, true, true, true);
-			}
+				TinkerData td = sortedList.ElementAt(i).Value;
+				TinkerData.KnownRecipes.Add(td);
+                Popup.Show("Bright teaches you how to mod your items to be {{W|" + td.DisplayName + "}}.");
+            }
 		}
 
 		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Ilysen_Jademouth_Bright");
