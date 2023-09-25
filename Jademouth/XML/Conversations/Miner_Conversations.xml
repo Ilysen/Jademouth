@@ -8,7 +8,8 @@
 				Livendrink.~
 				Lookin' for gems?~
 				Watch the rocks.~
-				I need a break.
+				I need a break.~
+				You seen a fish around?
 			</text>
 			<choice GotoID="End">Live and drink.</choice>
 		</start>

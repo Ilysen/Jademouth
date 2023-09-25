@@ -6,8 +6,9 @@
 			ColorString="&amp;K" DetailColor="c" RenderString="p" />
 		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
 		<part Name="Description"
-			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= things fray at the edges but doggedly persist in form; slick-spots of adhesive here or wrapped linen there indicate the care with which they are kept." />
+			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= things fray at the edges but stubbornly maintain their forms; intermittent slick-spots of adhesive and dirt indicate the care with which they are kept." />
 		<part Name="Brain" Wanders="true" Factions="Ilysen_Jademouth_JademouthFaction-100" />
+		<part Name="Interesting" />
 		<part Name="AISelfPreservation" Threshold="30" />
 		<part Name="ConversationScript" ConversationID="Ilysen_Jademouth_ProspectorConversation" />
 		<stat Name="Level" Value="15" />
@@ -26,7 +27,6 @@
 		<inventoryobject Blueprint="Leather Gloves" />
 		<inventoryobject Blueprint="Miner's Helmet" />
 		<property Name="WontSell" Value="Pickaxe,NanopneumaticJackhammer" />
-		<tag Name="WontSellTag" Value="Ammo" />
 		<skill Name="Endurance_PoisonTolerance" />
 		<skill Name="Endurance_Calloused" />
 		<skill Name="Cudgel" />
@@ -76,6 +76,7 @@
 		<mutation Name="HeightenedAgility" Level="5" />
 		<mutation Name="Regeneration" Level="5" />
 		<skill Name="Tinkering_Tinker2" />
+		<skill Name="Tinkering_Tinker3" />
 		<skill Name="Customs_TrashDivining" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 		<tag Name="Gender" Value="female" />
@@ -94,7 +95,7 @@
 		<part Name="Render" DisplayName="Fizz" Tile="Creatures/sw_slog.bmp" ColorString="&amp;w"
 			DetailColor="g" />
 		<part Name="Description"
-			Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease." />
+			Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease until the time is right." />
 		<part Name="Brain" Factions="Ilysen_Jademouth_JademouthFaction-100,Mollusks-25" Wanders="false" />
 		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
@@ -130,7 +131,7 @@
 		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png"
 			ColorString="&amp;B" RenderString="w" DetailColor="m" />
 		<part Name="Description"
-			Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and unassuming frame do little to conceal the glimmer of a powerful esper, whose psyche brushes in close proximity to yours as it probes your intent." />
+			Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and small frame do little to conceal the glimmer of an experienced esper, however, whose psyche brushes in close proximity to yours as it probes your intent." />
 		<part Name="ConversationScript" ConversationID="Ilysen_Jademouth_WardenCatConversation" />
 		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
 		<stat Name="Strength" Value="16" />

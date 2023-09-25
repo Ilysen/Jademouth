@@ -23,16 +23,29 @@
 		<node ID="Sunlight">
 			<text>I am less immobile than you might think, and I do not spend all of my time here at my post. I frequently take the liberty of basking outside when the weather allows. Cat is a good warden, and I trust her to keep me safe.
 			
-			That said, I do also keep a glowsphere with me. {{emote|*Atacama gestures with one of xyr vines.*}} It's a far cry from the high salt sun, but it does do well enough at keeping me nourished here as long as the prospectors water me now and then.</text>
+			That said, I do also keep a glowsphere with me. {{emote|*Atacama gestures with one of =pronouns.possessive= vines.*}} It's a far cry from the high salt sun, but it does do well enough at keeping me nourished here as long as the prospectors water me every now and then.</text>
 			<choice UseID="AtacamaAsphodel" />
 			<choice UseID="AtacamaStory" />
 			<choice UseID="AtacamaInformal" />
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<node ID="Informal">
-			<text>I hear such things a good deal. Truth be told, I've become a tad estranged from the Consortium since my assignment here, though I remain on good terms with them. Jademouth is something of an anathema for phyta looking to bask in the sun, and so I confess I dreaded my assignment when I got word of it.
+			<text>I hear such things a good deal. Truth be told, I've become a tad estranged from rest of the Consortium since my assignment here. Jademouth is something of an anathema for phyta looking to feel the sun - which is most of them - and so I confess I dreaded my assignment when I got word of it.
 				
-			Having been here some time now, though, I can see how shortsighted I was to worry without having ever been here myself. Perhaps the locals have influenced me, but the longer I stay away from the socialites, the more true to myself I feel. It's not like any of them envy me. Hah!</text>
+			Having been here some time now, though, I can safely say that my anxieties were unfounded. Perhaps the locals have influenced me, but the longer I stay away from the socialites, the better I feel. It's not like any of them envy me. Hah!</text>
+			<choice GotoID="Fungi">Do you think you might be able to tell me why the others in the Consortium hate fungi so much? They are not inclined to give a straight answer.</choice>
+			<choice UseID="AtacamaAsphodel" />
+			<choice UseID="AtacamaStory" />
+			<choice UseID="AtacamaSunlight" />
+			<choice GotoID="End">Live and drink.</choice>
+		</node>
+		<node ID="Fungi">
+			<text>Such things are rarely discussed in polite company. To be perfectly straightforward, I am not entirely certain myself. Decay is simply another extant form of life, after all. I believe that the more mannered phyta are simply inclined to believe themselves superior, for none among our ranks can claim to have met an intelligent mushroom.
+				
+			There is something of a hypocrisy, there, don't you think? Yurl spends their days surrounded on all sides by mushrooms, but bring that up and they're liable to pout. Perhaps the gentleplants are simply too full of themselves, and choose to take being included with fungi by unlearned meat-beings as a personal insult. They are disinclined to give a straight answer because they do not have one, and they know it.
+
+			Don't tell them I said that, though.
+			</text>
 			<choice UseID="AtacamaAsphodel" />
 			<choice UseID="AtacamaStory" />
 			<choice UseID="AtacamaSunlight" />
@@ -43,9 +56,9 @@
 			<choice GotoID="Lease">How can I convince Asphodel to lease the Spindle to Barathrum?</choice>
 		</node>
 		<node ID="Lease">
-			<text>Asphodel is many things, but most of all xe craves recognition. If you're looking to get into xyr good graces, you would be wise to bring some kind of tribute. Xe is mostly concerned with clout, so I would be ready to call in favors of your own.
+			<text>Asphodel is many things, but most of all xe craves recognition. If you're looking to get into xyr good graces, you would be wise to bring some kind of tribute. Xevalues clout over all else, so be prepared to call in favors of your own.
 				
-			Whatever the case, though, your best chance would be to go along with whatever tiring idea xe has dreamt up to appease xyr sense of superiority. Just avoid causing any trouble. Asphodel was mercurial even before xe took xyr spawn and left for Omonporch, and any chaos would make it unlikely that you could be able to salvage a diplomatic path.</text>
+			Whatever the case, though, your best chance would be to go along with whatever tiring idea xe has dreamt up to appease xyr sense of superiority. Just ensure you cause no trouble. Asphodel has always been mercurial, and any chaos would make it very unlikely that you could salvage your diplomatic overtures.</text>
 			<choice GotoID="End">Thank you, Atacama. Live and drink.</choice>
 		</node>
 	</conversation>

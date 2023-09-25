@@ -25,7 +25,7 @@
 		<part Name="Render" DisplayName="blackout curtains" RenderString="20" ColorString="&amp;y"
 			DetailColor="K" Tile="Tiles2/sw_belt_curtains.bmp" Occluding="true" />
 		<part Name="Description"
-			Short="Brinestalks were flattened into thick wafers and draped to block the light." />
+			Short="Brinestalk was flattened into thick wafers and draped in clacking layers to guard against the light's advance." />
 		<tag Name="NoConveyor" Value="*delete" />
 	</object>
 	<object Name="Ilysen_Jademouth_BrightSign" Inherits="Sign">
@@ -85,7 +85,7 @@
 		<part Name="Campfire" PresetMeals="Ilysen_Jademouth_JademouthGravy" />
 		<tag Name="PresetMealMessage" Value="Eat some gravy." />
 		<part Name="Description"
-			Short="Warmth radiates from the crackling fire of the bright marl oven, and with it comes the pungent smell of simmering meat-juices and a whiff of acidic tang." />
+			Short="Warmth radiates from the crackling fire of the bright marl oven, carrying the pungent smell of simmering meat-juice and a whiff of acidic tang." />
 	</object>
 	<object Name="Ilysen_Jademouth_Table" Inherits="Table">
 		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C"

@@ -12,7 +12,7 @@
 			<choice GotoID="Unassuming">You don't look much like a warden.</choice>
 			<choice GotoID="CatsHuntBirds">I can feel your psyche. Do you have trouble with Seekers?</choice>
 			<choice GotoID="Merchants">I'm looking to trade. Who can I talk to?</choice>
-			<choice GotoID="Mayor">Do you have a mayor?</choice>
+			<choice GotoID="Mayor">Where can I find your mayor?</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</start>
 		<node ID="Jademouth">
@@ -44,8 +44,8 @@
 		</node>
 		<node ID="Merchants">
 			<text>Atacama is from the Consortium and xe can help you with vittle and supplies. Fizz has food and spices. There's also Bright. Other than that, you could talk with some of the miners directly if you're here for gemstones.</text>
-			<choice ID="CatFizz" GotoID="Fizz">Who's Fizz?</choice>
 			<choice ID="CatAtacama" GotoID="Atacama">Tell me about Atacama.</choice>
+			<choice ID="CatFizz" GotoID="Fizz">Who's Fizz?</choice>
 			<choice ID="CatBright" GotoID="Bright" IfNotFinishedQuest="Chaos Theory">What does Bright do?</choice>
 			<choice ID="CatBright_PostQuest" GotoID="Bright_PostQuest" IfFinishedQuest="Chaos Theory">What does Bright do?</choice>
 			<choice UseID="OtherQuestions" />
@@ -73,7 +73,7 @@
 				Bright does a lot of things. She calls herself our tinker.</text>
 			<choice UseID="CatFizz" />
 			<choice UseID="CatAtacama" />
-			<choice GotoID="DontGetAlong" SetBooleanState="Jademouth_CatMentionedBright,true">You don't seem to think very highly of her.</choice>
+			<choice GotoID="DontGetAlong" SetBooleanState="Ilysen_Ilysen_Jademouth_CatMentionedBright,true">You don't seem to think very highly of her.</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>
@@ -88,7 +88,7 @@
 				Bright's our tinker.</text>
 			<choice UseID="CatFizz" />
 			<choice UseID="CatAtacama" />
-			<choice GotoID="IsThatAll" SetBooleanState="Jademouth_CatMentionedBright,true">Is that all?</choice>
+			<choice GotoID="IsThatAll" SetBooleanState="Ilysen_Ilysen_Jademouth_CatMentionedBright,true">Is that all?</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>
@@ -97,9 +97,15 @@
 			<choice GotoID="End">You'll work it out. Live and drink.</choice>
 		</node>
 		<node ID="Mayor">
-			<text>We do not. We decide things together in Jademouth.</text>
+			<text>We do not have a mayor.</text>
+			<choice GotoID="NoMayorNeeded">You don't? Who makes decisions for the town, then?</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
+		</node>
+		<node ID="NoMayorNeeded">
+			<text>All of us. We have had no need for a mayor, and so we have not acknowledged one.</text>
+			<choice UseID="OtherQuestions" />
+			<choice GotoID="End">I see. Live and drink.</choice>
 		</node>
 	</conversation>
 </conversations>

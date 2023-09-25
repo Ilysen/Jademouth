@@ -11,6 +11,15 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 25 September, 2023
+#### Version 1.2
+**This version won't be publicly released until a save-breaking update has been pushed to the stable branch, to avoid bricking existing saves.**
+
+* Prospectors now sell 3-5 rough jade, up from 1-3.
+* Did a polish and writing pass on all the descriptions and dialogue. Most things are unchanged, but certain options are slightly different, and some new ones have been added.
+* Overhauled the way that rewards are selected for Chaos Theory. It now uses a "select multiple" popup like giving books to Sheba or tossing artifacts into the sacred well.
+* Internally changed almost everything in the mod to use a consistent naming scheme. __This is incompatible with saves__ but should serve to fully future-proof any potential ID conflicts.
+
 ### 19 September, 2023
 
 #### Version 1.1.5

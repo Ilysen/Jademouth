@@ -39,15 +39,15 @@
 			<text>
 				Gravy
 			</text>
-			<choice GotoID="WhatIsGravy">Well... what can you tell me about it?</choice>
-			<choice GotoID="End">Good luck with that.</choice>
+			<choice GotoID="WhatIsGravy">Right. Gravy. What can you tell me about your gravy?</choice>
+			<choice GotoID="End">...</choice>
 		</node>
 		<node ID="WhatIsGravy">
 			<text>
 				Meat juice
 			</text>
 			<choice GotoID="MeatJuice">Meat juice.</choice>
-			<choice GotoID="End">Good luck with that.</choice>
+			<choice GotoID="End">...</choice>
 		</node>
 		<node ID="MeatJuice">
 			<text>
