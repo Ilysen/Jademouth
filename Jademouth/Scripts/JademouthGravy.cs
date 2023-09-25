@@ -6,7 +6,7 @@ using XRL.World.Effects;
 namespace XRL.World.Skills.Cooking
 {
 	/// <summary>
-	/// Jademouth Gravy; preset meal, gives +10-15% max HP and +40-50 Acid Resist.
+	/// Code for Jademouth Gravy, the preset meal in Jademouth. Current effects are +10-15% max HP and +300 reputation with mollusks.
 	/// </summary>
 	[Serializable]
 	public class Ilysen_Jademouth_JademouthGravy : CookingRecipe

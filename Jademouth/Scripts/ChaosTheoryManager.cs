@@ -53,7 +53,11 @@ namespace XRL.World.QuestManagers
 			HandleReward();
 			The.Player.RemovePart(this);
 		}
-
+		
+		/// <summary>
+		/// Handles the reward of Chaos Theory by allowing the player to choose three item mods they don't know, free of charge and ignoring skill requirements.
+		/// If the player already has all mods, they receive a bunch of XP instead. If they're only missing three or less, then those ones are chosen automatically.
+		/// </summary>
 		private void HandleReward()
 		{
 			SortedList<string, TinkerData> sortedList = new SortedList<string, TinkerData>();

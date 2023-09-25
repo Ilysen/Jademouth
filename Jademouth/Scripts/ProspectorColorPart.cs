@@ -35,9 +35,18 @@ namespace XRL.World.Parts
             return base.Render(E);
         }
 
+        /// <summary>
+        /// If this is <c>true</c> when the game renders a frame, then it will search the parent object's inventory for jade and save the result to <see cref="hasJade"/>,
+        /// then set itself to <c>false</c>.
+        /// <br/><br/>
+        /// This is set to <c>true</c> whenever an event of ID <c>"EncumbranceChanged"</c> is fired on the parent object.
+        /// </summary>
         [NonSerialized]
         private bool shouldRecacheJade = true;
 
+        /// <summary>
+        /// Whether or not the parent object's inventory has at least one item with <c>jade</c> in its name.
+        /// </summary>
         [NonSerialized]
         private bool hasJade = false;
     }

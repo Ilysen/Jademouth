@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
-	<conversation ID="Ilysen_Jademouth_Atacama">
+	<conversation ID="Ilysen_Jademouth_AtacamaConversation">
 		<start ID="Greeting">
 			<text>
 				Come in, come in! Kick the dirt off and find a place to rest.
