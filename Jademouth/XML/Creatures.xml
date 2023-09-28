@@ -41,7 +41,8 @@
 		<part Name="Description"
 			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor tidy." />
 		<part Name="ConversationScript" ConversationID="Ilysen_Jademouth_AtacamaConversation" />
-		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Ilysen_Jademouth_JademouthFaction-50" />
+		<part Name="Brain" Wanders="false" Hostile="false"
+			Factions="Consortium-100,Ilysen_Jademouth_JademouthFaction-50" />
 		<part Name="Interesting" />
 		<stat Name="Level" Value="27" />
 		<stat Name="Hitpoints" sValue="300" />

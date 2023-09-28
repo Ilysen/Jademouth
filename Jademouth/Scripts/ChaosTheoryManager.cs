@@ -53,7 +53,7 @@ namespace XRL.World.QuestManagers
 			HandleReward();
 			The.Player.RemovePart(this);
 		}
-		
+
 		/// <summary>
 		/// Handles the reward of Chaos Theory by allowing the player to choose three item mods they don't know, free of charge and ignoring skill requirements.
 		/// If the player already has all mods, they receive a bunch of XP instead. If they're only missing three or less, then those ones are chosen automatically.
@@ -65,12 +65,12 @@ namespace XRL.World.QuestManagers
 				sortedList.Add(td.DisplayName, td);
 			List<int> chosenIndexes = new List<int>();
 			if (sortedList.Count == 0)
-            {
-                Popup.Show("Since you already know every item mod, you muse on the secrets of data disks with Bright.");
-                Popup.Show("You gain 10000 XP.");
-                The.Player.AwardXP(10000, -1, 0, InfluencedBy: The.Speaker);
-                return;
-            }
+			{
+				Popup.Show("Since you already know every item mod, you muse on the secrets of data disks with Bright.");
+				Popup.Show("You gain 10000 XP.");
+				The.Player.AwardXP(10000, -1, 0, InfluencedBy: The.Speaker);
+				return;
+			}
 			else if (sortedList.Count <= 3)
 			{
 				for (int i = 0; i < sortedList.Count; i++)
@@ -83,8 +83,8 @@ namespace XRL.World.QuestManagers
 			{
 				TinkerData td = sortedList.ElementAt(i).Value;
 				TinkerData.KnownRecipes.Add(td);
-                Popup.Show("Bright teaches you how to mod your items to be {{W|" + td.DisplayName + "}}.");
-            }
+				Popup.Show("Bright teaches you how to mod your items to be {{W|" + td.DisplayName + "}}.");
+			}
 		}
 
 		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Ilysen_Jademouth_Bright");

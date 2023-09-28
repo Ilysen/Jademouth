@@ -132,7 +132,7 @@
 	</object>
 	<object Name="Ilysen_Jademouth_JadeFigurine" Inherits="Random Figurine">
 		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine" Tile="Items/sw_nugget.bmp"
-			ColorString="&amp;g" DetailColor="G"  RenderString="*" RenderLayer="5" />
+			ColorString="&amp;g" DetailColor="G" RenderString="*" RenderLayer="5" />
 		<part Name="Commerce" Value="200" />
 		<part Name="RandomFigurine" Material="jade" />
 		<tag Name="Tier" Value="4" />
