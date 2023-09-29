@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <quests>
-	<quest Name="Chaos Theory" Level="25" Manager="Ilysen_Jademouth_ChaosTheoryManager"
-		ID="Ilysen_Jademouth_ChaosTheory" 
-		Factions="Ilysen_Jademouth_JademouthFaction" Reputation="100"
+	<quest Name="Chaos Theory" Level="25" Manager="Ava_Jademouth_ChaosTheoryManager"
+		ID="Ava_Jademouth_ChaosTheory" 
+		Factions="Ava_Jademouth_JademouthFaction" Reputation="100"
 		Accomplishment="You helped Bright undo her albinism."
 		Hagiograph="In the month of =month= of =year=, =name= delved deep into the Moon Stair, fighting back the hordes of Girsh Nephilim and liberating a mysterious panacea."
 		HagiographCategory="FindsObject">

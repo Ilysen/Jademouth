@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
-	<population Name="Ilysen_Jademouth_ProspectorTool">
+	<population Name="Ava_Jademouth_ProspectorTool">
 		<group Name="Items" Style="pickone">
 			<object Blueprint="Pickaxe" Weight="4" />
 			<table Name="JademouthJackhammerWithCell" />
@@ -12,11 +12,11 @@
 			<table Name="Cells" />
 		</group>
 	</population>
-	<population Name="Ilysen_Jademouth_ProspectorGems">
-		<object Blueprint="Ilysen_Jademouth_RoughJade" Number="3-5" />
+	<population Name="Ava_Jademouth_ProspectorGems">
+		<object Blueprint="Ava_Jademouth_RoughJade" Number="3-5" />
 	</population>
 	<!-- Mostly the same as base hills, but with fewer trees and only docile creatures -->
-	<population Name="Ilysen_Jademouth_JademouthOutskirts">
+	<population Name="Ava_Jademouth_JademouthOutskirts">
 		<object Chance="95" Number="6-16" Blueprint="Dogthorn Tree" />
 		<object Chance="25" Number="1-4" Blueprint="Witchwood Tree" />
 		<object Chance="5" Number="1-4" Blueprint="Starapple Tree" />
@@ -24,8 +24,8 @@
 		<object Chance="25" Number="1d4" Blueprint="Dog" />
 		<object Chance="25" Number="1d4" Blueprint="Salamander" />
 	</population>
-	<population Name="Ilysen_Jademouth_JademouthWorkbench">
-		<group Name="Ilysen_Jademouth_JademouthWorkbench" Style="pickeach">
+	<population Name="Ava_Jademouth_JademouthWorkbench">
+		<group Name="Ava_Jademouth_JademouthWorkbench" Style="pickeach">
 			<table Name="DynamicInheritsTable:Tool" Chance="15" />
 			<table Name="Junk {zonetier}" Chance="15" />
 			<table Name="DynamicObjectsTable:EnergyCells" Chance="15" />
@@ -33,84 +33,84 @@
 	</population>
 	<population Name="Artifact 0R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="1" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="1" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<population Name="Artifact 1R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="1" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="1" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<population Name="Artifact 2R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="1" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="1" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<population Name="Artifact 3R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="1" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="1" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<population Name="Artifact 4R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="2" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="2" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<population Name="Artifact 5R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="1" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="1" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<population Name="Artifact 6R" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="1" Number="1" Blueprint="Ilysen_Jademouth_JademouthRecoiler" />
+			<object Weight="1" Number="1" Blueprint="Ava_Jademouth_JademouthRecoiler" />
 		</group>
 	</population>
 	<!-- Jade occurs at half the frequency of jasper, to emphasize its rarity -->
 	<population Name="Gemstones" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Weight="200" Number="1" Blueprint="Ilysen_Jademouth_RoughJade" />
-			<object Weight="10" Number="1" Blueprint="Ilysen_Jademouth_RoughJade" />
+			<object Weight="200" Number="1" Blueprint="Ava_Jademouth_RoughJade" />
+			<object Weight="10" Number="1" Blueprint="Ava_Jademouth_RoughJade" />
 		</group>
 	</population>
 	<population Name="Figurines 1" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="1" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="1" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 2" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="1" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="1" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 3" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="4" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="4" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 4" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="15" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="15" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 5" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="7" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="7" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 6" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="5" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="5" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 7" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="5" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="5" Number="1" />
 		</group>
 	</population>
 	<population Name="Figurines 8" Load="Merge">
 		<group Name="Items" Load="Merge">
-			<object Blueprint="Ilysen_Jademouth_JadeFigurine" Weight="3" Number="1" />
+			<object Blueprint="Ava_Jademouth_JadeFigurine" Weight="3" Number="1" />
 		</group>
 	</population>
 </populations>

@@ -429,20 +429,20 @@
     <object Name="Techlight1"></object>
   </cell>
   <cell X="71" Y="1">
-    <object Name="Medical Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Medical Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="72" Y="1"></cell>
   <cell X="73" Y="1"></cell>
   <cell X="74" Y="1">
-    <object Name="Medical Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Medical Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="75" Y="1"></cell>
   <cell X="76" Y="1"></cell>
   <cell X="77" Y="1">
-    <object Name="Medical Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Medical Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="78" Y="1">
-    <object Name="Sleek Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Sleek Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="79" Y="1">
     <object Name="Marl"></object>
@@ -713,13 +713,13 @@
   <cell X="70" Y="3"></cell>
   <cell X="71" Y="3"></cell>
   <cell X="72" Y="3">
-    <object Name="Medical Chair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Medical Chair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="73" Y="3">
-    <object Name="Metal Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Metal Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="74" Y="3">
-    <object Name="Medical Chair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Medical Chair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="75" Y="3"></cell>
   <cell X="76" Y="3"></cell>
@@ -790,10 +790,10 @@
     <object Name="Techlight1"></object>
   </cell>
   <cell X="25" Y="4">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="26" Y="4">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="27" Y="4"></cell>
   <cell X="28" Y="4"></cell>
@@ -855,10 +855,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="70" Y="4">
-    <object Name="Sleek Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Sleek Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="71" Y="4">
-    <object Name="Sleek Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Sleek Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="72" Y="4">
     <object Name="Marl"></object>
@@ -941,14 +941,14 @@
   <cell X="31" Y="5"></cell>
   <cell X="32" Y="5"></cell>
   <cell X="33" Y="5">
-    <object Name="Ilysen_Jademouth_KitchenSign"></object>
+    <object Name="Ava_Jademouth_KitchenSign"></object>
   </cell>
   <cell X="34" Y="5"></cell>
   <cell X="35" Y="5"></cell>
   <cell X="36" Y="5"></cell>
   <cell X="37" Y="5"></cell>
   <cell X="38" Y="5">
-    <object Name="Ilysen_Jademouth_KitchenSign"></object>
+    <object Name="Ava_Jademouth_KitchenSign"></object>
   </cell>
   <cell X="39" Y="5">
     <object Name="Techlight1"></object>
@@ -1181,10 +1181,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="64" Y="6">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="65" Y="6">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="66" Y="6"></cell>
   <cell X="67" Y="6"></cell>
@@ -1263,17 +1263,17 @@
   <cell X="25" Y="7"></cell>
   <cell X="26" Y="7"></cell>
   <cell X="27" Y="7">
-    <object Name="Ilysen_Jademouth_KitchenSign"></object>
+    <object Name="Ava_Jademouth_KitchenSign"></object>
   </cell>
   <cell X="28" Y="7">
     <object Name="Marl"></object>
   </cell>
   <cell X="29" Y="7"></cell>
   <cell X="30" Y="7">
-    <object Name="Woven Basket" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Woven Basket" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="31" Y="7">
-    <object Name="Preserved Food Basket" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Preserved Food Basket" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="32" Y="7"></cell>
   <cell X="33" Y="7">
@@ -1376,7 +1376,7 @@
   </cell>
   <cell X="3" Y="8"></cell>
   <cell X="4" Y="8">
-    <object Name="Ilysen_Jademouth_JadeProspector"></object>
+    <object Name="Ava_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="5" Y="8"></cell>
   <cell X="6" Y="8"></cell>
@@ -1442,7 +1442,7 @@
   <cell X="37" Y="8"></cell>
   <cell X="38" Y="8"></cell>
   <cell X="39" Y="8">
-    <object Name="Preserved Food Basket" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Preserved Food Basket" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="40" Y="8">
     <object Name="Marl"></object>
@@ -1497,16 +1497,16 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="61" Y="8">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="62" Y="8">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="63" Y="8">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="64" Y="8">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="65" Y="8">
     <object Name="Marl"></object>
@@ -1604,23 +1604,23 @@
   <cell X="31" Y="9"></cell>
   <cell X="32" Y="9"></cell>
   <cell X="33" Y="9">
-    <object Name="Stool" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Stool" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="34" Y="9"></cell>
   <cell X="35" Y="9"></cell>
   <cell X="36" Y="9"></cell>
   <cell X="37" Y="9">
-    <object Name="Ilysen_Jademouth_Fizz"></object>
+    <object Name="Ava_Jademouth_Fizz"></object>
   </cell>
   <cell X="38" Y="9"></cell>
   <cell X="39" Y="9">
-    <object Name="Preserved Food Basket" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Preserved Food Basket" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="40" Y="9">
     <object Name="Marl"></object>
   </cell>
   <cell X="41" Y="9">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="42" Y="9"></cell>
   <cell X="43" Y="9"></cell>
@@ -1629,10 +1629,10 @@
   <cell X="46" Y="9"></cell>
   <cell X="47" Y="9"></cell>
   <cell X="48" Y="9">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="49" Y="9">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="50" Y="9">
     <object Name="Marl"></object>
@@ -1669,7 +1669,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="61" Y="9">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="62" Y="9"></cell>
   <cell X="63" Y="9"></cell>
@@ -1782,31 +1782,31 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="30" Y="10">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="31" Y="10">
-    <object Name="Ilysen_Jademouth_Oven"></object>
+    <object Name="Ava_Jademouth_Oven"></object>
   </cell>
   <cell X="32" Y="10">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="33" Y="10">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="34" Y="10">
     <object Name="Marl"></object>
   </cell>
   <cell X="35" Y="10">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="36" Y="10">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="37" Y="10">
-    <object Name="Ilysen_Jademouth_Oven"></object>
+    <object Name="Ava_Jademouth_Oven"></object>
   </cell>
   <cell X="38" Y="10">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="39" Y="10">
     <object Name="Marl"></object>
@@ -1815,7 +1815,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="41" Y="10">
-    <object Name="Bench" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bench" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="42" Y="10"></cell>
   <cell X="43" Y="10"></cell>
@@ -1835,25 +1835,25 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="53" Y="10">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="54" Y="10">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="55" Y="10">
     <object Name="Techlight1"></object>
   </cell>
   <cell X="56" Y="10">
-    <object Name="Ilysen_Jademouth_Atacama"></object>
+    <object Name="Ava_Jademouth_Atacama"></object>
   </cell>
   <cell X="57" Y="10">
-    <object Name="Floating Glowsphere" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floating Glowsphere" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="58" Y="10">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="59" Y="10">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="60" Y="10">
     <object Name="Marl"></object>
@@ -1862,12 +1862,12 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="62" Y="10">
-    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Armchair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="63" Y="10"></cell>
   <cell X="64" Y="10">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
-    <object Name="Ilysen_Jademouth_JadeProspector"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
+    <object Name="Ava_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="65" Y="10"></cell>
   <cell X="66" Y="10"></cell>
@@ -1967,10 +1967,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="30" Y="11">
-    <object Name="Ilysen_Jademouth_WiredPipeMarl"></object>
+    <object Name="Ava_Jademouth_WiredPipeMarl"></object>
   </cell>
   <cell X="31" Y="11">
-    <object Name="Ilysen_Jademouth_WiredMarl"></object>
+    <object Name="Ava_Jademouth_WiredMarl"></object>
   </cell>
   <cell X="32" Y="11">
     <object Name="Marl"></object>
@@ -1988,10 +1988,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="37" Y="11">
-    <object Name="Ilysen_Jademouth_WiredMarl"></object>
+    <object Name="Ava_Jademouth_WiredMarl"></object>
   </cell>
   <cell X="38" Y="11">
-    <object Name="Ilysen_Jademouth_WiredPipeMarl"></object>
+    <object Name="Ava_Jademouth_WiredPipeMarl"></object>
   </cell>
   <cell X="39" Y="11">
     <object Name="Marl"></object>
@@ -2020,13 +2020,13 @@
   <cell X="53" Y="11"></cell>
   <cell X="54" Y="11"></cell>
   <cell X="55" Y="11">
-    <object Name="Low Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Low Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="56" Y="11">
-    <object Name="Desk" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Desk" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="57" Y="11">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="58" Y="11"></cell>
   <cell X="59" Y="11"></cell>
@@ -2038,18 +2038,18 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="63" Y="11">
-    <object Name="Book Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Book Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="64" Y="11"></cell>
   <cell X="65" Y="11">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="66" Y="11"></cell>
   <cell X="67" Y="11">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="68" Y="11">
-    <object Name="Chairbear" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Chairbear" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="69" Y="11">
     <object Name="Marl"></object>
@@ -2143,7 +2143,7 @@
   </cell>
   <cell X="30" Y="12">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="31" Y="12">
     <object Name="Jademouth_PowerLine"></object>
@@ -2158,21 +2158,21 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="35" Y="12">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="36" Y="12">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="37" Y="12">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="38" Y="12">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="39" Y="12">
-    <object Name="Ilysen_Jademouth_ChaosTheorySconceSpawner"></object>
+    <object Name="Ava_Jademouth_ChaosTheorySconceSpawner"></object>
   </cell>
   <cell X="40" Y="12">
     <object Name="Marl"></object>
@@ -2202,23 +2202,23 @@
   <cell X="59" Y="12"></cell>
   <cell X="60" Y="12"></cell>
   <cell X="61" Y="12">
-    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Armchair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="62" Y="12">
     <object Name="Marl"></object>
   </cell>
   <cell X="63" Y="12">
-    <object Name="Book Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
-    <object Name="Book Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Book Table" Owner="Ava_Jademouth_JademouthFaction"></object>
+    <object Name="Book Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="64" Y="12"></cell>
   <cell X="65" Y="12">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="66" Y="12"></cell>
   <cell X="67" Y="12"></cell>
   <cell X="68" Y="12">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="69" Y="12">
     <object Name="Marl"></object>
@@ -2288,19 +2288,19 @@
   <cell X="15" Y="13"></cell>
   <cell X="16" Y="13"></cell>
   <cell X="17" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="18" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="19" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="20" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="21" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="22" Y="13"></cell>
   <cell X="23" Y="13"></cell>
@@ -2315,19 +2315,19 @@
   </cell>
   <cell X="27" Y="13">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="28" Y="13">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="29" Y="13">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="30" Y="13">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="31" Y="13">
     <object Name="Marl"></object>
@@ -2339,10 +2339,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="34" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="35" Y="13">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="36" Y="13"></cell>
   <cell X="37" Y="13">
@@ -2382,7 +2382,7 @@
   <cell X="59" Y="13"></cell>
   <cell X="60" Y="13"></cell>
   <cell X="61" Y="13">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="62" Y="13">
     <object Name="Marl"></object>
@@ -2391,16 +2391,16 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="64" Y="13">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="65" Y="13">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="66" Y="13">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="67" Y="13">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="68" Y="13">
     <object Name="Marl"></object>
@@ -2471,11 +2471,11 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="16" Y="14">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="17" Y="14">
     <object Name="SmallBoulder Grey"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="18" Y="14"></cell>
   <cell X="19" Y="14">
@@ -2485,28 +2485,28 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="21" Y="14">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="22" Y="14">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="23" Y="14">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="24" Y="14">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="25" Y="14">
-    <object Name="Ilysen_Jademouth_WiredPipeMarl"></object>
+    <object Name="Ava_Jademouth_WiredPipeMarl"></object>
   </cell>
   <cell X="26" Y="14">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="27" Y="14">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="28" Y="14">
     <object Name="Techlight2"></object>
@@ -2516,7 +2516,7 @@
   </cell>
   <cell X="30" Y="14">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="31" Y="14">
     <object Name="Marl"></object>
@@ -2525,10 +2525,10 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="33" Y="14">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="34" Y="14">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="35" Y="14"></cell>
   <cell X="36" Y="14"></cell>
@@ -2537,17 +2537,17 @@
     <object Name="Jademouth_PowerLine"></object>
   </cell>
   <cell X="38" Y="14">
-    <object Name="Ilysen_Jademouth_Table"></object>
+    <object Name="Ava_Jademouth_Table"></object>
   </cell>
   <cell X="39" Y="14">
-    <object Name="Ilysen_Jademouth_Table"></object>
+    <object Name="Ava_Jademouth_Table"></object>
   </cell>
   <cell X="40" Y="14"></cell>
   <cell X="41" Y="14">
-    <object Name="Book Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Book Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="42" Y="14">
-    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Armchair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="43" Y="14">
     <object Name="Marl"></object>
@@ -2576,7 +2576,7 @@
   <cell X="59" Y="14"></cell>
   <cell X="60" Y="14"></cell>
   <cell X="61" Y="14">
-    <object Name="Armchair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Armchair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="62" Y="14">
     <object Name="Marl"></object>
@@ -2610,7 +2610,7 @@
   <cell X="73" Y="14"></cell>
   <cell X="74" Y="14"></cell>
   <cell X="75" Y="14">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="76" Y="14">
     <object Name="Marl"></object>
@@ -2662,10 +2662,10 @@
     <object Name="FreshWaterPuddle"></object>
   </cell>
   <cell X="15" Y="15">
-    <object Name="Ilysen_Jademouth_FusionPumpingStation"></object>
+    <object Name="Ava_Jademouth_FusionPumpingStation"></object>
   </cell>
   <cell X="16" Y="15">
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="17" Y="15"></cell>
   <cell X="18" Y="15">
@@ -2698,45 +2698,45 @@
   </cell>
   <cell X="30" Y="15">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="31" Y="15">
-    <object Name="Ilysen_Jademouth_WiredPipeMarl"></object>
+    <object Name="Ava_Jademouth_WiredPipeMarl"></object>
   </cell>
   <cell X="32" Y="15">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="33" Y="15">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_GlassHydraulicPipe"></object>
+    <object Name="Ava_Jademouth_GlassHydraulicPipe"></object>
   </cell>
   <cell X="34" Y="15">
     <object Name="Jademouth_PowerLine"></object>
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_MetalTable"></object>
+    <object Name="Ava_Jademouth_MetalTable"></object>
   </cell>
   <cell X="35" Y="15">
-    <object Name="FoldingChair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="FoldingChair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="36" Y="15">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_SleekTable"></object>
+    <object Name="Ava_Jademouth_SleekTable"></object>
   </cell>
   <cell X="37" Y="15">
     <object Name="Jademouth_PowerLine"></object>
   </cell>
   <cell X="38" Y="15">
-    <object Name="Ilysen_Jademouth_Table"></object>
+    <object Name="Ava_Jademouth_Table"></object>
   </cell>
   <cell X="39" Y="15">
-    <object Name="Stool" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Stool" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="40" Y="15"></cell>
   <cell X="41" Y="15"></cell>
   <cell X="42" Y="15"></cell>
   <cell X="43" Y="15">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="44" Y="15">
     <object Name="Marl"></object>
@@ -2782,7 +2782,7 @@
   <cell X="69" Y="15"></cell>
   <cell X="70" Y="15"></cell>
   <cell X="71" Y="15">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="72" Y="15"></cell>
   <cell X="73" Y="15"></cell>
@@ -2885,22 +2885,22 @@
   </cell>
   <cell X="32" Y="16">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_ChaosTheorySconceSpawner"></object>
+    <object Name="Ava_Jademouth_ChaosTheorySconceSpawner"></object>
   </cell>
   <cell X="33" Y="16">
     <object Name="Jademouth_PowerLine"></object>
   </cell>
   <cell X="34" Y="16">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_SleekTable"></object>
+    <object Name="Ava_Jademouth_SleekTable"></object>
   </cell>
   <cell X="35" Y="16">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_MetalTable"></object>
+    <object Name="Ava_Jademouth_MetalTable"></object>
   </cell>
   <cell X="36" Y="16">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_MetalTable"></object>
+    <object Name="Ava_Jademouth_MetalTable"></object>
   </cell>
   <cell X="37" Y="16">
     <object Name="Jademouth_PowerLine"></object>
@@ -2915,13 +2915,13 @@
   <cell X="41" Y="16"></cell>
   <cell X="42" Y="16"></cell>
   <cell X="43" Y="16">
-    <object Name="Ilysen_Jademouth_Bookshelf"></object>
+    <object Name="Ava_Jademouth_Bookshelf"></object>
   </cell>
   <cell X="44" Y="16">
     <object Name="Marl"></object>
   </cell>
   <cell X="45" Y="16">
-    <object Name="Ilysen_Jademouth_BrightSign"></object>
+    <object Name="Ava_Jademouth_BrightSign"></object>
   </cell>
   <cell X="46" Y="16">
     <object Name="Techlight1"></object>
@@ -2957,7 +2957,7 @@
   <cell X="73" Y="16"></cell>
   <cell X="74" Y="16"></cell>
   <cell X="75" Y="16">
-    <object Name="Canvas Folding Chair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Canvas Folding Chair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="76" Y="16">
     <object Name="Marl"></object>
@@ -3009,7 +3009,7 @@
   </cell>
   <cell X="16" Y="17"></cell>
   <cell X="17" Y="17">
-    <object Name="Ilysen_Jademouth_JadeProspector"></object>
+    <object Name="Ava_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="18" Y="17"></cell>
   <cell X="19" Y="17">
@@ -3049,7 +3049,7 @@
   </cell>
   <cell X="32" Y="17">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Woven Basket" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Woven Basket" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="33" Y="17"></cell>
   <cell X="34" Y="17"></cell>
@@ -3057,11 +3057,11 @@
   <cell X="36" Y="17"></cell>
   <cell X="37" Y="17"></cell>
   <cell X="38" Y="17">
-    <object Name="Stool" Owner="Ilysen_Jademouth_JademouthFaction"></object>
-    <object Name="Ilysen_Jademouth_Bright"></object>
+    <object Name="Stool" Owner="Ava_Jademouth_JademouthFaction"></object>
+    <object Name="Ava_Jademouth_Bright"></object>
   </cell>
   <cell X="39" Y="17">
-    <object Name="Alchemist Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Alchemist Table" Owner="Ava_Jademouth_JademouthFaction"></object>
     <object Name="Jademouth_PowerLine"></object>
   </cell>
   <cell X="40" Y="17"></cell>
@@ -3069,7 +3069,7 @@
   <cell X="42" Y="17"></cell>
   <cell X="43" Y="17"></cell>
   <cell X="44" Y="17">
-    <object Name="Ilysen_Jademouth_BlackoutCurtains"></object>
+    <object Name="Ava_Jademouth_BlackoutCurtains"></object>
   </cell>
   <cell X="45" Y="17"></cell>
   <cell X="46" Y="17"></cell>
@@ -3100,7 +3100,7 @@
   <cell X="71" Y="17"></cell>
   <cell X="72" Y="17"></cell>
   <cell X="73" Y="17">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="74" Y="17"></cell>
   <cell X="75" Y="17">
@@ -3194,11 +3194,11 @@
     <object Name="Jademouth_PowerLine"></object>
   </cell>
   <cell X="31" Y="18">
-    <object Name="Ilysen_Jademouth_WiredMarl"></object>
+    <object Name="Ava_Jademouth_WiredMarl"></object>
   </cell>
   <cell X="32" Y="18">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Woven Basket" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Woven Basket" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="33" Y="18"></cell>
   <cell X="34" Y="18"></cell>
@@ -3206,23 +3206,23 @@
   <cell X="36" Y="18"></cell>
   <cell X="37" Y="18"></cell>
   <cell X="38" Y="18">
-    <object Name="Ilysen_Jademouth_Table"></object>
+    <object Name="Ava_Jademouth_Table"></object>
   </cell>
   <cell X="39" Y="18">
     <object Name="Jademouth_PowerLine"></object>
-    <object Name="Ilysen_Jademouth_EmptyRockTumbler"></object>
+    <object Name="Ava_Jademouth_EmptyRockTumbler"></object>
   </cell>
   <cell X="40" Y="18"></cell>
   <cell X="41" Y="18"></cell>
   <cell X="42" Y="18"></cell>
   <cell X="43" Y="18">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="44" Y="18">
     <object Name="Marl"></object>
   </cell>
   <cell X="45" Y="18">
-    <object Name="Ilysen_Jademouth_LightSign"></object>
+    <object Name="Ava_Jademouth_LightSign"></object>
   </cell>
   <cell X="46" Y="18"></cell>
   <cell X="47" Y="18"></cell>
@@ -3332,7 +3332,7 @@
   <cell X="21" Y="19"></cell>
   <cell X="22" Y="19"></cell>
   <cell X="23" Y="19">
-    <object Name="Ilysen_Jademouth_FusionPowerStation"></object>
+    <object Name="Ava_Jademouth_FusionPowerStation"></object>
   </cell>
   <cell X="24" Y="19">
     <object Name="Jademouth_PowerLine"></object>
@@ -3344,7 +3344,7 @@
     <object Name="Jademouth_PowerLine"></object>
   </cell>
   <cell X="27" Y="19">
-    <object Name="Ilysen_Jademouth_WiredMarl"></object>
+    <object Name="Ava_Jademouth_WiredMarl"></object>
   </cell>
   <cell X="28" Y="19">
     <object Name="Jademouth_PowerLine"></object>
@@ -3363,7 +3363,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="34" Y="19">
-    <object Name="FoldingChair" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="FoldingChair" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="35" Y="19"></cell>
   <cell X="36" Y="19"></cell>
@@ -3372,11 +3372,11 @@
   <cell X="39" Y="19"></cell>
   <cell X="40" Y="19"></cell>
   <cell X="41" Y="19">
-    <object Name="Floor Cushion" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Floor Cushion" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="42" Y="19"></cell>
   <cell X="43" Y="19">
-    <object Name="Bedroll" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bedroll" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="44" Y="19">
     <object Name="Marl"></object>
@@ -3514,7 +3514,7 @@
   <cell X="21" Y="20"></cell>
   <cell X="22" Y="20"></cell>
   <cell X="23" Y="20">
-    <object Name="Ilysen_Jademouth_FusionPowerStation"></object>
+    <object Name="Ava_Jademouth_FusionPowerStation"></object>
   </cell>
   <cell X="24" Y="20"></cell>
   <cell X="25" Y="20"></cell>
@@ -3553,7 +3553,7 @@
   <cell X="40" Y="20"></cell>
   <cell X="41" Y="20"></cell>
   <cell X="42" Y="20">
-    <object Name="Ilysen_Jademouth_ChaosTheorySconceSpawner"></object>
+    <object Name="Ava_Jademouth_ChaosTheorySconceSpawner"></object>
   </cell>
   <cell X="43" Y="20">
     <object Name="Marl"></object>
@@ -3606,13 +3606,13 @@
   <cell X="65" Y="20"></cell>
   <cell X="66" Y="20"></cell>
   <cell X="67" Y="20">
-    <object Name="Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="68" Y="20">
-    <object Name="Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="69" Y="20">
-    <object Name="Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="70" Y="20">
     <object Name="Marl"></object>
@@ -3754,7 +3754,7 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="39" Y="21">
-    <object Name="Ilysen_Jademouth_BlackoutCurtains"></object>
+    <object Name="Ava_Jademouth_BlackoutCurtains"></object>
   </cell>
   <cell X="40" Y="21">
     <object Name="Marl"></object>
@@ -3815,11 +3815,11 @@
   <cell X="66" Y="21"></cell>
   <cell X="67" Y="21"></cell>
   <cell X="68" Y="21">
-    <object Name="Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="69" Y="21"></cell>
   <cell X="70" Y="21">
-    <object Name="Book Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Book Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="71" Y="21">
     <object Name="Marl"></object>
@@ -3955,7 +3955,7 @@
   </cell>
   <cell X="37" Y="22"></cell>
   <cell X="38" Y="22">
-    <object Name="Ilysen_Jademouth_LightSign"></object>
+    <object Name="Ava_Jademouth_LightSign"></object>
   </cell>
   <cell X="39" Y="22"></cell>
   <cell X="40" Y="22">
@@ -4019,7 +4019,7 @@
   <cell X="68" Y="22"></cell>
   <cell X="69" Y="22"></cell>
   <cell X="70" Y="22">
-    <object Name="Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="71" Y="22">
     <object Name="Marl"></object>
@@ -4217,11 +4217,11 @@
     <object Name="Marl"></object>
   </cell>
   <cell X="66" Y="23">
-    <object Name="Book Table" Owner="Ilysen_Jademouth_JademouthFaction"></object>
+    <object Name="Book Table" Owner="Ava_Jademouth_JademouthFaction"></object>
   </cell>
   <cell X="67" Y="23">
-    <object Name="Bed" Owner="Ilysen_Jademouth_JademouthFaction"></object>
-    <object Name="Ilysen_Jademouth_JadeProspector"></object>
+    <object Name="Bed" Owner="Ava_Jademouth_JademouthFaction"></object>
+    <object Name="Ava_Jademouth_JadeProspector"></object>
   </cell>
   <cell X="68" Y="23"></cell>
   <cell X="69" Y="23">

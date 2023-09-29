@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
-	<conversation ID="Ilysen_Jademouth_WardenCatConversation">
+	<conversation ID="Ava_Jademouth_WardenCatConversation">
 		<start ID="Greeting">
 			<text>
 				Please stay peaceful in Jademouth. We like it quiet.~
@@ -73,7 +73,7 @@
 				Bright does a lot of things. She calls herself our tinker.</text>
 			<choice UseID="CatFizz" />
 			<choice UseID="CatAtacama" />
-			<choice GotoID="DontGetAlong" SetBooleanState="Ilysen_Ilysen_Jademouth_CatMentionedBright,true">You don't seem to think very highly of her.</choice>
+			<choice GotoID="DontGetAlong" SetBooleanState="Ava_Jademouth_CatMentionedBright,true">You don't seem to think very highly of her.</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>
@@ -88,7 +88,7 @@
 				Bright's our tinker.</text>
 			<choice UseID="CatFizz" />
 			<choice UseID="CatAtacama" />
-			<choice GotoID="IsThatAll" SetBooleanState="Ilysen_Ilysen_Jademouth_CatMentionedBright,true">Is that all?</choice>
+			<choice GotoID="IsThatAll" SetBooleanState="Ava_Jademouth_CatMentionedBright,true">Is that all?</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>

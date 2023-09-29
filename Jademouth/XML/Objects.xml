@@ -1,5 +1,5 @@
 <objects>
-	<object Name="Ilysen_Jademouth_TerrainJademouth" Inherits="Terrain">
+	<object Name="Ava_Jademouth_TerrainJademouth" Inherits="Terrain">
 		<part Name="Render" DisplayName="Jademouth" Tile="terrain/tile_location6.bmp"
 			DetailColor="y" RenderString="127" ColorString="&amp;G^k" />
 		<part Name="Description"
@@ -9,11 +9,11 @@
 		<tag Name="OverlayColor" Value="&amp;W" />
 		<tag Name="Terrain" Value="Mountains" />
 	</object>
-	<object Name="Ilysen_Jademouth_MarbleFloor" Inherits="MarbleFloor">
+	<object Name="Ava_Jademouth_MarbleFloor" Inherits="MarbleFloor">
 		<part Name="SpawnBlocker" />
 		<tag Name="SpawnBlocker" />
 	</object>
-	<object Name="Ilysen_Jademouth_JademouthRecoiler" Inherits="BaseRecoiler">
+	<object Name="Ava_Jademouth_JademouthRecoiler" Inherits="BaseRecoiler">
 		<part Name="Render" DisplayName="{{G|Jademouth}} recoiler" DetailColor="G" />
 		<part Name="Teleporter" DestinationZone="JoppaWorld.42.6.1.1.10" DestinationX="52"
 			DestinationY="15" />
@@ -21,107 +21,107 @@
 		<part Name="Commerce" Value="25" />
 		<tag Name="Tier" Value="2" />
 	</object>
-	<object Name="Ilysen_Jademouth_BlackoutCurtains" Inherits="BeltCurtains">
+	<object Name="Ava_Jademouth_BlackoutCurtains" Inherits="BeltCurtains">
 		<part Name="Render" DisplayName="blackout curtains" RenderString="20" ColorString="&amp;y"
 			DetailColor="K" Tile="Tiles2/sw_belt_curtains.bmp" Occluding="true" />
 		<part Name="Description"
 			Short="Brinestalk was flattened into thick wafers and draped in clacking layers to guard against the light's advance." />
 		<tag Name="NoConveyor" Value="*delete" />
 	</object>
-	<object Name="Ilysen_Jademouth_BrightSign" Inherits="Sign">
+	<object Name="Ava_Jademouth_BrightSign" Inherits="Sign">
 		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_datadisc.bmp" Occluding="false" />
 		<part Name="Chat" Says="Workshop" ShowInShortDescription="true" />
 	</object>
-	<object Name="Ilysen_Jademouth_LightSign" Inherits="Sign">
+	<object Name="Ava_Jademouth_LightSign" Inherits="Sign">
 		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_datadisc.bmp" Occluding="false" />
 		<part Name="Chat" Says="NO LIGHT PLEASE" ShowInShortDescription="true" />
 	</object>
-	<object Name="Ilysen_Jademouth_KitchenSign" Inherits="Sign">
+	<object Name="Ava_Jademouth_KitchenSign" Inherits="Sign">
 		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_bottle.bmp" Occluding="false" />
 		<part Name="Chat" Says="Gravy" ShowInShortDescription="true" />
 	</object>
-	<object Name="Ilysen_Jademouth_Bookshelf" Inherits="UndergroundBookshelf">
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
+	<object Name="Ava_Jademouth_Bookshelf" Inherits="UndergroundBookshelf">
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
-	<object Name="Ilysen_Jademouth_FusionPowerStation" Inherits="Fusion Power Station">
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
+	<object Name="Ava_Jademouth_FusionPowerStation" Inherits="Fusion Power Station">
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<part Name="TinkerItem" SubstituteBlueprint="Fusion Power Station" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
 	<object Name="Jademouth_PowerLine" Inherits="PowerLine">
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<part Name="TinkerItem" SubstituteBlueprint="PowerLine" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
 	<object Name="Marl" Load="Merge">
 		<tag Name="PaintWith" Value="MarlWalls" />
 	</object>
-	<object Name="Ilysen_Jademouth_WiredMarl" Inherits="Marl">
+	<object Name="Ava_Jademouth_WiredMarl" Inherits="Marl">
 		<tag Name="PaintWith" Value="MarlWalls" />
 		<part Name="ModWired" />
 	</object>
-	<object Name="Ilysen_Jademouth_WiredPipeMarl" Inherits="Marl">
+	<object Name="Ava_Jademouth_WiredPipeMarl" Inherits="Marl">
 		<tag Name="PaintWith" Value="MarlWalls" />
 		<part Name="ModWired" />
 		<part Name="ModPiping" />
 	</object>
-	<object Name="Ilysen_Jademouth_EmptyRockTumbler" Inherits="Rock Tumbler">
+	<object Name="Ava_Jademouth_EmptyRockTumbler" Inherits="Rock Tumbler">
 		<tag Name="InventoryPopulationTable" Value="*delete" />
 	</object>
-	<object Name="Ilysen_Jademouth_FusionPumpingStation" Inherits="Fusion Pumping Station">
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
+	<object Name="Ava_Jademouth_FusionPumpingStation" Inherits="Fusion Pumping Station">
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<part Name="TinkerItem" SubstituteBlueprint="Fusion Pumping Station" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
-	<object Name="Ilysen_Jademouth_GlassHydraulicPipe" Inherits="GlassHydraulicPipe">
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
+	<object Name="Ava_Jademouth_GlassHydraulicPipe" Inherits="GlassHydraulicPipe">
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<part Name="TinkerItem" SubstituteBlueprint="GlassHydraulicPipe" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
-	<object Name="Ilysen_Jademouth_Oven" Inherits="Oven">
+	<object Name="Ava_Jademouth_Oven" Inherits="Oven">
 		<part Name="Render" DisplayName="stone oven" ColorString="&amp;y" DetailColor="R"
 			RenderString="234" Tile="Items/sw_oven.bmp" Occluding="false" RenderIfDark="true" />
-		<part Name="Campfire" PresetMeals="Ilysen_Jademouth_JademouthGravy" />
+		<part Name="Campfire" PresetMeals="Ava_Jademouth_JademouthGravy" />
 		<tag Name="PresetMealMessage" Value="Eat some gravy." />
 		<part Name="Description"
 			Short="Warmth radiates from the crackling fire of the bright marl oven, carrying the pungent smell of simmering meat-juice and a whiff of acidic tang." />
 	</object>
-	<object Name="Ilysen_Jademouth_Table" Inherits="Table">
+	<object Name="Ava_Jademouth_Table" Inherits="Table">
 		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C"
 			RenderString="227" Tile="Assets_Content_Textures_Tiles_sw_table.bmp" Occluding="false"
 			RenderIfDark="true" />
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
-		<tag Name="InventoryPopulationTable" Value="Ilysen_Jademouth_JademouthWorkbench" />
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
-	<object Name="Ilysen_Jademouth_SleekTable" Inherits="Sleek Table">
+	<object Name="Ava_Jademouth_SleekTable" Inherits="Sleek Table">
 		<part Name="Render" DisplayName="workbench" ColorString="&amp;C" DetailColor="C"
 			RenderString="227" Tile="Items/sw_table_sleek.bmp" Occluding="false" RenderIfDark="true" />
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
-		<tag Name="InventoryPopulationTable" Value="Ilysen_Jademouth_JademouthWorkbench" />
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
-	<object Name="Ilysen_Jademouth_MetalTable" Inherits="Metal Table">
+	<object Name="Ava_Jademouth_MetalTable" Inherits="Metal Table">
 		<part Name="Render" DisplayName="metal workbench" ColorString="&amp;c" DetailColor="C"
 			RenderString="227" Tile="Items/sw_table_metal.bmp" Occluding="false" RenderIfDark="true" />
-		<part Name="Physics" Owner="Ilysen_Jademouth_JademouthFaction" />
-		<tag Name="InventoryPopulationTable" Value="Ilysen_Jademouth_JademouthWorkbench" />
+		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
-	<object Name="Ilysen_Jademouth_ChaosTheorySconceSpawner" Inherits="Widget">
+	<object Name="Ava_Jademouth_ChaosTheorySconceSpawner" Inherits="Widget">
 	</object>
-	<object Name="Ilysen_Jademouth_RoughJade" Inherits="Gemstone">
+	<object Name="Ava_Jademouth_RoughJade" Inherits="Gemstone">
 		<part Name="Render" DisplayName="rough {{g|jade}} gemstone" Tile="Items/Jade_Rough.png"
 			ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="200" />
 		<part Name="Description"
 			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb." />
-		<tag Name="RockTumblerOutput" Value="Ilysen_Jademouth_PolishedJade" />
+		<tag Name="RockTumblerOutput" Value="Ava_Jademouth_PolishedJade" />
 		<tag Name="Gift" Value="*noinherit" />
 		<tag Name="Tier" Value="3" />
 	</object>
-	<object Name="Ilysen_Jademouth_PolishedJade" Inherits="Polished Gemstone">
+	<object Name="Ava_Jademouth_PolishedJade" Inherits="Polished Gemstone">
 		<part Name="Render" DisplayName="smooth {{g|jade}} gemstone" Tile="Items/Jade_Polished.png"
 			ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="240" />
@@ -130,7 +130,7 @@
 		<tag Name="Gift" Value="*noinherit" />
 		<tag Name="Tier" Value="3" />
 	</object>
-	<object Name="Ilysen_Jademouth_JadeFigurine" Inherits="Random Figurine">
+	<object Name="Ava_Jademouth_JadeFigurine" Inherits="Random Figurine">
 		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine" Tile="Items/sw_nugget.bmp"
 			ColorString="&amp;g" DetailColor="G" RenderString="*" RenderLayer="5" />
 		<part Name="Commerce" Value="200" />

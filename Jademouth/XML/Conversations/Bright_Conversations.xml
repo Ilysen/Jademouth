@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
-	<conversation ID="Ilysen_Jademouth_BrightConversation">
+	<conversation ID="Ava_Jademouth_BrightConversation">
 		<!-- This doesn't feel like the cleanest way to do this, but it'll do for now -->
 		<node ID="BaseGreetingResponses">
 			<choice GotoID="Tinker">Are you a tinker?</choice>
 			<choice GotoID="RockTumbler">May I use the rock tumbler?</choice>
-			<choice GotoID="Project" IfNotHaveQuest="Ilysen_Jademouth_ChaosTheory">What are you working on?</choice>
-			<choice GotoID="Reminder" IfHaveActiveQuest="Ilysen_Jademouth_ChaosTheory">Remind me what you want me to find for you again?</choice>
+			<choice GotoID="Project" IfNotHaveQuest="Ava_Jademouth_ChaosTheory">What are you working on?</choice>
+			<choice GotoID="Reminder" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory">Remind me what you want me to find for you again?</choice>
 			<choice GotoID="GiveStatic"
 				IfHaveLiquid="warmstatic"
-				IfHaveActiveQuest="Ilysen_Jademouth_ChaosTheory"
-				CompleteQuestStep="Ilysen_Jademouth_ChaosTheory~FindStatic"
+				IfHaveActiveQuest="Ava_Jademouth_ChaosTheory"
+				CompleteQuestStep="Ava_Jademouth_ChaosTheory~FindStatic"
 				UseLiquid="warmstatic">
 				<text>I have your static. Take it.</text>
 			</choice>
-			<choice ID="BrightCat" GotoID="Cat" IfTestState="Ilysen_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
+			<choice ID="BrightCat" GotoID="Cat" IfTestState="Ava_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
-		<start ID="Greeting" IfNotFinishedQuest="Ilysen_Jademouth_ChaosTheory" Ilysen_Jademouth_IfIlluminated="true" Inherits="BaseGreetingResponses">
+		<start ID="Greeting" IfNotFinishedQuest="Ava_Jademouth_ChaosTheory" Ava_Jademouth_IfIlluminated="true" Inherits="BaseGreetingResponses">
 			<text>
 				{{emote|*Bright shies away from the light.*}} Ow, ow. Not so bright. What is it?
 			</text>
 			<choice GotoID="Light">Are you sensitive to light?</choice>
 		</start>
-		<start ID="Greeting_NoLight" IfNotFinishedQuest="Ilysen_Jademouth_ChaosTheory" Ilysen_Jademouth_IfNotIlluminated="true" Inherits="BaseGreetingResponses">
+		<start ID="Greeting_NoLight" IfNotFinishedQuest="Ava_Jademouth_ChaosTheory" Ava_Jademouth_IfNotIlluminated="true" Inherits="BaseGreetingResponses">
 			<text>
 				How can I help you, wanderer? Parts? Or do you need something fixed?
 			</text>
 			<choice GotoID="PitchBlack">You keep your workshop very dark. Why is that?</choice>
 		</start>
-		<start ID="Greeting_PostQuest" IfFinishedQuest="Ilysen_Jademouth_ChaosTheory">
+		<start ID="Greeting_PostQuest" IfFinishedQuest="Ava_Jademouth_ChaosTheory">
 			<text>
 				=name=! How lovely to see you. What can I do for you?
 			</text>
 			<choice GotoID="Mutations">How are things?</choice>
-			<choice GotoID="Cat_PostQuest" IfTestState="Ilysen_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
+			<choice GotoID="Cat_PostQuest" IfTestState="Ava_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
 			<choice GotoID="End">Live and drink, Bright.</choice>
 		</start>
 		<node ID="Reset" Inherits="Greeting">
@@ -81,7 +81,7 @@
 		</node>
 		<node ID="Static">
 			<text>I've heard it called warm static. Dilute won't do; I'll need it in pure form. Just a dram should be enough. I'll compensate you for your work.</text>
-			<choice ID="BrightAcceptQuest" GotoID="Accept" StartQuest="Ilysen_Jademouth_ChaosTheory">Alright. I'll track down your static. Where should I start looking?</choice>
+			<choice ID="BrightAcceptQuest" GotoID="Accept" StartQuest="Ava_Jademouth_ChaosTheory">Alright. I'll track down your static. Where should I start looking?</choice>
 			<choice ID="BrightTheory" GotoID="Theory">How will this help your problems with light?</choice>
 			<choice ID="BrightReward" GotoID="Reward">What kind of compensation?</choice>
 			<choice ID="BrightDeclineQuest" GotoID="Reset">I don't like the feeling of this. I'll pass, I'm afraid.</choice>
@@ -149,7 +149,7 @@
 			Thank you.
 			</text>
 			<choice GotoID="End"><text>You're welcome. Live and drink, Bright.</text>
-				<part Name="QuestHandler" QuestID="Ilysen_Jademouth_ChaosTheory" Action="Complete" />
+				<part Name="QuestHandler" QuestID="Ava_Jademouth_ChaosTheory" Action="Complete" />
 			</choice>
 		</node>
 		<node ID="Mutations">

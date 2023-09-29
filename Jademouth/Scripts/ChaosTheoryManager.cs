@@ -13,7 +13,7 @@ namespace XRL.World.QuestManagers
 	/// Contains logic for the reward and post-quest changes.
 	/// </summary>
 	[Serializable]
-	public class Ilysen_Jademouth_ChaosTheoryManager : QuestManager
+	public class Ava_Jademouth_ChaosTheoryManager : QuestManager
 	{
 		public override void OnQuestComplete()
 		{
@@ -24,10 +24,10 @@ namespace XRL.World.QuestManagers
 			/// 4. Delete all of the "NO LIGHT PLEASE" signs
 			/// It's not ideal to have to use magic strings here, but it's what the base game does, alas
 			Zone zone = The.Player.CurrentZone;
-			GameObject gameObject = zone.FindObject("Ilysen_Jademouth_Bright");
+			GameObject gameObject = zone.FindObject("Ava_Jademouth_Bright");
 			if (gameObject != null)
 			{
-				GameObjectBlueprint blueprint = GameObjectFactory.Factory.GetBlueprint("Ilysen_Jademouth_Bright_PostQuest");
+				GameObjectBlueprint blueprint = GameObjectFactory.Factory.GetBlueprint("Ava_Jademouth_Bright_PostQuest");
 				gameObject.RequirePart<Description>(false).Short = blueprint.GetPartParameter<string>("Description", "Short", null);
 				Mutations muts = gameObject.GetPart("Mutations") as Mutations;
 				foreach (BaseMutation mut in muts.MutationList.ToList())
@@ -40,15 +40,15 @@ namespace XRL.World.QuestManagers
 				gameObject.SetStringProperty("WaterRitual_Skill", "Tinkering_Tinker2");
 				gameObject.pRender.Tile = "Creatures/Bright_2Arms.png"; // GOD I hate this line
 			}
-			foreach (GameObject go in zone.FindObjects("Ilysen_Jademouth_ChaosTheorySconceSpawner"))
+			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_ChaosTheorySconceSpawner"))
 				go.CurrentCell.AddObject("Techlight1", null, null, null, null);
-			foreach (GameObject go in zone.FindObjects("Ilysen_Jademouth_BlackoutCurtains").ToList())
+			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_BlackoutCurtains").ToList())
 			{
 				Cell c = go.CurrentCell;
 				go.Destroy(null, true, true, null);
 				c.AddObject("Door", null, null, null, null);
 			}
-			foreach (GameObject go in zone.FindObjects("Ilysen_Jademouth_LightSign").ToList())
+			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_LightSign").ToList())
 				go.Destroy(null, true, true, null);
 			HandleReward();
 			The.Player.RemovePart(this);
@@ -87,6 +87,6 @@ namespace XRL.World.QuestManagers
 			}
 		}
 
-		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Ilysen_Jademouth_Bright");
+		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Ava_Jademouth_Bright");
 	}
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <worlds>
 	<world Name="JoppaWorld" Load="Merge">
-		<cell Name="Ilysen_Jademouth_CellJademouth" Inherits="Hills"
-			ApplyTo="Ilysen_Jademouth_TerrainJademouth" LandingZone="1,2"
+		<cell Name="Ava_Jademouth_CellJademouth" Inherits="Hills"
+			ApplyTo="Ava_Jademouth_TerrainJademouth" LandingZone="1,2"
 			Mutable="false">
 			<zone Level="5-9" x="0-2" y="0-2" Name="sky above Jademouth" IndefiniteArticle="the"
 				DisableForcedConnections="Yes">
@@ -13,28 +13,28 @@
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthNorthwest.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 			</zone>
 			<zone Level="10" x="1" y="0" Name="northern outskirts" NameContext="Jademouth"
 				IndefiniteArticle="some" IncludeStratumInZoneDisplay="false" HasWeather="true"
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthNorth.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 			</zone>
 			<zone Level="10" x="2" y="0" Name="northeastern outskirts" NameContext="Jademouth"
 				IndefiniteArticle="some" IncludeStratumInZoneDisplay="false" HasWeather="true"
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthNortheast.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 			</zone>
 			<zone Level="10" x="0" y="1" Name="western outskirts" NameContext="Jademouth"
 				IndefiniteArticle="some" IncludeStratumInZoneDisplay="false" HasWeather="true"
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthWest.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 			</zone>
 			<zone Level="10" x="1" y="1" Name="Jademouth" ProperName="true"
 				IncludeStratumInZoneDisplay="false" DisableForcedConnections="Yes">
@@ -48,7 +48,7 @@
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthEast.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 				<builder Class="Music" Track="Onward" Chance="100"></builder>
 				<builder Class="IsCheckpoint" Key="Jademouth"></builder>
 			</zone>
@@ -57,14 +57,14 @@
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthSouthwest.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 			</zone>
 			<zone Level="10" x="1" y="2" Name="southern passage" NameContext="Jademouth"
 				IndefiniteArticle="some" IncludeStratumInZoneDisplay="false" HasWeather="true"
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthSouth.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 				<builder Class="Music" Track="Onward" Chance="100"></builder>
 				<builder Class="IsCheckpoint" Key="Jademouth"></builder>
 			</zone>
@@ -73,7 +73,7 @@
 				WindSpeed="0-50" WindDirections="N,NW,NW,W,W,SW,S,SE" WindDuration="200-3000"
 				DisableForcedConnections="Yes">
 				<map FileName="JademouthSoutheast.rpm"></map>
-				<population Table="Ilysen_Jademouth_JademouthOutskirts"></population>
+				<population Table="Ava_Jademouth_JademouthOutskirts"></population>
 			</zone>
 		</cell>
 	</world>
