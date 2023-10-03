@@ -51,6 +51,7 @@
     <Compile Include="Scripts\ConversationDelegates.cs" />
     <Compile Include="Scripts\JademouthGravy.cs" />
     <Compile Include="Scripts\ProspectorColorPart.cs" />
+    <Compile Include="Scripts\Wishes.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

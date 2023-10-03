@@ -64,6 +64,7 @@ namespace XRL.World.QuestManagers
 			foreach (TinkerData td in TinkerData.TinkerRecipes.Where(x => x.Type == "Mod" && !TinkerData.RecipeKnown(x)))
 				sortedList.Add(td.DisplayName, td);
 			List<int> chosenIndexes = new List<int>();
+		ChooseReward:
 			if (sortedList.Count == 0)
 			{
 				Popup.Show("Since you already know every item mod, you muse on the secrets of data disks with Bright.");
@@ -78,6 +79,10 @@ namespace XRL.World.QuestManagers
 			}
 			else
 				chosenIndexes = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", sortedList.Keys.ToArray(), Amount: 3);
+
+			if (chosenIndexes.Count < Math.Min(3, sortedList.Count))
+				if (Popup.ShowYesNo($"You can choose {Math.Min(3, sortedList.Count)} mods to learn, but you've only selected {chosenIndexes.Count}. Really continue?") != DialogResult.Yes)
+					goto ChooseReward;
 
 			foreach (int i in chosenIndexes)
 			{

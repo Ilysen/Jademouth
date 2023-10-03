@@ -3,10 +3,6 @@
 	<conversation ID="Ava_Jademouth_BrightConversation">
 		<!-- This doesn't feel like the cleanest way to do this, but it'll do for now -->
 		<node ID="BaseGreetingResponses">
-			<choice GotoID="Tinker">Are you a tinker?</choice>
-			<choice GotoID="RockTumbler">May I use the rock tumbler?</choice>
-			<choice GotoID="Project" IfNotHaveQuest="Ava_Jademouth_ChaosTheory">What are you working on?</choice>
-			<choice GotoID="Reminder" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory">Remind me what you want me to find for you again?</choice>
 			<choice GotoID="GiveStatic"
 				IfHaveLiquid="warmstatic"
 				IfHaveActiveQuest="Ava_Jademouth_ChaosTheory"
@@ -14,7 +10,11 @@
 				UseLiquid="warmstatic">
 				<text>I have your static. Take it.</text>
 			</choice>
-			<choice ID="BrightCat" GotoID="Cat" IfTestState="Ava_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
+			<choice GotoID="Tinker">Are you a tinker?</choice>
+			<choice GotoID="RockTumbler">May I use the rock tumbler?</choice>
+			<choice GotoID="Project" IfNotHaveQuest="Ava_Jademouth_ChaosTheory">What are you working on?</choice>
+			<choice GotoID="Reminder" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory">Remind me what you want me to find for you again?</choice>
+			<choice GotoID="Cat" IfTestState="Ava_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<start ID="Greeting" IfNotFinishedQuest="Ava_Jademouth_ChaosTheory" Ava_Jademouth_IfIlluminated="true" Inherits="BaseGreetingResponses">
@@ -43,27 +43,27 @@
 		<node ID="Tinker">
 			<text>Well, I think of myself more of an artificer, but yes. I'm the tinker here, or at least I fill the role of one.</text>
 			<choice GotoID="Artificer">What's the difference between a tinker and artificer?</choice>
-			<choice ID="BrightOtherQuestions" GotoID="Start">I had other questions.</choice>
+			<choice ID="OtherQuestions" GotoID="Start">I had other questions.</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<node ID="Artificer">
 			<text>{{emote|*Bright half-shrugs.*}} Nothing important.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="Light">
 			<text>I am, yes. I was not always, but I am now, and it's only gotten worse over time. Even a torch will hurt my eyes. There is a reason I keep my workshop dark.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="PitchBlack">
 			<text>I am sensitive to light. I was not always, but I am now, and it's only gotten worse over time. Even a torch will hurt my eyes. I would be grateful if you continue to cover your lights when you enter.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="RockTumbler">
 			<text>You may; just make sure you clean up. We keep it busy and we are not liable for any missing gems if you leave them there.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="Project">
@@ -80,30 +80,30 @@
 			<choice GotoID="Static">What kind of liquid am I looking for?</choice>
 		</node>
 		<node ID="Static">
-			<text>I've heard it called warm static. Dilute won't do; I'll need it in pure form. Just a dram should be enough. I'll compensate you for your work.</text>
-			<choice ID="BrightAcceptQuest" GotoID="Accept" StartQuest="Ava_Jademouth_ChaosTheory">Alright. I'll track down your static. Where should I start looking?</choice>
-			<choice ID="BrightTheory" GotoID="Theory">How will this help your problems with light?</choice>
-			<choice ID="BrightReward" GotoID="Reward">What kind of compensation?</choice>
-			<choice ID="BrightDeclineQuest" GotoID="Reset">I don't like the feeling of this. I'll pass, I'm afraid.</choice>
+			<text>Warm static. Not dilute; I'll need it in pure form. Just a dram should be enough. I'll compensate you for your work.</text>
+			<choice ID="AcceptQuest" GotoID="Accepted" StartQuest="Ava_Jademouth_ChaosTheory">Alright. I'll track down your static. Where should I start looking?</choice>
+			<choice ID="Theory" GotoID="Theory">How will this help your problems with light?</choice>
+			<choice ID="Reward" GotoID="Reward">What kind of compensation?</choice>
+			<choice ID="DeclineQuest" GotoID="Reset">I don't like the feeling of this. I'll pass, I'm afraid.</choice>
 		</node>
 		<node ID="Theory">
 			<text>I'd prefer not go into detail on that just yet. Just rest assured that it won't cause any harm to anyone.</text>
-			<choice UseID="BrightAcceptQuest" />
-			<choice UseID="BrightReward" />
-			<choice UseID="BrightDeclineQuest" />
+			<choice UseID="AcceptQuest" />
+			<choice UseID="Reward" />
+			<choice UseID="DeclineQuest" />
 		</node>
 		<node ID="Reward">
 			<text>I happen to specialize in item modding. I like prototyping different designs, and I inscribe them onto disks myself. I'll be more than happy to help you learn a few mods; anything you have in mind, I can probably teach you.</text>
-			<choice UseID="BrightAcceptQuest" />
-			<choice UseID="BrightTheory" />
-			<choice UseID="BrightDeclineQuest" />
+			<choice UseID="AcceptQuest" />
+			<choice UseID="Theory" />
+			<choice UseID="DeclineQuest" />
 		</node>
-		<node ID="Accept">
+		<node ID="Accepted">
 			<text>Excellent! Thank you so much. I'm afraid I'm not actually wholly sure where to start, but I have a few ideas.
 			
 			Warm static originates from the Moon Stair, but that's likely not a place you want to visit. The alchemist in Bethesda Susa is an expert in this sort of thing as well, but finding them is a journey in its own right. If you cannot find them, only then would I risk the Stair.
 			
-			Should you be inclined to search at the source, you will be hunting a certain type of jell. Warm static of the purity I seek is supposedly harvested from its corpse, but you may need to dispatch several of them to find an appropriate sample - and if you use heat-based weapons, it would likely be destroyed outright.
+			Should you be inclined to search at the source, you will be hunting a certain type of jell. Liquid of the purity I seek can supposedly be harvested from them, but you may need to dispatch several of them to find an appropriate sample - and if you use heat-based weapons, it would likely be destroyed outright.
 		
 			Be cautious. I have heard stories. And when you do find the static, DO NOT do anything else with it. Bring it directly here.</text>
 			<choice GotoID="Start">While I'm here, I had other questions.</choice>
@@ -111,7 +111,7 @@
 		</node>
 		<node ID="Reminder">
 			<text>A highly entropic liquid, called warm static. I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze there. A much safer idea would be to find the alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure - if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thanks. Live and drink.</choice>
 		</node>
 		<node ID="GiveStatic" AllowEscape="false">
@@ -123,14 +123,14 @@
 			<choice GotoID="Mutating">?!</choice>
 		</node>
 		<node ID="Mutating" AllowEscape="false">
-			<text>{{emote|*Bright convulses on the ground. =pronouns.Possessive= arms warp and twist as though seen through dirty glass. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is hissing, and something else - a thin keening alike to a dying animal, heard distantly on a cold wind.*}}
+			<text>{{emote|*Bright convulses on the floor. =pronouns.Possessive= arms warp and twist as though seen through dirty glass before two of them disappear outright in a flurry of hissing snow. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is crackling, and something else - a thin keening alike to a dying animal, heard distantly on a cold wind.*}}
 			
 			{{emote|*And then it stops, as quickly as it began. Eddies of static flicker about the tinker's body as =pronouns.possessive= skin shudders unsteadily with a warm glow. =pronouns.Subjective= unsteadily =verb:sit:afterpronoun= up.*}}
 			</text>
-			<choice GotoID="Success!">Bright?</choice>
-			<choice GotoID="Success!">...</choice>
+			<choice GotoID="Success">Bright?</choice>
+			<choice GotoID="Success">...</choice>
 		</node>
-		<node ID="Success!" AllowEscape="false">
+		<node ID="Success" AllowEscape="false">
 			<text>I...
 			
 			Pardon me.
@@ -144,7 +144,7 @@
 
 			I could only imagine the risk, but it worked. It worked! My eyes don't hurt! My skin doesn't prickle! I...
 
-			=name=, words cannot describe what you have done for me. You have done me a favor I can never repay. I can teach you some of my designs, as I promised - I can only hope that will be enough. You are welcome at my door any time.
+			=name=, words cannot describe what you have done for me. You have done me a favor I can never repay. I can teach you some of my designs, as I promised - I can only hope that will be enough. You are welcome here any time.
 
 			Thank you.
 			</text>
@@ -156,19 +156,19 @@
 			<text>Much better, thanks to you! I seem to have mostly lost my sense of pain, which is both a good and bad thing given my occupation. I also miss my arms, but I'm acclimating.
 			
 			More than anything, though, I'm just so glad to be able to go outside again. I've missed it so badly.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">I'm glad to hear. Live and drink.</choice>
 		</node>
 		<node ID="Cat">
 			<text>That's rather personal. I'm uncertain how disposed I am to open up to someone I don't know.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Understandable. Live and drink.</choice>
 		</node>
 		<node ID="Cat_PostQuest">
 			<text>Cat and I used to... well. We were very close. She became much harder to talk to when she took on the mantle of warden. Eventually we fell out of touch. With how miserable I was in the light, I rarely ever interacted with her. I guess there was some resentment.
 			
 			Now that I can go outside again, I see her a lot more. I like to believe that she's starting to warm up again; the other day she even laughed with me. It isn't much, but I'm thankful to be on talking terms with her again.</text>
-			<choice UseID="BrightOtherQuestions" />
+			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Hopefully it works out. Live and drink.</choice>
 		</node>
 	</conversation>

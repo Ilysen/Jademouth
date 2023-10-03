@@ -10,7 +10,7 @@
 				Hello
 			</text>
 			<choice GotoID="Hello" IfNotHaveState="Jademouth_MetFizz">...hello?</choice>
-			<choice ID="FizzWhoAreYou" GotoID="WhoAreYou" SetBooleanState="Jademouth_MetFizz,true">Who are you?</choice>
+			<choice ID="WhoAreYou" GotoID="WhoAreYou" SetBooleanState="Jademouth_MetFizz,true">Who are you?</choice>
 			<choice GotoID="End" IfNotHaveState="Jademouth_MetFizz">...nevermind.</choice>
 			<choice GotoID="End" IfTestState="Jademouth_MetFizz">Live and drink.</choice>
 		</start>
@@ -18,7 +18,7 @@
 			<text>
 				Hello
 			</text>
-			<choice UseID="FizzWhoAreYou" />
+			<choice UseID="WhoAreYou" />
 			<choice GotoID="End" IfNotHaveState="Jademouth_MetFizz" SetBooleanState="Jademouth_MetFizz,true">...alright, then.</choice>
 		</node>
 		<node ID="WhoAreYou">

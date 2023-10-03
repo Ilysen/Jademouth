@@ -33,6 +33,7 @@
 		<skill Name="Cudgel_Slam" />
 		<property Name="Role" Value="Brute" />
 	</object>
+
 	<!-- Atacama, a fractus from the Consortium of Phyta.
 		Xe sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
 	<object Name="Ava_Jademouth_Atacama" Inherits="SapientMutatedSucculent">
@@ -59,10 +60,11 @@
 		<builder Name="Tier4Wares" />
 		<builder Name="Ava_Jademouth_AtacamaWares" />
 		<tag Name="NoSleep" />
-		<xtagGrammar Proper="true"></xtagGrammar>
+		<xtagGrammar Proper="true" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 		<tag Name="PronounSet" Value="xe/xem/xyr" />
 	</object>
+
 	<!-- Bright the tinker. Questgiver for Chaos Theory. -->
 	<object Name="Ava_Jademouth_Bright" Inherits="HumanTinker4">
 		<part Name="Render" DisplayName="Bright" Tile="Creatures/Bright_4Arms.png" ColorString="&amp;c"
@@ -83,6 +85,7 @@
 		<tag Name="Gender" Value="female" />
 		<xtagGrammar Proper="true" />
 	</object>
+
 	<!-- This is a dummy object; it isn't spawned in on its own, 
 		but rather used for reference by C# to update Bright's description after completing her quest -->
 	<object Name="Ava_Jademouth_Bright_PostQuest" Inherits="Ava_Jademouth_Bright">
@@ -90,6 +93,7 @@
 			Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from her arms' missing partners. The artificer smiles more often, now." />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
+
 	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients. -->
 	<object Name="Ava_Jademouth_Fizz" Inherits="BaseSlug">
 		<part Name="Body" Anatomy="SlugWithHands" />
@@ -127,6 +131,7 @@
 		<tag Name="WaterRitualLiquid" Value="water" />
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
+
 	<!-- Cat the warden. Esper. Complicated relationship with Bright. -->
 	<object Name="Ava_Jademouth_WardenCat" Inherits="NPC">
 		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png"

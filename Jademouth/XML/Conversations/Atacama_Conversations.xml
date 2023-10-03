@@ -5,50 +5,50 @@
 			<text>
 				Come in, come in! Kick the dirt off and find a place to rest.
 			</text>
-			<choice ID="AtacamaAsphodel" Target="Asphodel" IfHaveActiveQuest="The Earl of Omonporch">What do you know about the Earl of Omonporch?</choice>
-			<choice ID="AtacamaStory" GotoID="Story">What's your story?</choice>
-			<choice ID="AtacamaSunlight" GotoID="Sunlight">Do you not get any sunlight down here?</choice>
-			<choice ID="AtacamaInformal" GotoID="Informal">You seem much less formal than other Consortium merchants.</choice>
+			<choice ID="Asphodel" Target="Asphodel" IfHaveActiveQuest="The Earl of Omonporch">What do you know about the Earl of Omonporch?</choice>
+			<choice ID="Story" GotoID="Story">What's your story?</choice>
+			<choice ID="Sunlight" GotoID="Sunlight">Do you not get any sunlight down here?</choice>
+			<choice ID="Informal" GotoID="Informal">You seem much less formal than other Consortium merchants.</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</start>
 		<node ID="Story">
 			<text>Atacama, at your service. I serve as the chandler here for travelers like yourself. Jademouth sees a great deal of traffic from caravaneers and nomads crossing to and from the banana groves, and every now and then, oddities from Omonporch and beyond end up here. Why not take a look?
 
 			I also stock plenty of supplies if you're a delver yourself.</text>
-			<choice UseID="AtacamaAsphodel" />
-			<choice UseID="AtacamaSunlight" />
-			<choice UseID="AtacamaInformal" />
+			<choice UseID="Asphodel" />
+			<choice UseID="Sunlight" />
+			<choice UseID="Informal" />
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<node ID="Sunlight">
 			<text>I am less immobile than you might think, and I do not spend all of my time here at my post. I frequently take the liberty of basking outside when the weather allows. Cat is a good warden, and I trust her to keep me safe.
 			
 			That said, I do also keep a glowsphere with me. {{emote|*Atacama gestures with one of =pronouns.possessive= vines.*}} It's a far cry from the high salt sun, but it does do well enough at keeping me nourished here as long as the prospectors water me every now and then.</text>
-			<choice UseID="AtacamaAsphodel" />
-			<choice UseID="AtacamaStory" />
-			<choice UseID="AtacamaInformal" />
+			<choice UseID="Asphodel" />
+			<choice UseID="Story" />
+			<choice UseID="Informal" />
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<node ID="Informal">
 			<text>I hear such things a good deal. Truth be told, I've become a tad estranged from rest of the Consortium since my assignment here. Jademouth is something of an anathema for phyta looking to feel the sun - which is most of them - and so I confess I dreaded my assignment when I got word of it.
 				
 			Having been here some time now, though, I can safely say that my anxieties were unfounded. Perhaps the locals have influenced me, but the longer I stay away from the socialites, the better I feel. It's not like any of them envy me. Hah!</text>
-			<choice GotoID="Fungi">Do you think you might be able to tell me why the others in the Consortium hate fungi so much? They are not inclined to give a straight answer.</choice>
-			<choice UseID="AtacamaAsphodel" />
-			<choice UseID="AtacamaStory" />
-			<choice UseID="AtacamaSunlight" />
+			<choice GotoID="Fungi">Why do the rest of the Consortium seem to loathe fungi? They have not been inclined to give a straight answer.</choice>
+			<choice UseID="Asphodel" />
+			<choice UseID="Story" />
+			<choice UseID="Sunlight" />
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<node ID="Fungi">
-			<text>Such things are rarely discussed in polite company. To be perfectly straightforward, I am not entirely certain myself. Decay is simply another extant form of life, after all. I believe that the more mannered phyta are simply inclined to believe themselves superior, for none among our ranks can claim to have met an intelligent mushroom.
+			<text>Such things are rarely discussed in polite company, but to be straightforward, I'm not entirely certain myself. Decay is simply another extant form of life, after all. I believe that some phyta are simply inclined to believe themselves superior, for none among our ranks can claim to have met a mannered mushroom.
 				
-			There is something of a hypocrisy, there, don't you think? Yurl spends their days surrounded on all sides by mushrooms, but bring that up and they're liable to pout. Perhaps the gentleplants are simply too full of themselves, and choose to take being included with fungi by unlearned meat-beings as a personal insult. They are disinclined to give a straight answer because they do not have one, and they know it.
+			There is something of a hypocrisy there, don't you think? Yurl spends their days surrounded on all sides by mushrooms, but bring that up and they're liable to pout. Perhaps the gentleplants are full enough of themselves that they choose - on little basis - to take it as personal insult. They are disinclined to give you a straight answer because they have not had one.
 
 			Don't tell them I said that, though.
 			</text>
-			<choice UseID="AtacamaAsphodel" />
-			<choice UseID="AtacamaStory" />
-			<choice UseID="AtacamaSunlight" />
+			<choice UseID="Asphodel" />
+			<choice UseID="Story" />
+			<choice UseID="Sunlight" />
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
 		<node ID="Asphodel">
