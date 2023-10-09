@@ -19,6 +19,7 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 * Did a polish and writing pass on all the descriptions and dialogue. Most things are unchanged, but certain options are slightly different, and some new ones have been added.
 * Overhauled the way that rewards are selected for Chaos Theory. It now uses a "select multiple" popup like giving books to Sheba or tossing artifacts into the sacred well.
 * Internally changed almost everything in the mod to use a consistent naming scheme. __This is incompatible with saves__ but should serve to fully future-proof any potential ID conflicts.
+* Fixed a bug where Warden Cat wouldn't actually care if you started attacking prospectors.
 
 ### 19 September, 2023
 

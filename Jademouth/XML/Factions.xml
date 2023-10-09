@@ -12,4 +12,7 @@
 			<interest Tags="oddity" WillBuy="true" WillSell="false" />
 		</interests>
 	</faction>
+	<faction Name="Wardens" Load="Merge">
+		<feeling About="Ava_Jademouth_JademouthFaction" Value="100" />
+	</faction>
 </factions>
