@@ -41,14 +41,17 @@ namespace XRL.World.QuestManagers
 				gameObject.pRender.Tile = "Creatures/Bright_2Arms.png"; // GOD I hate this line
 			}
 			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_ChaosTheorySconceSpawner"))
+			{
 				go.CurrentCell.AddObject("Techlight1");
-			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_BlackoutCurtains").ToList())
+				go.Obliterate(Silent: true);
+			}
+			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_BlackoutCurtains"))
 			{
 				Cell c = go.CurrentCell;
 				go.Obliterate(Silent: true);
 				c.AddObject("Door");
 			}
-			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_LightSign").ToList())
+			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_LightSign"))
 				go.Obliterate(Silent: true);
 			HandleReward();
 			The.Player.RemovePart(this);

@@ -15,7 +15,7 @@ namespace XRL.World.Skills.Cooking
 		{
 			Components.Add(new PreparedCookingRecipieComponentBlueprint("Worm Jerky", null, 1));
 			Components.Add(new PreparedCookingRecipieComponentLiquid("acid", 1));
-			Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { "CookingDomainHP_UnitHP", "Ava_Jademouth_CookingEffectMolluskRep" })));
+			Effects.Add(new CookingRecipeResultProceduralEffect(ProceduralCookingEffect.CreateSpecific(new List<string> { nameof(CookingDomainHP_UnitHP), nameof(Ava_Jademouth_CookingEffectMolluskRep) })));
 		}
 
 		public override string GetDescription() => "+10-15% max HP\n+300 reputation with mollusks";

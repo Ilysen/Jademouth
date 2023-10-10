@@ -10,13 +10,13 @@ namespace XRL.World.Encounters.EncounterObjectBuilders
 	{
 		public override void Stock(GameObject GO, string Context = null)
 		{
-			GO.TakeObject("Spine Fruit", Stat.Random(3, 5), true, new int?(0), Context, 0, 0, null, null, null);
-			GO.TakeObject("Pickaxe", Stat.Random(10, 15), true, new int?(0), Context, 0, 0, null, null, null);
-			GO.TakeObject("Nanopneumatic Jackhammer", Stat.Random(0, 2), true, new int?(0), Context, 0, 0, null, null, null);
-			GO.TakeObject("Miner's Helmet", Stat.Random(1, 2), true, new int?(0), Context, 0, 0, null, null, null);
-			GO.TakeObject("Headlamp", Stat.Random(2, 5), true, new int?(0), Context, 0, 0, null, null, null);
-			GO.TakeObjectsFromPopulation("Cells", Stat.Random(4, 8), null, true, new int?(0), 0, 0, Context, null);
-			GO.TakeObject("Ava_Jademouth_JademouthRecoiler", true, new int?(0), 0, 0, Context, null, null, null);
+			GO.TakeObject("Spine Fruit", Stat.Random(3, 5), true, Context: Context);
+			GO.TakeObject("Pickaxe", Stat.Random(10, 15), true, Context: Context);
+			GO.TakeObject("Nanopneumatic Jackhammer", Stat.Random(0, 2), true, Context: Context);
+			GO.TakeObject("Miner's Helmet", Stat.Random(1, 2), true, Context: Context);
+			GO.TakeObject("Headlamp", Stat.Random(2, 5), true, Context: Context);
+			GO.TakeObjectsFromPopulation("Cells", Stat.Random(4, 8), Silent: true, Context: Context);
+			GO.TakeObject("Ava_Jademouth_JademouthRecoiler", true, Context: Context);
 		}
 	}
 }

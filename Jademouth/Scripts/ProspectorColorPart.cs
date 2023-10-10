@@ -27,7 +27,7 @@ namespace XRL.World.Parts
 		{
 			if (shouldRecacheJade)
 			{
-				hasJade = ParentObject.Inventory.GetObjects().Where(x => x.Blueprint.ToLower().Contains("jade")).Count() > 0;
+				hasJade = ParentObject.Inventory.GetObjectsWithTag("Ava_Jademouth_JadeGemstone").Count() > 0;
 				shouldRecacheJade = false;
 			}
 			if (hasJade)

@@ -1,9 +1,7 @@
 <objects>
 	<object Name="Ava_Jademouth_TerrainJademouth" Inherits="Terrain">
-		<part Name="Render" DisplayName="Jademouth" Tile="terrain/tile_location6.bmp" DetailColor="y"
-			RenderString="127" ColorString="&amp;G^k" />
-		<part Name="Description"
-			Short="Jademouth's lonely and ancient monarch reigns over the hills. At its base, dust-caked prospectors lay out gemstones to see the salt sun for their first time." />
+		<part Name="Render" DisplayName="Jademouth" Tile="terrain/tile_location6.bmp" DetailColor="y" RenderString="127" ColorString="&amp;G^k" />
+		<part Name="Description" Short="Jademouth's lonely and ancient monarch reigns over the hills. At its base, dust-caked prospectors lay out gemstones to see the salt sun for their first time." />
 		<tag Name="NoBiomes" Value="1" />
 		<xtagGrammar Proper="true" massNoun="false" />
 		<tag Name="OverlayColor" Value="&amp;W" />
@@ -15,17 +13,14 @@
 	</object>
 	<object Name="Ava_Jademouth_JademouthRecoiler" Inherits="BaseRecoiler">
 		<part Name="Render" DisplayName="{{G|Jademouth}} recoiler" DetailColor="G" />
-		<part Name="Teleporter" DestinationZone="JoppaWorld.42.6.1.1.10" DestinationX="52"
-			DestinationY="15" />
+		<part Name="Teleporter" DestinationZone="JoppaWorld.42.6.1.1.10" DestinationX="52" DestinationY="15" />
 		<part Name="TinkerItem" CanBuild="false" />
 		<part Name="Commerce" Value="25" />
 		<tag Name="Tier" Value="2" />
 	</object>
 	<object Name="Ava_Jademouth_BlackoutCurtains" Inherits="BeltCurtains">
-		<part Name="Render" DisplayName="blackout curtains" RenderString="20" ColorString="&amp;y"
-			DetailColor="K" Tile="Tiles2/sw_belt_curtains.bmp" Occluding="true" />
-		<part Name="Description"
-			Short="Brinestalk was flattened into thick wafers and draped in clacking layers to guard against the light's advance." />
+		<part Name="Render" DisplayName="blackout curtains" RenderString="20" ColorString="&amp;y" DetailColor="K" Tile="Tiles2/sw_belt_curtains.bmp" Occluding="true" />
+		<part Name="Description" Short="Brinestalk was flattened into thick wafers and draped in clacking layers to guard against the light's advance." />
 		<tag Name="NoConveyor" Value="*delete" />
 	</object>
 	<object Name="Ava_Jademouth_BrightSign" Inherits="Sign">
@@ -80,31 +75,25 @@
 		<tag Name="ExcludeFromDynamicEncounters" />
 	</object>
 	<object Name="Ava_Jademouth_Oven" Inherits="Oven">
-		<part Name="Render" DisplayName="stone oven" ColorString="&amp;y" DetailColor="R"
-			RenderString="234" Tile="Items/sw_oven.bmp" Occluding="false" RenderIfDark="true" />
+		<part Name="Render" DisplayName="stone oven" ColorString="&amp;y" DetailColor="R" RenderString="234" Tile="Items/sw_oven.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Campfire" PresetMeals="Ava_Jademouth_JademouthGravy" />
 		<tag Name="PresetMealMessage" Value="Eat some gravy." />
-		<part Name="Description"
-			Short="Warmth radiates from the crackling fire of the bright marl oven, carrying the pungent smell of simmering meat-juice and a whiff of acidic tang." />
+		<part Name="Description" Short="Warmth radiates from the crackling fire of the bright marl oven, carrying the pungent smell of simmering meat-juice and a whiff of acidic tang." />
 	</object>
 	<object Name="Ava_Jademouth_Table" Inherits="Table">
-		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C"
-			RenderString="227" Tile="Assets_Content_Textures_Tiles_sw_table.bmp" Occluding="false"
-			RenderIfDark="true" />
+		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C" RenderString="227" Tile="Assets_Content_Textures_Tiles_sw_table.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<object Name="Ava_Jademouth_SleekTable" Inherits="Sleek Table">
-		<part Name="Render" DisplayName="workbench" ColorString="&amp;C" DetailColor="C"
-			RenderString="227" Tile="Items/sw_table_sleek.bmp" Occluding="false" RenderIfDark="true" />
+		<part Name="Render" DisplayName="workbench" ColorString="&amp;C" DetailColor="C" RenderString="227" Tile="Items/sw_table_sleek.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<object Name="Ava_Jademouth_MetalTable" Inherits="Metal Table">
-		<part Name="Render" DisplayName="metal workbench" ColorString="&amp;c" DetailColor="C"
-			RenderString="227" Tile="Items/sw_table_metal.bmp" Occluding="false" RenderIfDark="true" />
+		<part Name="Render" DisplayName="metal workbench" ColorString="&amp;c" DetailColor="C" RenderString="227" Tile="Items/sw_table_metal.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
 		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
@@ -112,27 +101,24 @@
 	<object Name="Ava_Jademouth_ChaosTheorySconceSpawner" Inherits="Widget">
 	</object>
 	<object Name="Ava_Jademouth_RoughJade" Inherits="Gemstone">
-		<part Name="Render" DisplayName="rough {{g|jade}} gemstone" Tile="Items/Jade_Rough.png"
-			ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
+		<part Name="Render" DisplayName="rough {{g|jade}} gemstone" Tile="Items/Jade_Rough.png" ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="200" />
-		<part Name="Description"
-			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb." />
+		<part Name="Description" Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb." />
+		<tag Name="Ava_Jademouth_JadeGemstone" Value="*noinherit" />
 		<tag Name="RockTumblerOutput" Value="Ava_Jademouth_PolishedJade" />
 		<tag Name="Gift" Value="*noinherit" />
 		<tag Name="Tier" Value="3" />
 	</object>
 	<object Name="Ava_Jademouth_PolishedJade" Inherits="Polished Gemstone">
-		<part Name="Render" DisplayName="smooth {{g|jade}} gemstone" Tile="Items/Jade_Polished.png"
-			ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
+		<part Name="Render" DisplayName="smooth {{g|jade}} gemstone" Tile="Items/Jade_Polished.png" ColorString="&amp;g" TileColor="&amp;Y" DetailColor="G" />
 		<part Name="Commerce" Value="240" />
-		<part Name="Description"
-			Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb. All its rough edges have been polished to shine." />
+		<part Name="Description" Short="Water was wrung from stone and channeled through the earth, carving trails of turquoise and aquamarine in its wake. Now it is coalesced into a celadon stone, pried from its ossified tomb. All its rough edges have been polished to shine." />
+		<tag Name="Ava_Jademouth_JadeGemstone" Value="*noinherit" />
 		<tag Name="Gift" Value="*noinherit" />
 		<tag Name="Tier" Value="3" />
 	</object>
 	<object Name="Ava_Jademouth_JadeFigurine" Inherits="Random Figurine">
-		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine" Tile="Items/sw_nugget.bmp"
-			ColorString="&amp;g" DetailColor="G" RenderString="*" RenderLayer="5" />
+		<part Name="Render" DisplayName="{{g|jade}} {{|*creature*}} figurine" Tile="Items/sw_nugget.bmp" ColorString="&amp;g" DetailColor="G" RenderString="*" RenderLayer="5" />
 		<part Name="Commerce" Value="200" />
 		<part Name="RandomFigurine" Material="jade" />
 		<tag Name="Tier" Value="4" />
