@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="Ava_Jademouth_BrightConversation">
+		<start ID="PlayerKilledCat_PostQuest" IfTestState="Ava_Jademouth_WardenCatState contains KilledByPlayer" IfFinishedQuest="Ava_Jademouth_ChaosTheory" AllowEscape="false">
+			<text>
+				You.
+
+				I thought better of you. I trusted you!
+
+				How could you- why would you do this?
+			</text>
+			<choice GotoID="FollowUp">
+				<text>...</text>
+			</choice>
+		</start>
+		<node ID="FollowUp" AllowEscape="false">
+			<text>{{R|ANSWER ME.}}</text>
+			<choice GotoID="End">
+				<text>!!!</text>
+				<part Name="StartFight" />
+			</choice>
+		</node>
+		<start ID="PlayerKilledCat" IfTestState="Ava_Jademouth_WardenCatState contains KilledByPlayer" AllowEscape="false">
+			<text>
+				MURDERER!
+			</text>
+			<choice GotoID="End">
+				<text>!!!</text>
+				<part Name="StartFight" />
+			</choice>
+		</start>
+		<start ID="PlayerMurderer1" IfTestState="Ava_Jademouth_AtacamaState contains KilledByPlayer" AllowEscape="false">
+			<text>
+				I know what you did. Get away from me.
+			</text>
+			<choice GotoID="End">
+				<text>...</text>
+			</choice>
+		</start>
+		<start ID="PlayerMurderer2" IfTestState="Ava_Jademouth_FizzState contains KilledByPlayer" Inherits="PlayerMurderer1" />
 		<!-- This doesn't feel like the cleanest way to do this, but it'll do for now -->
 		<node ID="BaseGreetingResponses">
-			<choice GotoID="GiveStatic"
-				IfHaveLiquid="warmstatic"
-				IfHaveActiveQuest="Ava_Jademouth_ChaosTheory"
-				CompleteQuestStep="Ava_Jademouth_ChaosTheory~FindStatic"
-				UseLiquid="warmstatic">
+			<choice GotoID="GiveStatic" IfHaveLiquid="warmstatic" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory" CompleteQuestStep="Ava_Jademouth_ChaosTheory~FindStatic" UseLiquid="warmstatic">
 				<text>I have your static. Take it.</text>
 			</choice>
 			<choice GotoID="Tinker">Are you a tinker?</choice>
@@ -17,25 +50,24 @@
 			<choice GotoID="Cat" IfTestState="Ava_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
 			<choice GotoID="End">Live and drink.</choice>
 		</node>
-		<start ID="Greeting" IfNotFinishedQuest="Ava_Jademouth_ChaosTheory" Ava_Jademouth_IfIlluminated="true" Inherits="BaseGreetingResponses">
+		<start ID="Greeting_PostQuest" IfFinishedQuest="Ava_Jademouth_ChaosTheory">
+			<text> =name=! How lovely to see you. What can I do for you?
+			</text>
+			<choice GotoID="Mutations">How are things?</choice>
+			<choice GotoID="Cat_PostQuest" IfTestState="Ava_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
+			<choice GotoID="End">Live and drink, Bright.</choice>
+		</start>
+		<start ID="Greeting" Ava_Jademouth_IfIlluminated="true" Inherits="BaseGreetingResponses">
 			<text>
 				{{emote|*Bright shies away from the light.*}} Ow, ow. Not so bright. What is it?
 			</text>
 			<choice GotoID="Light">Are you sensitive to light?</choice>
 		</start>
-		<start ID="Greeting_NoLight" IfNotFinishedQuest="Ava_Jademouth_ChaosTheory" Ava_Jademouth_IfNotIlluminated="true" Inherits="BaseGreetingResponses">
+		<start ID="Greeting_NoLight" Ava_Jademouth_IfNotIlluminated="true" Inherits="BaseGreetingResponses">
 			<text>
 				How can I help you, wanderer? Parts? Or do you need something fixed?
 			</text>
 			<choice GotoID="PitchBlack">You keep your workshop very dark. Why is that?</choice>
-		</start>
-		<start ID="Greeting_PostQuest" IfFinishedQuest="Ava_Jademouth_ChaosTheory">
-			<text>
-				=name=! How lovely to see you. What can I do for you?
-			</text>
-			<choice GotoID="Mutations">How are things?</choice>
-			<choice GotoID="Cat_PostQuest" IfTestState="Ava_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
-			<choice GotoID="End">Live and drink, Bright.</choice>
 		</start>
 		<node ID="Reset" Inherits="Greeting">
 			I understand. Let me know if you change your mind.
@@ -142,13 +174,12 @@
 		<node ID="ItWorked" AllowEscape="false">
 			<text>{{emote|*Bright is staring with a foolish grin.*}}
 
-			I could only imagine the risk, but it worked. It worked! My eyes don't hurt! My skin doesn't prickle! I...
-
-			=name=, words cannot describe what you have done for me. You have done me a favor I can never repay. I can teach you some of my designs, as I promised - I can only hope that will be enough. You are welcome here any time.
+			I could only imagine the risk, but it worked. It worked! My eyes don't hurt! My skin doesn't prickle! I... =name=, words cannot describe what you have done for me. You have done me a favor I can never repay. I can teach you some of my designs, as I promised - I can only hope that will be enough. You are welcome here any time.
 
 			Thank you.
 			</text>
-			<choice GotoID="End"><text>You're welcome. Live and drink, Bright.</text>
+			<choice GotoID="End">
+				<text>You're welcome. Live and drink, Bright.</text>
 				<part Name="QuestHandler" QuestID="Ava_Jademouth_ChaosTheory" Action="Complete" />
 			</choice>
 		</node>

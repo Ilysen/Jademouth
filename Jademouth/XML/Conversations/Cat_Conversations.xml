@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="Ava_Jademouth_WardenCatConversation">
+		<start ID="PlayerKilledBright" IfTestState="Ava_Jademouth_BrightState contains KilledByPlayer" AllowEscape="false">
+			<text>
+				{{emote|*You feel a telepathic wave of intense hatred.*}}
+
+				You...
+
+				{{R|YOU.}}
+			</text>
+			<choice GotoID="End">
+				<text>!!!</text>
+				<part Name="StartFight" />
+			</choice>
+		</start>
+		<start ID="PlayerMurderer1" IfTestState="Ava_Jademouth_AtacamaState contains KilledByPlayer" AllowEscape="false">
+			<text>
+				I know what you did.
+
+				Murderer.
+			</text>
+			<choice GotoID="End">
+				<text>!</text>
+				<part Name="StartFight" />
+			</choice>
+		</start>
+		<start ID="PlayerMurderer2" IfTestState="Ava_Jademouth_FizzState contains KilledByPlayer" Inherits="PlayerMurderer1" />
 		<start ID="Greeting">
 			<text>
 				Please stay peaceful in Jademouth. We like it quiet.~
@@ -88,7 +113,7 @@
 				Bright's our tinker.</text>
 			<choice UseID="Fizz" />
 			<choice UseID="Atacama" />
-			<choice GotoID="IsThatAll" SetBooleanState="Ava_Jademouth_CatMentionedBright,true">Is that all?</choice>
+			<choice GotoID="IsThatAll" IfTestState="Ava_Jademouth_CatMentionedBright,true">Is that all?</choice>
 			<choice UseID="OtherQuestions" />
 			<choice GotoID="End">Thank you. Live and drink.</choice>
 		</node>

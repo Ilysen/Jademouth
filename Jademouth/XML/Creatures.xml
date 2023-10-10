@@ -2,11 +2,9 @@
 <objects>
 	<!-- Generic miner NPCs in Jademouth. They spawn with mining gear and sell rough gemstones. -->
 	<object Name="Ava_Jademouth_JadeProspector" Inherits="NPC">
-		<part Name="Render" DisplayName="jade prospector" Tile="Creatures/Prospector_01.png"
-			ColorString="&amp;K" DetailColor="c" RenderString="p" />
+		<part Name="Render" DisplayName="jade prospector" Tile="Creatures/Prospector_01.png" ColorString="&amp;K" DetailColor="c" RenderString="p" />
 		<part Name="RandomTile" Tiles="Creatures/Prospector_01.png,Creatures/Prospector_02.png" />
-		<part Name="Description"
-			Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= things fray at the edges but stubbornly maintain their forms; intermittent slick-spots of adhesive and dirt indicate the care with which they are kept." />
+		<part Name="Description" Short="Rock-dust and stale air mottle =pronouns.possessive= skin and clothes. =pronouns.Possessive= things fray at the edges but stubbornly maintain their forms; intermittent slick-spots of adhesive and dirt indicate the care with which they are kept." />
 		<part Name="Brain" Wanders="true" Factions="Ava_Jademouth_JademouthFaction-100" />
 		<part Name="Interesting" />
 		<part Name="AISelfPreservation" Threshold="30" />
@@ -37,13 +35,11 @@
 	<!-- Atacama, a fractus from the Consortium of Phyta.
 		Xe sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
 	<object Name="Ava_Jademouth_Atacama" Inherits="SapientMutatedSucculent">
-		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="&amp;g"
-			DetailColor="W" RenderString="#" />
-		<part Name="Description"
-			Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor tidy." />
+		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="&amp;g" DetailColor="W" RenderString="#" />
+		<part Name="Description" Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor tidy." />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_AtacamaConversation" />
-		<part Name="Brain" Wanders="false" Hostile="false"
-			Factions="Consortium-100,Ava_Jademouth_JademouthFaction-50" />
+		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Ava_Jademouth_JademouthFaction-50" />
+		<part Name="GameUnique" State="Ava_Jademouth_AtacamaState" />
 		<part Name="Interesting" />
 		<stat Name="Level" Value="27" />
 		<stat Name="Hitpoints" sValue="300" />
@@ -67,12 +63,11 @@
 
 	<!-- Bright the tinker. Questgiver for Chaos Theory. -->
 	<object Name="Ava_Jademouth_Bright" Inherits="HumanTinker4">
-		<part Name="Render" DisplayName="Bright" Tile="Creatures/Bright_4Arms.png" ColorString="&amp;c"
-			DetailColor="w" />
+		<part Name="Render" DisplayName="Bright" Tile="Creatures/Bright_4Arms.png" ColorString="&amp;c" DetailColor="w" />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_BrightConversation" />
 		<part Name="Brain" Wanders="false" Factions="Ava_Jademouth_JademouthFaction-100" />
-		<part Name="Description"
-			Short="Bright's albino skin is so white as to be nearly reflective, and =pronouns.possessive= wide reddish eyes are marked from frequent squinting. Four six-fingered hands toil together as =pronouns.subjective= =verb:move:afterpronoun= about =pronouns.possessive= dimly-lit workspace." />
+		<part Name="Description" Short="Bright's albino skin is so white as to be nearly reflective, and =pronouns.possessive= wide reddish eyes are marked from frequent squinting. Four six-fingered hands toil together as =pronouns.subjective= =verb:move:afterpronoun= about =pronouns.possessive= dimly-lit workspace." />
+		<part Name="GameUnique" State="Ava_Jademouth_BrightState" />
 		<mutation Name="Albino" Level="1" />
 		<mutation Name="DarkVision" Level="1" />
 		<mutation Name="MultipleArms" Level="10" />
@@ -89,18 +84,16 @@
 	<!-- This is a dummy object; it isn't spawned in on its own, 
 		but rather used for reference by C# to update Bright's description after completing her quest -->
 	<object Name="Ava_Jademouth_Bright_PostQuest" Inherits="Ava_Jademouth_Bright">
-		<part Name="Description"
-			Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from her arms' missing partners. The artificer smiles more often, now." />
+		<part Name="Description" Short="Bright's skin shimmers softly, a heliacal glow in the dark of the cavern. =pronouns.Possessive= movements are infused with purpose - and occasionally a clumsiness that bespeaks their lack of adaption to the separation from her arms' missing partners. The artificer smiles more often, now." />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 
 	<!-- Fizz the chef. Gives the recipe for Jademouth Gravy and sells ingredients. -->
 	<object Name="Ava_Jademouth_Fizz" Inherits="BaseSlug">
 		<part Name="Body" Anatomy="SlugWithHands" />
-		<part Name="Render" DisplayName="Fizz" Tile="Creatures/sw_slog.bmp" ColorString="&amp;w"
-			DetailColor="g" />
-		<part Name="Description"
-			Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease until the time is right." />
+		<part Name="Render" DisplayName="Fizz" Tile="Creatures/sw_slog.bmp" ColorString="&amp;w" DetailColor="g" />
+		<part Name="Description" Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease until the time is right." />
+		<part Name="GameUnique" State="Ava_Jademouth_FizzState" />
 		<part Name="Brain" Factions="Ava_Jademouth_JademouthFaction-100,Mollusks-25" Wanders="false" />
 		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
@@ -134,12 +127,11 @@
 
 	<!-- Cat the warden. Esper. Complicated relationship with Bright. -->
 	<object Name="Ava_Jademouth_WardenCat" Inherits="NPC">
-		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png"
-			ColorString="&amp;B" RenderString="w" DetailColor="m" />
-		<part Name="Description"
-			Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and small frame do little to conceal the glimmer of an experienced esper, however, whose psyche brushes in close proximity to yours as it probes your intent." />
+		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png" ColorString="&amp;B" RenderString="w" DetailColor="m" />
+		<part Name="Description" Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and small frame do little to conceal the glimmer of an experienced esper, however, whose psyche brushes in close proximity to yours as it probes your intent." />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_WardenCatConversation" />
 		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
+		<part Name="GameUnique" State="Ava_Jademouth_WardenCatState" />
 		<stat Name="Strength" Value="16" />
 		<stat Name="Agility" Value="24" />
 		<stat Name="Toughness" Value="22" />
