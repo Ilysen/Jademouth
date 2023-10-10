@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{805D195A-7076-438F-BBFB-9A053007A8E6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ava.Jademouth</RootNamespace>
+    <AssemblyName>Jademouth</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Jademouth\JademouthCenter.rpm" />
+    <None Include="Jademouth\JademouthEast.rpm" />
+    <None Include="Jademouth\JademouthNorth.rpm" />
+    <None Include="Jademouth\JademouthNortheast.rpm" />
+    <None Include="Jademouth\JademouthNorthwest.rpm" />
+    <None Include="Jademouth\JademouthSouth.rpm" />
+    <None Include="Jademouth\JademouthSoutheast.rpm" />
+    <None Include="Jademouth\JademouthSouthwest.rpm" />
+    <None Include="Jademouth\JademouthWest.rpm" />
+    <None Include="Jademouth\JoppaWorldNew8.rpm" />
+    <None Include="Jademouth\manifest.json" />
+    <None Include="Jademouth\workshop.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Jademouth\preview.png" />
+    <Content Include="Jademouth\Textures\Creatures\Atacama.png" />
+    <Content Include="Jademouth\Textures\Creatures\Bright_2Arms.png" />
+    <Content Include="Jademouth\Textures\Creatures\Bright_4Arms.png" />
+    <Content Include="Jademouth\Textures\Creatures\Prospector_01.png" />
+    <Content Include="Jademouth\Textures\Creatures\Prospector_02.png" />
+    <Content Include="Jademouth\Textures\Creatures\Warden_Cat.png" />
+    <Content Include="Jademouth\Textures\Items\Jade_Polished.png" />
+    <Content Include="Jademouth\Textures\Items\Jade_Rough.png" />
+    <Content Include="Jademouth\XML\Conversations\Atacama_Conversations.xml" />
+    <Content Include="Jademouth\XML\Conversations\Bright_Conversations.xml" />
+    <Content Include="Jademouth\XML\Conversations\Cat_Conversations.xml" />
+    <Content Include="Jademouth\XML\Conversations\Fizz_Conversations.xml" />
+    <Content Include="Jademouth\XML\Conversations\Miner_Conversations.xml" />
+    <Content Include="Jademouth\XML\Creatures.xml" />
+    <Content Include="Jademouth\XML\Factions.xml" />
+    <Content Include="Jademouth\XML\Objects.xml" />
+    <Content Include="Jademouth\XML\Populations.xml" />
+    <Content Include="Jademouth\XML\Quests.xml" />
+    <Content Include="Jademouth\XML\Worlds.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\Managed\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Caves of Qud\CoQ_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Jademouth\Scripts\AtacamaWares.cs" />
+    <Compile Include="Jademouth\Scripts\ChaosTheoryManager.cs" />
+    <Compile Include="Jademouth\Scripts\ConversationDelegates.cs" />
+    <Compile Include="Jademouth\Scripts\JademouthGravy.cs" />
+    <Compile Include="Jademouth\Scripts\ProspectorColorPart.cs" />
+    <Compile Include="Jademouth\Scripts\Wishes.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

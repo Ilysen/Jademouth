@@ -1,3 +1,4 @@
 ﻿.vs
-Jademouth/obj
-Jademouth/bin
+*.user
+obj/
+bin/
