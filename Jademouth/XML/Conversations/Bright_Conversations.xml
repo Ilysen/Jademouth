@@ -9,13 +9,13 @@
 
 				How could you- why would you do this?
 			</text>
-			<choice GotoID="FollowUp">
+			<choice Target="FollowUp">
 				<text>...</text>
 			</choice>
 		</start>
 		<node ID="FollowUp" AllowEscape="false">
 			<text>{{R|ANSWER ME.}}</text>
-			<choice GotoID="End">
+			<choice Target="End">
 				<text>!!!</text>
 				<part Name="StartFight" />
 			</choice>
@@ -24,7 +24,7 @@
 			<text>
 				MURDERER!
 			</text>
-			<choice GotoID="End">
+			<choice Target="End">
 				<text>!!!</text>
 				<part Name="StartFight" />
 			</choice>
@@ -33,90 +33,90 @@
 			<text>
 				I know what you did. Get away from me.
 			</text>
-			<choice GotoID="End">
+			<choice Target="End">
 				<text>...</text>
 			</choice>
 		</start>
 		<start ID="PlayerMurderer2" IfTestState="Ava_Jademouth_FizzState contains KilledByPlayer" Inherits="PlayerMurderer1" />
 		<!-- This doesn't feel like the cleanest way to do this, but it'll do for now -->
 		<node ID="BaseGreetingResponses">
-			<choice GotoID="GiveStatic" IfHaveLiquid="warmstatic" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory" CompleteQuestStep="Ava_Jademouth_ChaosTheory~FindStatic" UseLiquid="warmstatic">
+			<choice Target="GiveStatic" IfHaveLiquid="warmstatic" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory" CompleteQuestStep="Ava_Jademouth_ChaosTheory~FindStatic" UseLiquid="warmstatic">
 				<text>I have your static. Take it.</text>
 			</choice>
-			<choice GotoID="Tinker">Are you a tinker?</choice>
-			<choice GotoID="RockTumbler">May I use the rock tumbler?</choice>
-			<choice GotoID="Project" IfNotHaveQuest="Ava_Jademouth_ChaosTheory">What are you working on?</choice>
-			<choice GotoID="Reminder" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory">Remind me what you want me to find for you again?</choice>
-			<choice GotoID="Cat" IfTestState="Ava_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
-			<choice GotoID="End">Live and drink.</choice>
+			<choice Target="Tinker">Are you a tinker?</choice>
+			<choice Target="RockTumbler">May I use the rock tumbler?</choice>
+			<choice Target="Project" IfNotHaveQuest="Ava_Jademouth_ChaosTheory">What are you working on?</choice>
+			<choice Target="Reminder" IfHaveActiveQuest="Ava_Jademouth_ChaosTheory">Remind me what you want me to find for you again?</choice>
+			<choice Target="Cat" IfTestState="Ava_Jademouth_CatMentionedBright">Cat said that you two don't get along. What's the story there?</choice>
+			<choice Target="End">Live and drink.</choice>
 		</node>
 		<start ID="Greeting_PostQuest" IfFinishedQuest="Ava_Jademouth_ChaosTheory">
 			<text> =name=! How lovely to see you. What can I do for you?
 			</text>
-			<choice GotoID="Mutations">How are things?</choice>
-			<choice GotoID="Cat_PostQuest" IfTestState="Ava_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
-			<choice GotoID="End">Live and drink, Bright.</choice>
+			<choice Target="Mutations">How are things?</choice>
+			<choice Target="Cat_PostQuest" IfTestState="Ava_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
+			<choice Target="End">Live and drink, Bright.</choice>
 		</start>
 		<start ID="Greeting" Ava_Jademouth_IfIlluminated="true" Inherits="BaseGreetingResponses">
 			<text>
 				{{emote|*Bright shies away from the light.*}} Ow, ow. Not so bright. What is it?
 			</text>
-			<choice GotoID="Light">Are you sensitive to light?</choice>
+			<choice Target="Light">Are you sensitive to light?</choice>
 		</start>
 		<start ID="Greeting_NoLight" Ava_Jademouth_IfNotIlluminated="true" Inherits="BaseGreetingResponses">
 			<text>
 				How can I help you, wanderer? Parts? Or do you need something fixed?
 			</text>
-			<choice GotoID="PitchBlack">You keep your workshop very dark. Why is that?</choice>
+			<choice Target="PitchBlack">You keep your workshop very dark. Why is that?</choice>
 		</start>
 		<node ID="Reset" Inherits="Greeting">
 			I understand. Let me know if you change your mind.
 		</node>
 		<node ID="Tinker">
 			<text>Well, I think of myself more of an artificer, but yes. I'm the tinker here, or at least I fill the role of one.</text>
-			<choice GotoID="Artificer">What's the difference between a tinker and artificer?</choice>
-			<choice ID="OtherQuestions" GotoID="Start">I had other questions.</choice>
-			<choice GotoID="End">Live and drink.</choice>
+			<choice Target="Artificer">What's the difference between a tinker and artificer?</choice>
+			<choice ID="OtherQuestions" Target="Start">I had other questions.</choice>
+			<choice Target="End">Live and drink.</choice>
 		</node>
 		<node ID="Artificer">
 			<text>{{emote|*Bright half-shrugs.*}} Nothing important.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">I see. Live and drink.</choice>
+			<choice Target="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="Light">
 			<text>I am, yes. I was not always, but I am now, and it's only gotten worse over time. Even a torch will hurt my eyes. There is a reason I keep my workshop dark.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">I see. Live and drink.</choice>
+			<choice Target="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="PitchBlack">
 			<text>I am sensitive to light. I was not always, but I am now, and it's only gotten worse over time. Even a torch will hurt my eyes. I would be grateful if you continue to cover your lights when you enter.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">I see. Live and drink.</choice>
+			<choice Target="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="RockTumbler">
 			<text>You may; just make sure you clean up. We keep it busy and we are not liable for any missing gems if you leave them there.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">Thank you. Live and drink.</choice>
+			<choice Target="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="Project">
 			<text>Just keeping the tools serviced, working on the power lines, the usual. That reminds me - are you looking for work right now?</text>
-			<choice GotoID="Maybe">Maybe. What did you have in mind?</choice>
-			<choice GotoID="Reset">Not at the moment.</choice>
+			<choice Target="Maybe">Maybe. What did you have in mind?</choice>
+			<choice Target="Reset">Not at the moment.</choice>
 		</node>
 		<node ID="Maybe">
 			<text>So, as you may have noticed, I have problems with light. I'm looking to fix that, and I need someone else to help me.</text>
-			<choice GotoID="Listening">Go on.</choice>
+			<choice Target="Listening">Go on.</choice>
 		</node>
 		<node ID="Listening">
 			<text>There is a certain type of liquid I've heard tell of. Very entropic. I've done some asking, and I think it may be of use to me. If you can get me a dram of it, I could test my theory.</text>
-			<choice GotoID="Static">What kind of liquid am I looking for?</choice>
+			<choice Target="Static">What kind of liquid am I looking for?</choice>
 		</node>
 		<node ID="Static">
 			<text>Warm static. Not dilute; I'll need it in pure form. Just a dram should be enough. I'll compensate you for your work.</text>
-			<choice ID="AcceptQuest" GotoID="Accepted" StartQuest="Ava_Jademouth_ChaosTheory">Alright. I'll track down your static. Where should I start looking?</choice>
-			<choice ID="Theory" GotoID="Theory">How will this help your problems with light?</choice>
-			<choice ID="Reward" GotoID="Reward">What kind of compensation?</choice>
-			<choice ID="DeclineQuest" GotoID="Reset">I don't like the feeling of this. I'll pass, I'm afraid.</choice>
+			<choice ID="AcceptQuest" Target="Accepted" StartQuest="Ava_Jademouth_ChaosTheory">Alright. I'll track down your static. Where should I start looking?</choice>
+			<choice ID="Theory" Target="Theory">How will this help your problems with light?</choice>
+			<choice ID="Reward" Target="Reward">What kind of compensation?</choice>
+			<choice ID="DeclineQuest" Target="Reset">I don't like the feeling of this. I'll pass, I'm afraid.</choice>
 		</node>
 		<node ID="Theory">
 			<text>I'd prefer not go into detail on that just yet. Just rest assured that it won't cause any harm to anyone.</text>
@@ -138,13 +138,13 @@
 			Should you be inclined to search at the source, you will be hunting a certain type of jell. Liquid of the purity I seek can supposedly be harvested from them, but you may need to dispatch several of them to find an appropriate sample - and if you use heat-based weapons, it would likely be destroyed outright.
 		
 			Be cautious. I have heard stories. And when you do find the static, DO NOT do anything else with it. Bring it directly here.</text>
-			<choice GotoID="Start">While I'm here, I had other questions.</choice>
-			<choice GotoID="End">I guess I'd better start looking. Live and drink.</choice>
+			<choice Target="Start">While I'm here, I had other questions.</choice>
+			<choice Target="End">I guess I'd better start looking. Live and drink.</choice>
 		</node>
 		<node ID="Reminder">
 			<text>A highly entropic liquid, called warm static. I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze there. A much safer idea would be to find the alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure - if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">Thanks. Live and drink.</choice>
+			<choice Target="End">Thanks. Live and drink.</choice>
 		</node>
 		<node ID="GiveStatic" AllowEscape="false">
 			<text>{{emote|*Bright collects the static in a phial and hands your container back. =pronouns.Subjective= =verb:swirl:afterpronoun= it back and forth, entranced.*}}
@@ -152,15 +152,15 @@
 			Ohhh yes. This is it, there's no mistaking that. We can only hope this works.
 			
 			{{emote|*Before you can react, =pronouns.subjective= =verb:quaff:afterpronoun= the entire phial and crumples to the ground.*}}</text>
-			<choice GotoID="Mutating">?!</choice>
+			<choice Target="Mutating">?!</choice>
 		</node>
 		<node ID="Mutating" AllowEscape="false">
 			<text>{{emote|*Bright convulses on the floor. =pronouns.Possessive= arms warp and twist as though seen through dirty glass before two of them disappear outright in a flurry of hissing snow. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is crackling, and something else - a thin keening alike to a dying animal, heard distantly on a cold wind.*}}
 			
 			{{emote|*And then it stops, as quickly as it began. Eddies of static flicker about the tinker's body as =pronouns.possessive= skin shudders unsteadily with a warm glow. =pronouns.Subjective= unsteadily =verb:sit:afterpronoun= up.*}}
 			</text>
-			<choice GotoID="Success">Bright?</choice>
-			<choice GotoID="Success">...</choice>
+			<choice Target="Success">Bright?</choice>
+			<choice Target="Success">...</choice>
 		</node>
 		<node ID="Success" AllowEscape="false">
 			<text>I...
@@ -169,7 +169,7 @@
 
 			{{emote|*Bright lurches to =pronouns.possessive= feet and moves into the light.*}}
 			</text>
-			<choice GotoID="ItWorked">Are you okay?</choice>
+			<choice Target="ItWorked">Are you okay?</choice>
 		</node>
 		<node ID="ItWorked" AllowEscape="false">
 			<text>{{emote|*Bright is staring with a foolish grin.*}}
@@ -178,7 +178,7 @@
 
 			Thank you.
 			</text>
-			<choice GotoID="End">
+			<choice Target="End">
 				<text>You're welcome. Live and drink, Bright.</text>
 				<part Name="QuestHandler" QuestID="Ava_Jademouth_ChaosTheory" Action="Complete" />
 			</choice>
@@ -188,19 +188,19 @@
 			
 			More than anything, though, I'm just so glad to be able to go outside again. I've missed it so badly.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">I'm glad to hear. Live and drink.</choice>
+			<choice Target="End">I'm glad to hear. Live and drink.</choice>
 		</node>
 		<node ID="Cat">
 			<text>That's rather personal. I'm uncertain how disposed I am to open up to someone I don't know.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">Understandable. Live and drink.</choice>
+			<choice Target="End">Understandable. Live and drink.</choice>
 		</node>
 		<node ID="Cat_PostQuest">
 			<text>Cat and I used to... well. We were very close. She became much harder to talk to when she took on the mantle of warden. Eventually we fell out of touch. With how miserable I was in the light, I rarely ever interacted with her. I guess there was some resentment.
 			
 			Now that I can go outside again, I see her a lot more. I like to believe that she's starting to warm up again; the other day she even laughed with me. It isn't much, but I'm thankful to be on talking terms with her again.</text>
 			<choice UseID="OtherQuestions" />
-			<choice GotoID="End">Hopefully it works out. Live and drink.</choice>
+			<choice Target="End">Hopefully it works out. Live and drink.</choice>
 		</node>
 	</conversation>
 </conversations>

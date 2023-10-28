@@ -6,10 +6,10 @@
 				Come in, come in! Kick the dirt off and find a place to rest.
 			</text>
 			<choice ID="Asphodel" Target="Asphodel" IfHaveActiveQuest="The Earl of Omonporch">What do you know about the Earl of Omonporch?</choice>
-			<choice ID="Story" GotoID="Story">What's your story?</choice>
-			<choice ID="Sunlight" GotoID="Sunlight">Do you not get any sunlight down here?</choice>
-			<choice ID="Informal" GotoID="Informal">You seem much less formal than other Consortium merchants.</choice>
-			<choice GotoID="End">Live and drink.</choice>
+			<choice ID="Story" Target="Story">What's your story?</choice>
+			<choice ID="Sunlight" Target="Sunlight">Do you not get any sunlight down here?</choice>
+			<choice ID="Informal" Target="Informal">You seem much less formal than other Consortium merchants.</choice>
+			<choice Target="End">Live and drink.</choice>
 		</start>
 		<node ID="Story">
 			<text>Atacama, at your service. I serve as the chandler here for travelers like yourself. Jademouth sees a great deal of traffic from caravaneers and nomads crossing to and from the banana groves, and every now and then, oddities from Omonporch and beyond end up here. Why not take a look?
@@ -18,7 +18,7 @@
 			<choice UseID="Asphodel" />
 			<choice UseID="Sunlight" />
 			<choice UseID="Informal" />
-			<choice GotoID="End">Live and drink.</choice>
+			<choice Target="End">Live and drink.</choice>
 		</node>
 		<node ID="Sunlight">
 			<text>I am less immobile than you might think, and I do not spend all of my time here at my post. I frequently take the liberty of basking outside when the weather allows. Cat is a good warden, and I trust her to keep me safe.
@@ -27,17 +27,17 @@
 			<choice UseID="Asphodel" />
 			<choice UseID="Story" />
 			<choice UseID="Informal" />
-			<choice GotoID="End">Live and drink.</choice>
+			<choice Target="End">Live and drink.</choice>
 		</node>
 		<node ID="Informal">
 			<text>I hear such things a good deal. Truth be told, I've become a tad estranged from rest of the Consortium since my assignment here. Jademouth is something of an anathema for phyta looking to feel the sun - which is most of them - and so I confess I dreaded my assignment when I got word of it.
 				
 			Having been here some time now, though, I can safely say that my anxieties were unfounded. Perhaps the locals have influenced me, but the longer I stay away from the socialites, the better I feel. It's not like any of them envy me. Hah!</text>
-			<choice GotoID="Fungi">Why do the rest of the Consortium seem to loathe fungi? They have not been inclined to give a straight answer.</choice>
+			<choice Target="Fungi">Why do the rest of the Consortium seem to loathe fungi? They have not been inclined to give a straight answer.</choice>
 			<choice UseID="Asphodel" />
 			<choice UseID="Story" />
 			<choice UseID="Sunlight" />
-			<choice GotoID="End">Live and drink.</choice>
+			<choice Target="End">Live and drink.</choice>
 		</node>
 		<node ID="Fungi">
 			<text>Such things are rarely discussed in polite company, but to be straightforward, I'm not entirely certain myself. Decay is simply another extant form of life, after all. I believe that some phyta are simply inclined to believe themselves superior, for none among our ranks can claim to have met a mannered mushroom.
@@ -49,17 +49,17 @@
 			<choice UseID="Asphodel" />
 			<choice UseID="Story" />
 			<choice UseID="Sunlight" />
-			<choice GotoID="End">Live and drink.</choice>
+			<choice Target="End">Live and drink.</choice>
 		</node>
 		<node ID="Asphodel">
 			<text>Ugh. Don't even get me started. Asphodel is a weed with more interest in presiding over xyr imaginary earldom with copies of xemself than doing anything useful.</text>
-			<choice GotoID="Lease">How can I convince Asphodel to lease the Spindle to Barathrum?</choice>
+			<choice Target="Lease">How can I convince Asphodel to lease the Spindle to Barathrum?</choice>
 		</node>
 		<node ID="Lease">
 			<text>Asphodel is many things, but most of all xe craves recognition. If you're looking to get into xyr good graces, you would be wise to bring some kind of tribute. Xevalues clout over all else, so be prepared to call in favors of your own.
 				
 			Whatever the case, though, your best chance would be to go along with whatever tiring idea xe has dreamt up to appease xyr sense of superiority. Just ensure you cause no trouble. Asphodel has always been mercurial, and any chaos would make it very unlikely that you could salvage your diplomatic overtures.</text>
-			<choice GotoID="End">Thank you, Atacama. Live and drink.</choice>
+			<choice Target="End">Thank you, Atacama. Live and drink.</choice>
 		</node>
 	</conversation>
 </conversations>
