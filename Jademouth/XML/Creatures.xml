@@ -12,9 +12,6 @@
 		<stat Name="Level" Value="15" />
 		<stat Name="AV" Value="5" />
 		<stat Name="Hitpoints" Value="40" />
-		<stat Name="Strength" Boost="6" />
-		<stat Name="Toughness" Boost="4" />
-		<stat Name="Willpower" Boost="4" />
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="Ava_Jademouth_ProspectorGems" />
 		<part Name="Ava_Jademouth_ProspectorColorPart" />
@@ -44,7 +41,6 @@
 		<part Name="Interesting" />
 		<stat Name="Level" Value="27" />
 		<stat Name="Hitpoints" sValue="300" />
-		<stat Name="Strength" Boost="4" />
 		<inventoryobject Blueprint="Clay Pot" />
 		<mutation Name="Burgeoning" Level="3" />
 		<mutation Name="Confusion" Level="4" />
@@ -98,15 +94,11 @@
 		<part Name="Brain" Factions="Ava_Jademouth_JademouthFaction-100,Mollusks-25" Wanders="false" />
 		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
-		<stat Name="Strength" Value="26" />
-		<stat Name="Agility" Value="22" />
-		<stat Name="Toughness" Value="24" />
-		<stat Name="Intelligence" Value="16" />
-		<stat Name="Willpower" Value="16" />
-		<stat Name="Ego" Value="16" />
-		<stat Name="Level" Value="20" />
+		<stat Name="Intelligence" sValue="16" />
+		<stat Name="Willpower" sValue="16" />
+		<stat Name="Ego" sValue="16" />
+		<stat Name="Level" sValue="20" />
 		<stat Name="Hitpoints" Value="100" />
-		<inventoryobject Blueprint="Girshworm_Crush" Number="1" />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_FizzConversation" />
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="ChefInventory" />
@@ -133,12 +125,12 @@
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_WardenCatConversation" />
 		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
 		<part Name="GameUnique" State="Ava_Jademouth_WardenCatState" />
-		<stat Name="Strength" Value="16" />
-		<stat Name="Agility" Value="24" />
-		<stat Name="Toughness" Value="22" />
-		<stat Name="Intelligence" Value="20" />
-		<stat Name="Willpower" Value="24" />
-		<stat Name="Ego" Value="28" />
+		<stat Name="Strength" sValue="20" />
+		<stat Name="Agility" sValue="22" />
+		<stat Name="Toughness" sValue="20" />
+		<stat Name="Intelligence" sValue="20" />
+		<stat Name="Willpower" sValue="24" />
+		<stat Name="Ego" sValue="26" />
 		<stat Name="Hitpoints" Value="250" />
 		<mutation Name="Esper" Level="1" />
 		<!-- Cat's mutation levels come from her ego bonus -->
@@ -171,7 +163,6 @@
 		<tag Name="Gender" Value="female" />
 		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true" />
-		<tag Name="Mayor" Value="Jademouth" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 </objects>
