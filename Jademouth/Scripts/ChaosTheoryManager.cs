@@ -29,13 +29,15 @@ namespace XRL.World.QuestManagers
 			{
 				GameObjectBlueprint blueprint = GameObjectFactory.Factory.GetBlueprint("Ava_Jademouth_Bright_PostQuest");
 				gameObject.RequirePart<Description>(false).Short = blueprint.GetPartParameter<string>("Description", "Short", null);
-				Mutations muts = gameObject.GetPart("Mutations") as Mutations;
-				foreach (BaseMutation mut in muts.MutationList.ToList())
-					muts.RemoveMutation(mut);
-				muts.AddMutation("Analgesia", 1); // replaces Albino (-2 points)
-				muts.AddMutation("Psychometry", 5); // replaces Triple-jointed (3 points)
-				muts.AddMutation("ElectricalGeneration", 10); // replaces Multiple Arms (4 points)
-				muts.AddMutation("LightManipulation", 5); // replaces Regeneration (4 points)
+				if (gameObject.TryGetPart(out Mutations m))
+				{
+					foreach (BaseMutation mut in m.MutationList.ToList())
+						m.RemoveMutation(mut);
+					m.AddMutation("Analgesia", 1); // replaces Albino (-2 points)
+					m.AddMutation("Psychometry", 5); // replaces Triple-jointed (3 points)
+					m.AddMutation("ElectricalGeneration", 10); // replaces Multiple Arms (4 points)
+					m.AddMutation("LightManipulation", 5); // replaces Regeneration (4 points)
+				}
 				gameObject.AddPart(new GivesRep());
 				gameObject.SetStringProperty("WaterRitual_Skill", "Tinkering_Tinker2");
 				gameObject.pRender.Tile = "Creatures/Bright_2Arms.png"; // GOD I hate this line

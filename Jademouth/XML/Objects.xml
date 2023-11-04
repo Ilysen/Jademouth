@@ -8,7 +8,6 @@
 		<tag Name="Terrain" Value="Mountains" />
 	</object>
 	<object Name="Ava_Jademouth_MarbleFloor" Inherits="MarbleFloor">
-		<part Name="SpawnBlocker" />
 		<tag Name="SpawnBlocker" />
 	</object>
 	<object Name="Ava_Jademouth_JademouthRecoiler" Inherits="BaseRecoiler">
@@ -20,11 +19,11 @@
 	</object>
 	<object Name="Ava_Jademouth_BlackoutCurtains" Inherits="BeltCurtains">
 		<part Name="Render" DisplayName="blackout curtains" RenderString="20" ColorString="&amp;y" DetailColor="K" Tile="Tiles2/sw_belt_curtains.bmp" Occluding="true" />
-		<part Name="Description" Short="Brinestalk was flattened into thick wafers and draped in clacking layers to guard against the light's advance." />
+		<part Name="Description" Short="Brinestalk was flattened into thick wafers and draped in clacking layers to divert the light's advance." />
 		<tag Name="NoConveyor" Value="*delete" />
 	</object>
 	<object Name="Ava_Jademouth_BrightSign" Inherits="Sign">
-		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_datadisc.bmp" Occluding="false" />
+		<part Name="Render" DisplayName="sign" Tile="Items/sw_workshop_sign.bmp" Occluding="false" />
 		<part Name="Chat" Says="Workshop" ShowInShortDescription="true" />
 	</object>
 	<object Name="Ava_Jademouth_LightSign" Inherits="Sign">
@@ -32,7 +31,7 @@
 		<part Name="Chat" Says="NO LIGHT PLEASE" ShowInShortDescription="true" />
 	</object>
 	<object Name="Ava_Jademouth_KitchenSign" Inherits="Sign">
-		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_bottle.bmp" Occluding="false" />
+		<part Name="Render" DisplayName="sign" Tile="Items/sw_sign_pepper.bmp" Occluding="false" />
 		<part Name="Chat" Says="Gravy" ShowInShortDescription="true" />
 	</object>
 	<object Name="Ava_Jademouth_Bookshelf" Inherits="UndergroundBookshelf">
@@ -83,19 +82,19 @@
 	<object Name="Ava_Jademouth_Table" Inherits="Table">
 		<part Name="Render" DisplayName="workbench" ColorString="&amp;w" DetailColor="C" RenderString="227" Tile="Assets_Content_Textures_Tiles_sw_table.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
-		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_WorkbenchContents" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<object Name="Ava_Jademouth_SleekTable" Inherits="Sleek Table">
 		<part Name="Render" DisplayName="workbench" ColorString="&amp;C" DetailColor="C" RenderString="227" Tile="Items/sw_table_sleek.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
-		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_WorkbenchContents" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<object Name="Ava_Jademouth_MetalTable" Inherits="Metal Table">
 		<part Name="Render" DisplayName="metal workbench" ColorString="&amp;c" DetailColor="C" RenderString="227" Tile="Items/sw_table_metal.bmp" Occluding="false" RenderIfDark="true" />
 		<part Name="Physics" Owner="Ava_Jademouth_JademouthFaction" />
-		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_JademouthWorkbench" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_WorkbenchContents" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 	<object Name="Ava_Jademouth_ChaosTheorySconceSpawner" Inherits="Widget">

@@ -2,21 +2,18 @@
 <populations>
 	<population Name="Ava_Jademouth_ProspectorTool">
 		<group Name="Items" Style="pickone">
-			<object Blueprint="Pickaxe" Weight="4" />
-			<table Name="JademouthJackhammerWithCell" />
-		</group>
-	</population>
-	<population Name="JademouthJackhammerWithCell">
-		<group Name="Items" Style="pickeach">
-			<object Blueprint="Nanopneumatic Jackhammer" />
-			<table Name="Cells" />
+			<object Blueprint="Pickaxe" />
+			<group Name="Jackhammer" Style="pickeach">
+				<object Blueprint="Nanopneumatic Jackhammer" />
+				<table Name="Cells" />
+			</group>
 		</group>
 	</population>
 	<population Name="Ava_Jademouth_ProspectorGems">
 		<object Blueprint="Ava_Jademouth_RoughJade" Number="3-5" />
 	</population>
 	<!-- Mostly the same as base hills, but with fewer trees and only docile creatures -->
-	<population Name="Ava_Jademouth_JademouthOutskirts">
+	<population Name="Ava_Jademouth_OutskirtsGlobals">
 		<object Chance="95" Number="6-16" Blueprint="Dogthorn Tree" />
 		<object Chance="25" Number="1-4" Blueprint="Witchwood Tree" />
 		<object Chance="5" Number="1-4" Blueprint="Starapple Tree" />
@@ -24,8 +21,8 @@
 		<object Chance="25" Number="1d4" Blueprint="Dog" />
 		<object Chance="25" Number="1d4" Blueprint="Salamander" />
 	</population>
-	<population Name="Ava_Jademouth_JademouthWorkbench">
-		<group Name="Ava_Jademouth_JademouthWorkbench" Style="pickeach">
+	<population Name="Ava_Jademouth_WorkbenchContents">
+		<group Name="Contents" Style="pickeach">
 			<table Name="DynamicInheritsTable:Tool" Chance="15" />
 			<table Name="Junk {zonetier}" Chance="15" />
 			<table Name="DynamicObjectsTable:EnergyCells" Chance="15" />

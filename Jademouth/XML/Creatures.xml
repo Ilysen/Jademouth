@@ -25,6 +25,7 @@
 		<inventoryobject Blueprint="Leather Gloves" />
 		<inventoryobject Blueprint="Miner's Helmet" />
 		<property Name="WontSell" Value="Pickaxe,NanopneumaticJackhammer" />
+		<tag Name="WontSellTag" Value="Ammo" />
 		<skill Name="Endurance_PoisonTolerance" />
 		<skill Name="Endurance_Calloused" />
 		<skill Name="Cudgel" />
