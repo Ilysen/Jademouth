@@ -2,15 +2,13 @@
 <conversations>
 	<conversation ID="Ava_Jademouth_ProspectorConversation">
 		<start ID="Greeting">
-			<text>
-				Mm.~
-				{{emote|*nods*}}~
-				Livendrink.~
-				Lookin' for gems?~
-				Watch the rocks.~
-				I need a break.~
-				You seen a fish around?
-			</text>
+			<text>Mm.</text>
+			<text>{{emote|*nods*}}</text>
+			<text>Livendrink.</text>
+			<text>Lookin' for gems?</text>
+			<text>Watch the rocks.</text>
+			<text>I need a break.</text>
+			<text>You seen a fish around?</text>
 			<choice Target="End">Live and drink.</choice>
 		</start>
 	</conversation>

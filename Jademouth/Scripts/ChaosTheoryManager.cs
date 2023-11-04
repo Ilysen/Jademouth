@@ -55,15 +55,15 @@ namespace XRL.World.QuestManagers
 			}
 			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_LightSign"))
 				go.Obliterate(Silent: true);
-			HandleReward();
 			The.Player.RemovePart(this);
+			The.Player.SetIntProperty("Ava_Jademouth_BrightRewardingPending", 1);
 		}
 
 		/// <summary>
 		/// Handles the reward of Chaos Theory by allowing the player to choose three item mods they don't know, free of charge and ignoring skill requirements.
 		/// If the player already has all mods, they receive a bunch of XP instead. If they're only missing three or less, then those ones are chosen automatically.
 		/// </summary>
-		private void HandleReward()
+		public static void HandleReward()
 		{
 			SortedList<string, TinkerData> sortedList = new SortedList<string, TinkerData>();
 			foreach (TinkerData td in TinkerData.TinkerRecipes.Where(x => x.Type == "Mod" && !TinkerData.RecipeKnown(x)))
@@ -85,7 +85,13 @@ namespace XRL.World.QuestManagers
 			else
 				chosenIndexes = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", sortedList.Keys.ToArray(), Amount: 3);
 
-			if (chosenIndexes.Count < Math.Min(3, sortedList.Count))
+			if (chosenIndexes.Count == 0)
+			{
+				if (Popup.ShowYesNo("Cancel learning? You will be able to return later.") == DialogResult.Yes)
+					return;
+				goto ChooseReward;
+			}
+			else if (chosenIndexes.Count < Math.Min(3, sortedList.Count))
 				if (Popup.ShowYesNo($"You can choose {Math.Min(3, sortedList.Count)} mods to learn, but you've only selected {chosenIndexes.Count}. Really continue?") != DialogResult.Yes)
 					goto ChooseReward;
 
@@ -95,6 +101,7 @@ namespace XRL.World.QuestManagers
 				TinkerData.KnownRecipes.Add(td);
 				Popup.Show("Bright teaches you how to mod your items to be {{W|" + td.DisplayName + "}}.");
 			}
+			The.Player.RemoveIntProperty("Ava_Jademouth_BrightRewardingPending");
 		}
 
 		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Ava_Jademouth_Bright");

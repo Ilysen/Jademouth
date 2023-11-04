@@ -5,6 +5,16 @@
 			<text>Water</text>
 			<text>I am quenched</text>
 		</node>
+		<start ID="PlayerMurderer1" IfTestState="Ava_Jademouth_AtacamaState contains KilledByPlayer" AllowEscape="false">
+			<text>
+				Leave
+			</text>
+			<choice Target="End">
+				<text>...</text>
+			</choice>
+		</start>
+		<start ID="PlayerMurderer2" IfTestState="Ava_Jademouth_BrightState contains KilledByPlayer" Inherits="PlayerMurderer1" />
+		<start ID="PlayerMurderer3" IfTestState="Ava_Jademouth_CatState contains KilledByPlayer" Inherits="PlayerMurderer1" />
 		<start ID="Greeting">
 			<text>
 				Hello

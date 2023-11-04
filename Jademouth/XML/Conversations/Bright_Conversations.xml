@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="Ava_Jademouth_BrightConversation">
-		<start ID="PlayerKilledCat_PostQuest" IfTestState="Ava_Jademouth_WardenCatState contains KilledByPlayer" IfFinishedQuest="Ava_Jademouth_ChaosTheory" AllowEscape="false">
+		<start ID="PlayerKilledCat_PostQuest" IfTestState="Ava_Jademouth_CatState contains KilledByPlayer" IfFinishedQuest="Ava_Jademouth_ChaosTheory" AllowEscape="false">
 			<text>
 				You.
 
@@ -20,7 +20,7 @@
 				<part Name="StartFight" />
 			</choice>
 		</node>
-		<start ID="PlayerKilledCat" IfTestState="Ava_Jademouth_WardenCatState contains KilledByPlayer" AllowEscape="false">
+		<start ID="PlayerKilledCat" IfTestState="Ava_Jademouth_CatState contains KilledByPlayer" AllowEscape="false">
 			<text>
 				MURDERER!
 			</text>
@@ -51,8 +51,9 @@
 			<choice Target="End">Live and drink.</choice>
 		</node>
 		<start ID="Greeting_PostQuest" IfFinishedQuest="Ava_Jademouth_ChaosTheory">
-			<text> =name=! How lovely to see you. What can I do for you?
+			<text>=name=! How lovely to see you. What can I do for you?
 			</text>
+			<choice Target="GiveReward" IfHaveProperty="Ava_Jademouth_BrightRewardingPending">You mentioned that you could help me learn item mods?</choice>
 			<choice Target="Mutations">How are things?</choice>
 			<choice Target="Cat_PostQuest" IfTestState="Ava_Jademouth_CatMentionedBright">Do you get along with Cat these days?</choice>
 			<choice Target="End">Live and drink, Bright.</choice>
@@ -99,7 +100,7 @@
 			<choice Target="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="Project">
-			<text>Just keeping the tools serviced, working on the power lines, the usual. That reminds me - are you looking for work right now?</text>
+			<text>Just keeping the tools serviced, working on the power lines, the usual. That reminds me -- are you looking for work right now?</text>
 			<choice Target="Maybe">Maybe. What did you have in mind?</choice>
 			<choice Target="Reset">Not at the moment.</choice>
 		</node>
@@ -135,14 +136,14 @@
 			
 			Warm static originates from the Moon Stair, but that's likely not a place you want to visit. The alchemist in Bethesda Susa is an expert in this sort of thing as well, but finding them is a journey in its own right. If you cannot find them, only then would I risk the Stair.
 			
-			Should you be inclined to search at the source, you will be hunting a certain type of jell. Liquid of the purity I seek can supposedly be harvested from them, but you may need to dispatch several of them to find an appropriate sample - and if you use heat-based weapons, it would likely be destroyed outright.
+			Should you be inclined to search at the source, you will be hunting a certain type of jell. Liquid of the purity I seek can supposedly be harvested from them, but you may need to dispatch several of them to find an appropriate sample -- and if you use heat-based weapons, it would likely be destroyed outright.
 		
 			Be cautious. I have heard stories. And when you do find the static, DO NOT do anything else with it. Bring it directly here.</text>
 			<choice Target="Start">While I'm here, I had other questions.</choice>
 			<choice Target="End">I guess I'd better start looking. Live and drink.</choice>
 		</node>
 		<node ID="Reminder">
-			<text>A highly entropic liquid, called warm static. I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze there. A much safer idea would be to find the alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure - if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
+			<text>A highly entropic liquid, called warm static. I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze there. A much safer idea would be to find the alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure; if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">Thanks. Live and drink.</choice>
 		</node>
@@ -155,7 +156,7 @@
 			<choice Target="Mutating">?!</choice>
 		</node>
 		<node ID="Mutating" AllowEscape="false">
-			<text>{{emote|*Bright convulses on the floor. =pronouns.Possessive= arms warp and twist as though seen through dirty glass before two of them disappear outright in a flurry of hissing snow. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is crackling, and something else - a thin keening alike to a dying animal, heard distantly on a cold wind.*}}
+			<text>{{emote|*Bright convulses on the floor. =pronouns.Possessive= arms warp and twist as though seen through dirty glass before two of them disappear outright in a flurry of hissing snow. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is crackling, and something else -- a thin keening alike to a dying animal, heard distantly on a cold wind.*}}
 			
 			{{emote|*And then it stops, as quickly as it began. Eddies of static flicker about the tinker's body as =pronouns.possessive= skin shudders unsteadily with a warm glow. =pronouns.Subjective= unsteadily =verb:sit:afterpronoun= up.*}}
 			</text>
@@ -174,7 +175,7 @@
 		<node ID="ItWorked" AllowEscape="false">
 			<text>{{emote|*Bright is staring with a foolish grin.*}}
 
-			I could only imagine the risk, but it worked. It worked! My eyes don't hurt! My skin doesn't prickle! I... =name=, words cannot describe what you have done for me. You have done me a favor I can never repay. I can teach you some of my designs, as I promised - I can only hope that will be enough. You are welcome here any time.
+			I could only imagine the risk, but it worked. It worked! My eyes don't hurt! My skin doesn't prickle! I... =name=, words cannot describe what you have done for me. You have done me a favor I can never repay. Whenever you're ready, I can teach you some of my designs, as I promised. I can only hope that will be enough.
 
 			Thank you.
 			</text>
@@ -201,6 +202,11 @@
 			Now that I can go outside again, I see her a lot more. I like to believe that she's starting to warm up again; the other day she even laughed with me. It isn't much, but I'm thankful to be on talking terms with her again.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">Hopefully it works out. Live and drink.</choice>
+		</node>
+		<node ID="GiveReward">
+			<text>That is correct. Would you like to learn now? You need not know the requisite skills -- anything I teach you may be put into practice even if you only know the basics of tinkering.</text>
+			<choice Target="End" CallScript="XRL.World.QuestManagers.Ava_Jademouth_ChaosTheoryManager.HandleReward">Yes, teach me now.</choice>
+			<choice Target="End">Perhaps not yet. Live and drink.</choice>
 		</node>
 	</conversation>
 </conversations>

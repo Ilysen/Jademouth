@@ -3,7 +3,7 @@
 	<conversation ID="Ava_Jademouth_WardenCatConversation">
 		<start ID="PlayerKilledBright" IfTestState="Ava_Jademouth_BrightState contains KilledByPlayer" AllowEscape="false">
 			<text>
-				{{emote|*You feel a telepathic wave of intense hatred.*}}
+				{{emote|*You feel a telepathic wave of intense negativity.*}}
 
 				You...
 
@@ -27,12 +27,10 @@
 		</start>
 		<start ID="PlayerMurderer2" IfTestState="Ava_Jademouth_FizzState contains KilledByPlayer" Inherits="PlayerMurderer1" />
 		<start ID="Greeting">
-			<text>
-				Please stay peaceful in Jademouth. We like it quiet.~
-				If you have any questions, I'm the one to ask.~
-				Moon and sun.~
-				Can I help you?
-			</text>
+			<text>Please stay peaceful in Jademouth. We like it quiet.</text>
+			<text>If you have any questions, I'm the one to ask.</text>
+			<text>Moon and sun.</text>
+			<text>Can I help you?</text>
 			<choice Target="Jademouth">What is this place?</choice>
 			<choice Target="Unassuming">You don't look much like a warden.</choice>
 			<choice Target="CatsHuntBirds">I can feel your psyche. Do you have trouble with Seekers?</choice>

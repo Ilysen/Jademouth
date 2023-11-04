@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conversations>
 	<conversation ID="Ava_Jademouth_AtacamaConversation">
+		<start ID="PlayerMurderer1" IfTestState="Ava_Jademouth_BrightState contains KilledByPlayer" AllowEscape="false">
+			<text>
+				I believe it best if we stay far away from one another, friend.
+			</text>
+			<choice Target="End">
+				<text>...</text>
+			</choice>
+		</start>
+		<start ID="PlayerMurderer2" IfTestState="Ava_Jademouth_CatState contains KilledByPlayer" Inherits="PlayerMurderer1" />
+		<start ID="PlayerMurderer3" IfTestState="Ava_Jademouth_FizzState contains KilledByPlayer" Inherits="PlayerMurderer1" />
 		<start ID="Greeting">
 			<text>
 				Come in, come in! Kick the dirt off and find a place to rest.

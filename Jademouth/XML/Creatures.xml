@@ -34,7 +34,7 @@
 		Xe sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
 	<object Name="Ava_Jademouth_Atacama" Inherits="SapientMutatedSucculent">
 		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="&amp;g" DetailColor="W" RenderString="#" />
-		<part Name="Description" Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor tidy." />
+		<part Name="Description" Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor a tidy one." />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_AtacamaConversation" />
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Ava_Jademouth_JademouthFaction-50" />
 		<part Name="GameUnique" State="Ava_Jademouth_AtacamaState" />
@@ -103,11 +103,10 @@
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="ChefInventory" />
 		<tag Name="Gender" Value="nonspecific" />
-		<skill Name="Endurance_Weathered" />
 		<skill Name="CookingAndGathering" />
 		<skill Name="CookingAndGathering_Harvestry" />
+		<skill Name="CookingAndGathering_Butchery" />
 		<skill Name="CookingAndGathering_Spicer" />
-		<skill Name="CookingAndGathering_CarbideChef" />
 		<tag Name="NoSleep" />
 		<part Name="GivesRep" />
 		<xtagGrammar Proper="true" />
@@ -120,11 +119,12 @@
 
 	<!-- Cat the warden. Esper. Complicated relationship with Bright. -->
 	<object Name="Ava_Jademouth_WardenCat" Inherits="NPC">
-		<part Name="Render" DisplayName="Warden Cat" Tile="Creatures/Warden_Cat.png" ColorString="&amp;B" RenderString="w" DetailColor="m" />
+		<part Name="Render" DisplayName="Cat" Tile="Creatures/Warden_Cat.png" ColorString="&amp;B" RenderString="w" DetailColor="m" />
+		<part Name="Honorifics" Primary="Warden" />
 		<part Name="Description" Short="Swaddled in coat and veil, Cat's figure is dimunitive, suggesting a pilgrim or apostle but for the blue scarf =pronouns.subjective= wears in mark of =pronouns.possessive= position as a warden. The worn clothes and small frame do little to conceal the glimmer of an experienced esper, however, whose psyche brushes in close proximity to yours as it probes your intent." />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_WardenCatConversation" />
 		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
-		<part Name="GameUnique" State="Ava_Jademouth_WardenCatState" />
+		<part Name="GameUnique" State="Ava_Jademouth_CatState" />
 		<stat Name="Strength" sValue="20" />
 		<stat Name="Agility" sValue="22" />
 		<stat Name="Toughness" sValue="20" />
