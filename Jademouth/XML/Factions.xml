@@ -2,7 +2,8 @@
 <factions>
 	<faction Name="Ava_Jademouth_JademouthFaction" DisplayName="denizens of Jademouth" Old="false" FormatWithArticle="true" InitialPlayerReputation="0" PositiveSound="Sounds/Reputation/sfx_reputation_village_positive" NegativeSound="Sounds/Reputation/sfx_reputation_village_negative">
 		<feeling About="Baboons" Value="-100" />
-		<feeling About="Cragmensch" Value="-100" />
+		<feeling About="Cannibals" Value="-100" />
+		<feeling About="Snapjaws" Value="-100" />
 		<feeling About="*" Value="0" />
 		<interests>
 			<interest Tags="mountains" />

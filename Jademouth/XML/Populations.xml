@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
-	<population Name="Ava_Jademouth_ProspectorTool">
-		<group Name="Items" Style="pickone">
-			<object Blueprint="Pickaxe" />
-			<group Name="Jackhammer" Style="pickeach">
-				<object Blueprint="Nanopneumatic Jackhammer" />
-				<table Name="Cells" />
+	<population Name="Ava_Jademouth_ProspectorGear" Style="pickeach">
+		<group Style="pickeach">
+			<group Name="Light" Style="pickone">
+				<object Weight="6" Blueprint="Miner's Helmet" />
+				<object Weight="12" Blueprint="Headlamp" />
+				<object Weight="1" Blueprint="Floating Glowsphere" />
+			</group>
+			<group Name="Torso" Style="pickone">
+				<object Blueprint="Cloth Overalls" />
+				<object Blueprint="Crude Toga" />
+				<object Blueprint="Leather Apron" />
+			</group>
+			<group Name="Gloves" Style="pickone">
+				<object Weight="5" Blueprint="Leather Gloves" />
+				<object Weight="4" Blueprint="Boar-skin Gloves" />
+				<object Weight="1" Blueprint="Ulnar Stimulators" />
+			</group>
+			<group Name="Boots" Style="pickone">
+				<object Weight="9" Blueprint="Leather Boots" />
+				<object Weight="1" Blueprint="Magnetized Boots" />
+			</group>
+			<group Name="Tools" Style="pickone">
+				<object Blueprint="Pickaxe" />
+				<group Name="Jackhammer" Style="pickeach">
+					<object Blueprint="Nanopneumatic Jackhammer" />
+					<object Blueprint="Cells" />
+				</group>
 			</group>
 		</group>
 	</population>

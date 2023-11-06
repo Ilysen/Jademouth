@@ -17,11 +17,14 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 * Prospectors now sell 3-5 rough jade, up from 1-3.
 * Prospectors no longer sell their energy cells.
+* Prospectors can spawn with a much larger variety of gear.
+* Atacama now goes by he/him/his.
+* Cat no longer stays awake at all hours.
 * Unique NPCs now react when other unique NPCs are killed:
 	* Atacama and Fizz will refuse to speak with you if you kill anyone.
 	* Bright will turn permanently hostile if you kill Cat. She will remain neutral if you kill any of the other unique NPCs, but will refuse to speak with you.
 	* Cat will turn permanently hostile if you kill anyone.
-	* Prospectors are unaffected; fighting them won't cause any long-term functionality issues. Among other reasons, this is because they can still show up outside of Jademouth in dynamic encounters, but there's no simple way to differentiate dynamically-spawned prospectors from static prospectors in Jademouth with regards to dialogue code.
+	* Prospectors are unaffected; fighting them won't cause any long-term functionality issues. Among other reasons, this is because they can still show up outside of Jademouth in dynamic encounters, but there's also no simple way to differentiate dynamically-spawned prospectors from static prospectors in Jademouth with regards to dialogue code.
 	* *This feature might end up being axed, depending on how it shakes out in practice.*
 * Did a polish and writing pass on all the descriptions and dialogue. Most things are unchanged, but certain options are slightly different, and some new ones have been added.
 * Rebalanced stats across the board, fixing some oversights and issues in the process (like prospectors having 50 Strength!)
@@ -30,7 +33,7 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 	* Reward selection now uses a "select multiple" popup like giving books to Sheba or tossing artifacts into the sacred well.
 	* You can back out of this screen by selecting no rewards, which will allow you to cancel the process and return later.
 * Internally changed almost everything in the mod to use a consistent naming scheme. __This is incompatible with saves__ but should serve to fully future-proof any potential ID conflicts.
-* Added two debug wishes: `go2jademouth` brings you straight to Jademouth's center tile, and `chaostheorytest` completes the Chaos Theory quest and teleports you into a cell adjacent to Bright. These are mostly used on my end for 
+* Added two debug wishes: `go2jademouth` brings you straight to Jademouth's center tile, and `chaostheorytest` completes the Chaos Theory quest and teleports you into a cell adjacent to Bright. I made these for the sake of easy testing of changes, but I decided to leave them in the public version for anyone looking to explore the town easily. 
 * Fixed a bug where Warden Cat wouldn't actually care if you attacked NPCs in front of her.
 
 ### 19 September, 2023

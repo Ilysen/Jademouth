@@ -10,17 +10,14 @@
 		<part Name="AISelfPreservation" Threshold="30" />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_ProspectorConversation" />
 		<stat Name="Level" Value="15" />
+		<stat Name="Strength" Boost="1" />
 		<stat Name="AV" Value="5" />
-		<stat Name="Hitpoints" Value="40" />
+		<stat Name="Hitpoints" Value="50" />
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="Ava_Jademouth_ProspectorGems" />
 		<part Name="Ava_Jademouth_ProspectorColorPart" />
-		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_ProspectorTool" />
+		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_ProspectorGear" />
 		<tag Name="Merchant" />
-		<inventoryobject Blueprint="Leather Boots" />
-		<inventoryobject Blueprint="Filthy Toga" />
-		<inventoryobject Blueprint="Leather Gloves" />
-		<inventoryobject Blueprint="Miner's Helmet" />
 		<property Name="WontSell" Value="Pickaxe,NanopneumaticJackhammer" />
 		<tag Name="WontSellTag" Value="Ammo" />
 		<skill Name="Endurance_PoisonTolerance" />
@@ -31,7 +28,7 @@
 	</object>
 
 	<!-- Atacama, a fractus from the Consortium of Phyta.
-		Xe sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
+		He sells tier 4 stuff as well as pickaxes, spine fruit, and Jademouth recoilers. -->
 	<object Name="Ava_Jademouth_Atacama" Inherits="SapientMutatedSucculent">
 		<part Name="Render" DisplayName="Atacama" Tile="Creatures/Atacama.png" ColorString="&amp;g" DetailColor="W" RenderString="#" />
 		<part Name="Description" Short="Dense fractus vines, divested of their thorns, drape across shelves and soil. Waterskins, sundries, and trade goods are arranged in neat rows as their caretaker sorts them in pursuit of constant perfection. Atacama keeps =pronouns.possessive= parlor a tidy one." />
@@ -39,8 +36,8 @@
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Ava_Jademouth_JademouthFaction-50" />
 		<part Name="GameUnique" State="Ava_Jademouth_AtacamaState" />
 		<part Name="Interesting" />
-		<stat Name="Level" Value="27" />
-		<stat Name="Hitpoints" sValue="300" />
+		<stat Name="Level" Value="20" />
+		<stat Name="Hitpoints" sValue="200" />
 		<inventoryobject Blueprint="Clay Pot" />
 		<mutation Name="Burgeoning" Level="3" />
 		<mutation Name="Confusion" Level="4" />
@@ -55,7 +52,7 @@
 		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
-		<tag Name="PronounSet" Value="xe/xem/xyr" />
+		<tag Name="PronounSet" Value="he/him/his" />
 	</object>
 
 	<!-- Bright the tinker. Questgiver for Chaos Theory. -->
@@ -94,7 +91,7 @@
 		<part Name="Brain" Factions="Ava_Jademouth_JademouthFaction-100,Mollusks-25" Wanders="false" />
 		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
-		<stat Name="Intelligence" sValue="16" />
+		<stat Name="Intelligence" sValue="18" />
 		<stat Name="Willpower" sValue="16" />
 		<stat Name="Ego" sValue="16" />
 		<stat Name="Level" sValue="20" />
@@ -102,7 +99,6 @@
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_FizzConversation" />
 		<part Name="GenericInventoryRestocker" />
 		<tag Name="GenericInventoryRestockerPopulationTable" Value="ChefInventory" />
-		<tag Name="Gender" Value="nonspecific" />
 		<skill Name="CookingAndGathering" />
 		<skill Name="CookingAndGathering_Harvestry" />
 		<skill Name="CookingAndGathering_Butchery" />
@@ -110,11 +106,10 @@
 		<tag Name="NoSleep" />
 		<part Name="GivesRep" />
 		<xtagGrammar Proper="true" />
-		<stat Name="AcidResistance" Value="100" />
 		<tag Name="SharesRecipe" Value="Ava_Jademouth_JademouthGravy" />
 		<tag Name="SharesRecipeText" Value="Would you show me how to make your gravy?" />
 		<tag Name="WaterRitualLiquid" Value="water" />
-		<tag Name="ExcludeFromDynamicEncounters" />
+		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
 
 	<!-- Cat the warden. Esper. Complicated relationship with Bright. -->
@@ -125,12 +120,9 @@
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_WardenCatConversation" />
 		<part Name="Brain" Wanders="false" Factions="Wardens-100" />
 		<part Name="GameUnique" State="Ava_Jademouth_CatState" />
-		<stat Name="Strength" sValue="20" />
-		<stat Name="Agility" sValue="22" />
-		<stat Name="Toughness" sValue="20" />
-		<stat Name="Intelligence" sValue="20" />
-		<stat Name="Willpower" sValue="24" />
-		<stat Name="Ego" sValue="26" />
+		<stat Name="Strength" Boost="-1" />
+		<stat Name="Willpower" Boost="1" />
+		<stat Name="Ego" Boost="1" />
 		<stat Name="Hitpoints" Value="250" />
 		<mutation Name="Esper" Level="1" />
 		<!-- Cat's mutation levels come from her ego bonus -->
@@ -161,7 +153,6 @@
 		<tag Name="NoHatedFactions" Value="Consortium" />
 		<tag Name="NoFriendFactions" Value="Seekers of the Sightless Way" />
 		<tag Name="Gender" Value="female" />
-		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
 	</object>
