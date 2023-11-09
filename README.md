@@ -19,6 +19,7 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 * Prospectors no longer sell their energy cells.
 * Prospectors can spawn with a much larger variety of gear.
 * Atacama now goes by he/him/his.
+* Atacama is now always neutral unless attacked first. This is to prevent him from attacking characters with fungal infections due to poor Consortium rep (he touches on this in his dialogue.)
 * Cat no longer stays awake at all hours.
 * Unique NPCs now react when other unique NPCs are killed:
 	* Atacama and Fizz will refuse to speak with you if you kill anyone.

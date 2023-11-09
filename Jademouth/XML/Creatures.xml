@@ -36,6 +36,7 @@
 		<part Name="Brain" Wanders="false" Hostile="false" Factions="Consortium-100,Ava_Jademouth_JademouthFaction-50" />
 		<part Name="GameUnique" State="Ava_Jademouth_AtacamaState" />
 		<part Name="Interesting" />
+		<part Name="Calming" />
 		<stat Name="Level" Value="20" />
 		<stat Name="Hitpoints" sValue="200" />
 		<inventoryobject Blueprint="Clay Pot" />
