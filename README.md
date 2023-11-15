@@ -11,10 +11,9 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
-### 25 September, 2023
-#### Version 1.2
-**This version won't be publicly released until a save-breaking update has been pushed to the stable branch, to avoid bricking existing saves.**
+### 15 November, 2023
 
+#### Version 1.2
 * Prospectors now sell 3-5 rough jade, up from 1-3.
 * Prospectors no longer sell their energy cells.
 * Prospectors can spawn with a much larger variety of gear.
