@@ -53,7 +53,7 @@
 		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
-		<tag Name="PronounSet" Value="he/him/his" />
+		<tag Name="Gender" Value="male" />
 	</object>
 
 	<!-- Bright the tinker. Questgiver for Chaos Theory. -->

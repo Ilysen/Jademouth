@@ -66,7 +66,7 @@
 			<choice Target="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="Merchants">
-			<text>Atacama is from the Consortium and xe can help you with vittle and supplies. Fizz has food and spices. There's also Bright. Other than that, you could talk with some of the miners directly if you're here for gemstones.</text>
+			<text>Atacama is from the Consortium and he can help you with vittle and supplies. Fizz has food and spices. There's also Bright. Other than that, you could talk with some of the miners directly if you're here for gemstones.</text>
 			<choice ID="Atacama" Target="Atacama">Tell me about Atacama.</choice>
 			<choice ID="Fizz" Target="Fizz">Who's Fizz?</choice>
 			<choice ID="Bright" Target="Bright" IfNotFinishedQuest="Ava_Jademouth_ChaosTheory">What does Bright do?</choice>
@@ -83,7 +83,7 @@
 			<choice Target="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="Atacama">
-			<text>Atacama is a fractus plant. Xe handles most of our trade with outsiders like yourself. You can find xem just inside on your right. Look for the glowsphere.</text>
+			<text>Atacama is a fractus plant. He handles most of our trade with outsiders like yourself. You can find him just inside on your right. Look for the glowsphere.</text>
 			<choice UseID="Fizz" />
 			<choice UseID="Bright" />
 			<choice UseID="Bright_PostQuest" />

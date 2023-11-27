@@ -11,6 +11,13 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 27 November, 2023
+
+#### Version 1.2.1
+* Fixed Warden Cat still referring to Atacama with xe/xem/xyr pronouns.
+* Fixed Atacama's description using "their" instead of "his".
+	* To-do: work out some more info about how the PronounSet tag works internally
+
 ### 15 November, 2023
 
 #### Version 1.2
