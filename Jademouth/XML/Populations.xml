@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
+	<population Name="Ava_Jademouth_AtacamaWares">
+		<group Name="Items" Style="pickeach">
+			<object Blueprint="Ava_Jademouth_JademouthRecoiler" />
+			<object Blueprint="Spine Fruit" Number="3-5" />
+			<object Blueprint="Pickaxe" Number="10-15" />
+			<object Blueprint="Nanonpneumatic Jackhammer" Number="0-2" />
+			<object Blueprint="Miner's Helmet" Number="1-2" />
+			<object Blueprint="Headlamp" Number="3-5" />
+			<table Name="Cells" Number="4-8" />
+			<table Name="Tier4Wares" />
+		</group>
+	</population>
 	<population Name="Ava_Jademouth_ProspectorGear" Style="pickeach">
 		<group Style="pickeach">
 			<group Name="Light" Style="pickone">

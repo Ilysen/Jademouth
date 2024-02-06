@@ -11,6 +11,11 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 6 February, 2024
+
+#### Version 1.2.2
+* Updated restocking NPCs to use the new syntax included in post-Creatures of the 7th Plague updates, which fixes issues with their stock not appearing. Thanks for the report, Sarcose!
+
 ### 27 November, 2023
 
 #### Version 1.2.1

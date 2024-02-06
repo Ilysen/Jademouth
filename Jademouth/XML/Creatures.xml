@@ -13,8 +13,7 @@
 		<stat Name="Strength" Boost="1" />
 		<stat Name="AV" Value="5" />
 		<stat Name="Hitpoints" Value="50" />
-		<part Name="GenericInventoryRestocker" />
-		<tag Name="GenericInventoryRestockerPopulationTable" Value="Ava_Jademouth_ProspectorGems" />
+		<part Name="GenericInventoryRestocker" Table="Ava_Jademouth_ProspectorGems" />
 		<part Name="Ava_Jademouth_ProspectorColorPart" />
 		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_ProspectorGear" />
 		<tag Name="Merchant" />
@@ -48,8 +47,7 @@
 		<skill Name="Cudgel" />
 		<skill Name="Persuasion_Berate" />
 		<property Name="Role" Value="NPC" />
-		<builder Name="Tier4Wares" />
-		<builder Name="Ava_Jademouth_AtacamaWares" />
+		<part Name="GenericInventoryRestocker" Table="Ava_Jademouth_AtacamaWares" />
 		<tag Name="NoSleep" />
 		<xtagGrammar Proper="true" />
 		<tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
@@ -98,8 +96,7 @@
 		<stat Name="Level" sValue="20" />
 		<stat Name="Hitpoints" Value="100" />
 		<part Name="ConversationScript" ConversationID="Ava_Jademouth_FizzConversation" />
-		<part Name="GenericInventoryRestocker" />
-		<tag Name="GenericInventoryRestockerPopulationTable" Value="ChefInventory" />
+		<part Name="GenericInventoryRestocker" Table="ChefInventory" />
 		<skill Name="CookingAndGathering" />
 		<skill Name="CookingAndGathering_Harvestry" />
 		<skill Name="CookingAndGathering_Butchery" />

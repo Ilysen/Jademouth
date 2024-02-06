@@ -79,7 +79,6 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Jademouth\Scripts\AtacamaWares.cs" />
     <Compile Include="Jademouth\Scripts\ChaosTheoryManager.cs" />
     <Compile Include="Jademouth\Scripts\ConversationDelegates.cs" />
     <Compile Include="Jademouth\Scripts\JademouthGravy.cs" />
