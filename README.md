@@ -11,6 +11,11 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 27 April, 2024
+
+#### Version 1.2.3
+* Updated to work with game version 2.0.206.77, which featured breaking API changes.
+
 ### 6 February, 2024
 
 #### Version 1.2.2

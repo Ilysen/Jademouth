@@ -83,7 +83,11 @@ namespace XRL.World.QuestManagers
 					chosenIndexes.Add(i);
 			}
 			else
-				chosenIndexes = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", sortedList.Keys.ToArray(), Amount: 3);
+			{
+				var pickedIndices = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", sortedList.Keys.ToArray(), Amount: 3);
+				foreach (var (Selected, Amount) in pickedIndices)
+					chosenIndexes.Add(Selected);
+			}
 
 			if (chosenIndexes.Count == 0)
 			{
@@ -104,6 +108,6 @@ namespace XRL.World.QuestManagers
 			The.Player.RemoveIntProperty("Ava_Jademouth_BrightRewardingPending");
 		}
 
-		public override GameObject GetQuestInfluencer() => GameObject.findByBlueprint("Ava_Jademouth_Bright");
+		public override GameObject GetQuestInfluencer() => GameObject.FindByBlueprint("Ava_Jademouth_Bright");
 	}
 }
