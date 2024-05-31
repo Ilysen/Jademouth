@@ -11,6 +11,9 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 31 May, 2024
+* Fizz no longer has partial mollusk reputation, and instead is always admired by mollusks for a unique reason. This fixes an issue introduced in the Spring Molting beta where it would attack characters who were despised by mollusks; this could be classified as a fountain, but for ease of approachability, I decided to patch it out regardless.
+
 ### 27 April, 2024
 
 #### Version 1.2.3

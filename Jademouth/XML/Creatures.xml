@@ -87,7 +87,7 @@
 		<part Name="Render" DisplayName="Fizz" Tile="Creatures/sw_slog.bmp" ColorString="&amp;w" DetailColor="g" />
 		<part Name="Description" Short="Fizz undulates slowly as =pronouns.subjective= =verb:writhe:afterpronoun= about, =pronouns.possessive= ochre skin glistening like wet rust. Sensitive feelers wriggle from =pronouns.possessive= head, taking in the meaty scents around =pronouns.possessive= workspace as gravy simmers and stews. Occassionally =pronouns.subjective= =verb:tend:afterpronoun= to the pots with practiced speed, positioned carefully to keep =pronouns.possessive= acidic secretions away from the bubbling grease until the time is right." />
 		<part Name="GameUnique" State="Ava_Jademouth_FizzState" />
-		<part Name="Brain" Factions="Ava_Jademouth_JademouthFaction-100,Mollusks-25" Wanders="false" />
+		<part Name="Brain" Factions="Ava_Jademouth_JademouthFaction-100" Wanders="false" />
 		<mutation Name="SlogGlands" />
 		<mutation Name="AcidSlimeGlands" />
 		<stat Name="Intelligence" sValue="18" />
@@ -102,6 +102,7 @@
 		<skill Name="CookingAndGathering_Butchery" />
 		<skill Name="CookingAndGathering_Spicer" />
 		<tag Name="NoSleep" />
+		<tag Name="staticFaction1" Value="Mollusks,friend,=pronouns.possessive= exquisite juices" />
 		<part Name="GivesRep" />
 		<xtagGrammar Proper="true" />
 		<tag Name="SharesRecipe" Value="Ava_Jademouth_JademouthGravy" />
