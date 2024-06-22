@@ -11,29 +11,30 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 22 June, 2024
+#### Version 1.2.5
+* Updated to work with game version 2.0.207.72, which featured breaking API changes.
+
 ### 31 May, 2024
+#### Version 1.2.4
 * Fizz no longer has partial mollusk reputation, and instead is always admired by mollusks for a unique reason. This fixes an issue introduced in the Spring Molting beta where it would attack characters who were despised by mollusks; this could be classified as a fountain, but for ease of approachability, I decided to patch it out regardless.
 * Added a debug wish, `jademouthpeace`, that resets all of the NPC death trackers used in Jademouth, letting you speak with the named merchants even if you've killed one of their own.
 
 ### 27 April, 2024
-
 #### Version 1.2.3
 * Updated to work with game version 2.0.206.77, which featured breaking API changes.
 
 ### 6 February, 2024
-
 #### Version 1.2.2
 * Updated restocking NPCs to use the new syntax included in post-Creatures of the 7th Plague updates, which fixes issues with their stock not appearing. Thanks for the report, Sarcose!
 
 ### 27 November, 2023
-
 #### Version 1.2.1
 * Fixed Warden Cat still referring to Atacama with xe/xem/xyr pronouns.
 * Fixed Atacama's description using "their" instead of "his".
 	* To-do: work out some more info about how the PronounSet tag works internally
 
 ### 15 November, 2023
-
 #### Version 1.2
 * Prospectors now sell 3-5 rough jade, up from 1-3.
 * Prospectors no longer sell their energy cells.
@@ -58,25 +59,21 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 * Fixed a bug where Warden Cat wouldn't actually care if you attacked NPCs in front of her.
 
 ### 19 September, 2023
-
 #### Version 1.1.5
 * Prospector detail color now appears as bright green when they have jade to sell, hopefully making shopping easier. Existing saves won't break, but a new save is required for the functionality to work.
 * Prospectors no longer keep stuff traded to them forever, and instead have bartered items disappear upon restock like other merchants. (thanks books!)
 
 ### 16 September, 2023
-
 #### Version 1.1.4
 * Hotfix for an API change in the latest update - should cause no trouble with saves.
 
 ### 12 September, 2023
-
 #### Version 1.1.3
 * Fixed some display issues in ASCII mode.
 * Fixed a long-standing issue with jade glittermensches having a white detail color - now it shows as dark green.
 * Removed an old unused debug map, to trim unnecessary file size.
 
 ### 31 August, 2023
-
 #### Version 1.1.2
 * Made prospectors sell rough jade again. What can I say, people liked it!
 * Fixed some grammar regressions in the descriptions for prospectors and the Jademouth overmap tile.

@@ -84,7 +84,7 @@ namespace XRL.World.QuestManagers
 			}
 			else
 			{
-				var pickedIndices = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", sortedList.Keys.ToArray(), Amount: 3);
+				var pickedIndices = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", Options: sortedList.Keys.ToArray(), Amount: 3);
 				foreach (var (Selected, Amount) in pickedIndices)
 					chosenIndexes.Add(Selected);
 			}
