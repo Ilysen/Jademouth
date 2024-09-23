@@ -134,11 +134,11 @@
 		<node ID="Accepted">
 			<text>Excellent! Thank you so much. I'm afraid I'm not actually wholly sure where to start, but I have a few ideas.
 			
-			Warm static originates from the Moon Stair, but that's likely not a place you want to visit. The alchemist in Bethesda Susa is an expert in this sort of thing as well, but finding them is a journey in its own right. If you cannot find them, only then would I risk the Stair.
+			Warm static originates from the Moon Stair, but that's likely not a place you want to visit. The alchemist in Bethesda Susa is an expert in this sort of thing as well, but finding them is a journey in its own right.
 			
-			Should you be inclined to search at the source, you will be hunting a certain type of jell. Liquid of the purity I seek can supposedly be harvested from them, but you may need to dispatch several of them to find an appropriate sample -- and if you use heat-based weapons, it would likely be destroyed outright.
+			I would only visit the Stair had I no other option. If you do, you will be looking for a certain type of jell. Liquid of the purity I seek can be harvested from them, but you may need to kill several of them to find an appropriate sample -- and if you use heat-based weapons, it would likely be destroyed outright.
 		
-			Be cautious. I have heard stories. And when you do find the static, DO NOT do anything else with it. Bring it directly here.</text>
+			Be cautious. I've heard stories. And when you do find the static, DO NOT do anything else with it. Bring it directly here.</text>
 			<choice Target="Start">While I'm here, I had other questions.</choice>
 			<choice Target="End">I guess I'd better start looking. Live and drink.</choice>
 		</node>

@@ -11,6 +11,12 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 
 ## Changelog
 
+### 23 September, 2024
+#### Version 1.2.6
+* Updated to work with game version 2.0.207.101, which updated the world map.
+* Updated the author listing to use my current preferred name. Mod ID was kept the same to ensure save compat.
+* Slight tweaks to several conversations to make them flow more naturally.
+
 ### 22 June, 2024
 #### Version 1.2.5
 * Updated to work with game version 2.0.207.72, which featured breaking API changes.

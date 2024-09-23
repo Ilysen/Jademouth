@@ -8,12 +8,11 @@ namespace XRL.World.Parts
 	/// Jade is sold by individual prospectors rather than a main merchant, so this makes shopping easier for the player to do.
 	/// </summary>
 	[Serializable]
-	public class Ava_Jademouth_ProspectorColorPart : IPart
+	public class Ava_Jademouth_ProspectorColorPart : IScribedPart
 	{
-		public override void Register(GameObject Object)
+		public override void Register(GameObject Object, IEventRegistrar Registrar)
 		{
-			Object.RegisterPartEvent(this, "EncumbranceChanged");
-			base.Register(Object);
+			Registrar.Register("EncumbranceChanged");
 		}
 
 		public override bool FireEvent(Event E)

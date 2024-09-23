@@ -43,9 +43,11 @@
     <None Include="Jademouth\JademouthSoutheast.rpm" />
     <None Include="Jademouth\JademouthSouthwest.rpm" />
     <None Include="Jademouth\JademouthWest.rpm" />
-    <None Include="Jademouth\JoppaWorldNew8.rpm" />
+    <None Include="Jademouth\QudWorldMap.rpm" />
     <None Include="Jademouth\manifest.json" />
     <None Include="Jademouth\workshop.json" />
+    <None Include="LICENSE.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Jademouth\preview.png" />

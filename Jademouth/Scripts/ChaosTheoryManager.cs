@@ -40,7 +40,7 @@ namespace XRL.World.QuestManagers
 				}
 				gameObject.AddPart(new GivesRep());
 				gameObject.SetStringProperty("WaterRitual_Skill", "Tinkering_Tinker2");
-				gameObject.pRender.Tile = "Creatures/Bright_2Arms.png"; // GOD I hate this line
+				gameObject.Render.Tile = "Creatures/Bright_2Arms.png"; // GOD I hate this line
 			}
 			foreach (GameObject go in zone.FindObjects("Ava_Jademouth_ChaosTheorySconceSpawner"))
 			{
@@ -84,7 +84,7 @@ namespace XRL.World.QuestManagers
 			}
 			else
 			{
-				var pickedIndices = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", Options: sortedList.Keys.ToArray(), Amount: 3);
+				var pickedIndices = Popup.PickSeveral("Choose up to three item mods to learn, free of charge.", Options: sortedList.Keys.ToArray(), Context: The.Speaker, Amount: 3);
 				foreach (var (Selected, Amount) in pickedIndices)
 					chosenIndexes.Add(Selected);
 			}

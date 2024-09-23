@@ -1,6 +1,5 @@
 ﻿using XRL;
 using XRL.Messages;
-using XRL.UI;
 using XRL.Wish;
 using XRL.World;
 

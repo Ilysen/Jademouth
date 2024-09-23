@@ -111,12 +111,12 @@
 				Bright's our tinker.</text>
 			<choice UseID="Fizz" />
 			<choice UseID="Atacama" />
-			<choice Target="IsThatAll" IfTestState="Ava_Jademouth_CatMentionedBright,true">Is that all?</choice>
+			<choice Target="IsThatAll">Is that all?</choice>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="IsThatAll">
-			<text>What are you- oh, you- stop it! Stooop!</text>
+			<text>What are you- oh, you- stop it! Stop!</text>
 			<choice Target="End">You'll work it out. Live and drink.</choice>
 		</node>
 		<node ID="Mayor">
