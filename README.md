@@ -16,6 +16,7 @@ Happy new year!
 
 #### Version 1.2.7
 * Dialogue tweaks. Shocking, I know :P
+* Fixed a number of XML errors as reported by Steam user Tyrir. Thank you!
 * Added an emblem to Jademouth's faction on the faction screen.
 * Jademouth's faction changes to a new one in the chiliad.
 * Miners can now spawn with handheld glowspheres, increasing the variety of their potential light sources. Still no torches, open flames are dangerous underground!

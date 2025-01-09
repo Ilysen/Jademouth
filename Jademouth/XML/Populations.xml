@@ -5,7 +5,7 @@
 			<object Blueprint="Ava_Jademouth_JademouthRecoiler" />
 			<object Blueprint="Spine Fruit" Number="3-5" />
 			<object Blueprint="Pickaxe" Number="10-15" />
-			<object Blueprint="Nanonpneumatic Jackhammer" Number="0-2" />
+			<object Blueprint="Nanopneumatic Jackhammer" Number="0-2" />
 			<object Blueprint="Miner's Helmet" Number="1-2" />
 			<object Blueprint="Headlamp" Number="3-5" />
 			<table Name="Cells" Number="4-8" />
@@ -27,7 +27,7 @@
 			</group>
 			<group Name="Gloves" Style="pickone">
 				<object Weight="5" Blueprint="Leather Gloves" />
-				<object Weight="4" Blueprint="Boar-skin Gloves" />
+				<object Weight="4" Blueprint="Boar-skin gloves" />
 				<object Weight="1" Blueprint="Ulnar Stimulators" />
 			</group>
 			<group Name="Boots" Style="pickone">
@@ -38,7 +38,7 @@
 				<object Blueprint="Pickaxe" />
 				<group Name="Jackhammer" Style="pickeach">
 					<object Blueprint="Nanopneumatic Jackhammer" />
-					<object Blueprint="Cells" />
+					<table Name="Cells" />
 				</group>
 			</group>
 		</group>

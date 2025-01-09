@@ -17,7 +17,7 @@
 		<part Name="Ava_Jademouth_ProspectorColorPart" />
 		<tag Name="InventoryPopulationTable" Value="Ava_Jademouth_ProspectorGear" />
 		<tag Name="Merchant" />
-		<property Name="WontSell" Value="Pickaxe,NanopneumaticJackhammer" />
+		<property Name="WontSell" Value="Pickaxe,Nanopneumatic Jackhammer" />
 		<tag Name="WontSellTag" Value="Ammo" />
 		<skill Name="Endurance_PoisonTolerance" />
 		<skill Name="Endurance_Calloused" />
