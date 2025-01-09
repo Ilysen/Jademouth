@@ -14,6 +14,19 @@ namespace Ava.Jademouth.Scripts
 			The.Player.ZoneTeleport("JoppaWorld.42.6.1.1.10", 52, 15);
 		}
 
+		[WishCommand(Command = "chaostheorypre")]
+		public static void ChaosTheoryPre()
+		{
+			GoToJademouth();
+			The.Game.StartQuest("Ava_Jademouth_ChaosTheory");
+			GameObject phial = GameObject.Create("Phial");
+			phial.LiquidVolume.ComponentLiquids.Clear();
+			phial.LiquidVolume.ComponentLiquids.Add("warmstatic", 1000);
+			phial.LiquidVolume.Volume = 1;
+			phial.LiquidVolume.Update();
+			The.Player.ReceiveObject(phial);
+		}
+
 		[WishCommand(Command = "chaostheorytest")]
 		public static void ChaosTheoryTest()
 		{

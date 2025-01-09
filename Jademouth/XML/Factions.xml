@@ -13,16 +13,7 @@
 		</interests>
 		<property Name="EndVisibility" Value="false" />
 	</faction>
-	<faction Name="Ava_Jademouth_JademouthFaction_Chiliad" DisplayName="freeholders of Jademouth" Visible="false" Old="false" FormatWithArticle="true" InitialPlayerReputation="0" PositiveSound="Sounds/Reputation/sfx_reputation_village_positive" NegativeSound="Sounds/Reputation/sfx_reputation_village_negative" EmblemTile="Creatures/Prospector_01.png" EmblemTileColor="K" EmblemDetailColor="c">
-		<interests>
-			<interest Tags="mountains" />
-			<interest Tags="mountainstream" />
-			<interest Tags="dromad" WillBuy="false" WillSell="true" />
-		</interests>
-		<property Name="EndVisibility" Value="General" />
-		<intproperty Name="EndReputation" Value="0" />
-	</faction>
-	<faction Name="Ava_Jademouth_JademouthFaction_Chiliad" DisplayName="Jademouth Culinarians' Guild" Visible="false" Old="false" FormatWithArticle="true" InitialPlayerReputation="0" PositiveSound="Sounds/Reputation/sfx_reputation_village_positive" NegativeSound="Sounds/Reputation/sfx_reputation_village_negative" EmblemTile="Creatures/sw_slog.bmp" EmblemTileColor="w" EmblemDetailColor="g">
+	<faction Name="Ava_Jademouth_JademouthFaction_Chiliad" DisplayName="Jademouth culinarians" Visible="false" Old="false" FormatWithArticle="true" InitialPlayerReputation="0" PositiveSound="Sounds/Reputation/sfx_reputation_village_positive" NegativeSound="Sounds/Reputation/sfx_reputation_village_negative" EmblemTile="Creatures/sw_slog.bmp" EmblemTileColor="w" EmblemDetailColor="g">
 		<interests>
 			<interest Tags="weep" />
 			<interest Tags="mountainsprings" Description="mountain springs" />
