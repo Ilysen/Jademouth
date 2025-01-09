@@ -17,6 +17,7 @@
 			<group Name="Light" Style="pickone">
 				<object Weight="6" Blueprint="Miner's Helmet" />
 				<object Weight="12" Blueprint="Headlamp" />
+				<object Weight="3" Blueprint="Glowsphere" />
 				<object Weight="1" Blueprint="Floating Glowsphere" />
 			</group>
 			<group Name="Torso" Style="pickone">

@@ -74,33 +74,31 @@
 			I understand. Let me know if you change your mind.
 		</node>
 		<node ID="Tinker">
-			<text>Well, I think of myself more of an artificer, but yes. I'm the tinker here, or at least I fill the role of one.</text>
-			<choice Target="Artificer">What's the difference between a tinker and artificer?</choice>
+			<text>I am? {{emote|*Bright thinks.*}} I am, I suppose. Interesting.</text>
 			<choice ID="OtherQuestions" Target="Start">I had other questions.</choice>
 			<choice Target="End">Live and drink.</choice>
 		</node>
-		<node ID="Artificer">
-			<text>{{emote|*Bright half-shrugs.*}} Nothing important.</text>
-			<choice UseID="OtherQuestions" />
-			<choice Target="End">I see. Live and drink.</choice>
-		</node>
 		<node ID="Light">
-			<text>I am, yes. I was not always, but I am now, and it's only gotten worse over time. Even a torch will hurt my eyes. There is a reason I keep my workshop dark.</text>
+			<text>I am, yes. I was not always, but I am now, and it's only worsened with time. There is a reason I keep my workshop dark. Please be mindful, if it isn't too much to ask.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="PitchBlack">
-			<text>I am sensitive to light. I was not always, but I am now, and it's only gotten worse over time. Even a torch will hurt my eyes. I would be grateful if you continue to cover your lights when you enter.</text>
+			<text>I am sensitive to light. I was not always, but I am now, and it's only worsened over time. I would be grateful if you continue to cover your lights when you enter.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">I see. Live and drink.</choice>
 		</node>
 		<node ID="RockTumbler">
-			<text>You may; just make sure you clean up. We keep it busy and we are not liable for any missing gems if you leave them there.</text>
+			<text>You may. Just make sure you clean up. We keep it busy and we are not liable for any missing gems if you leave them there.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">Thank you. Live and drink.</choice>
 		</node>
 		<node ID="Project">
-			<text>Just keeping the tools serviced, working on the power lines, the usual. That reminds me -- are you looking for work right now?</text>
+			<text>Nothing exciting. Servicing the jackhammers; working the power lines; losing my hearing. The usual. No time for my projects. But maybe...
+			
+			{{emote|*Bright pauses.*}}
+			
+			mm. Are you a waterhand? Seeking work?</text>
 			<choice Target="Maybe">Maybe. What did you have in mind?</choice>
 			<choice Target="Reset">Not at the moment.</choice>
 		</node>
@@ -109,7 +107,7 @@
 			<choice Target="Listening">Go on.</choice>
 		</node>
 		<node ID="Listening">
-			<text>There is a certain type of liquid I've heard tell of. Very entropic. I've done some asking, and I think it may be of use to me. If you can get me a dram of it, I could test my theory.</text>
+			<text>Just a simple trade. The ichor merchants tell of a rare fluid that will be of use to me. Very entropic. I believe that it will be of use to me. If you can get me a dram of it, I could test my theory.</text>
 			<choice Target="Static">What kind of liquid am I looking for?</choice>
 		</node>
 		<node ID="Static">
@@ -126,39 +124,43 @@
 			<choice UseID="DeclineQuest" />
 		</node>
 		<node ID="Reward">
-			<text>I happen to specialize in item modding. I like prototyping different designs, and I inscribe them onto disks myself. I'll be more than happy to help you learn a few mods; anything you have in mind, I can probably teach you.</text>
+			<text>I happen to specialize in item modding. If you're a tinker yourself, I'd be more than happy to help you learn a few mods; anything you have in mind, I can probably teach you.</text>
 			<choice UseID="AcceptQuest" />
 			<choice UseID="Theory" />
 			<choice UseID="DeclineQuest" />
 		</node>
 		<node ID="Accepted">
-			<text>Excellent! Thank you so much. I'm afraid I'm not actually wholly sure where to start, but I have a few ideas.
-			
-			Warm static originates from the Moon Stair, but that's likely not a place you want to visit. The alchemist in Bethesda Susa is an expert in this sort of thing as well, but finding them is a journey in its own right.
-			
-			I would only visit the Stair had I no other option. If you do, you will be looking for a certain type of jell. Liquid of the purity I seek can be harvested from them, but you may need to kill several of them to find an appropriate sample -- and if you use heat-based weapons, it would likely be destroyed outright.
-		
-			Be cautious. I've heard stories. And when you do find the static, DO NOT do anything else with it. Bring it directly here.</text>
+			<text>Wonderful! {{emote|*=pronouns.Possessive= hands clasp together.*}} Thank you kindly. I will eagerly anticipate your return. And when you do find the static, DO NOT do anything else with it. Bring it directly back to me. Okay?</text>
+			<choice Target="WarmStatic">Where can I find warm static?</choice>
 			<choice Target="Start">While I'm here, I had other questions.</choice>
 			<choice Target="End">I guess I'd better start looking. Live and drink.</choice>
 		</node>
+		<node ID="WarmStatic">
+			<text>Warm static originates from the Moon Stair, but that's likely not a place you want to visit. The alchemist in Bethesda Susa is an expert in all things liquid, and may help; the liquid-tinkers in the Stiltgrounds may be of use to you, too, though I'd expect no consistent results.
+			
+			I would only visit the Stair had I no other option. You would be looking for a certain type of jell. Liquid of the purity I seek can be harvested from them, but you may need to kill several of them to find an appropriate sample -- and keep them intact when you do. No fire, no lasers.
+		
+			And be cautious. Cat has told me stories.</text>
+			<choice UseID="OtherQuestions" />
+			<choice Target="End">Thanks. Live and drink.</choice>
+		</node>
 		<node ID="Reminder">
-			<text>A highly entropic liquid, called warm static. I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze there. A much safer idea would be to find the alchemist, in Bethesda Susa. I only need a dram, but it needs to be pure; if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
+			<text>A highly entropic liquid, called warm static. I believe it may be able to help me tolerate the light again. It originates from the Moon Stair, and if you have no other options, I believe you could source it from a certain type of ooze there. A much safer idea would be to find the alchemist in Bethesda Susa, or an ichor merchant elsewhere. I only need a dram, but it needs to be pure; if it's dilute or otherwise contaminated, it won't work for my purposes.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">Thanks. Live and drink.</choice>
 		</node>
 		<node ID="GiveStatic" AllowEscape="false">
-			<text>{{emote|*Bright collects the static in a phial and hands your container back. =pronouns.Subjective= =verb:swirl:afterpronoun= it back and forth, entranced.*}}
+			<text>{{emote|*Bright collects the static in a phial and returns your container. =pronouns.Subjective= =verb:swirl:afterpronoun= it back and forth, entranced.*}}
 			
-			Ohhh yes. This is it, there's no mistaking that. We can only hope this works.
+			Ohhh yes. This is it, there's no mistaking that. You have done well.
 			
-			{{emote|*Before you can react, =pronouns.subjective= =verb:quaff:afterpronoun= the entire phial and crumples to the ground.*}}</text>
+			{{emote|*Before you can react, =pronouns.subjective= =verb:quaff:afterpronoun= the entire phial and crumples.*}}</text>
 			<choice Target="Mutating">?!</choice>
 		</node>
 		<node ID="Mutating" AllowEscape="false">
-			<text>{{emote|*Bright convulses on the floor. =pronouns.Possessive= arms warp and twist as though seen through dirty glass before two of them disappear outright in a flurry of hissing snow. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is crackling, and something else -- a thin keening alike to a dying animal, heard distantly on a cold wind.*}}
+			<text>{{emote|*Bright convulses on the floor. =pronouns.Possessive= arms warp and twist as though seen through dirty glass before two of them disappear outright in a flurry of hissing snow. =pronouns.Possessive= skin flickers, darkens, and flickers again. There is crackling, and something else -- a thin keening like to a wounded animal, alone in the flats, heard distantly on a cold wind.*}}
 			
-			{{emote|*And then it stops, as quickly as it began. Eddies of static flicker about the tinker's body as =pronouns.possessive= skin shudders unsteadily with a warm glow. =pronouns.Subjective= unsteadily =verb:sit:afterpronoun= up.*}}
+			{{emote|*And then it stops. Eddies of static flicker about the tinker's body as =pronouns.possessive= skin shudders unsteadily with a warm glow as =pronouns.subjective= =verb:sit:afterponoun= up.*}}
 			</text>
 			<choice Target="Success">Bright?</choice>
 			<choice Target="Success">...</choice>
@@ -168,14 +170,16 @@
 			
 			Pardon me.
 
-			{{emote|*Bright lurches to =pronouns.possessive= feet and moves into the light.*}}
+			{{emote|*Bright =verb:lurch= to =pronouns.possessive= feet and moves into the light.*}}
 			</text>
 			<choice Target="ItWorked">Are you okay?</choice>
 		</node>
 		<node ID="ItWorked" AllowEscape="false">
 			<text>{{emote|*Bright is staring with a foolish grin.*}}
 
-			I could only imagine the risk, but it worked. It worked! My eyes don't hurt! My skin doesn't prickle! I... =name=, words cannot describe what you have done for me. You have done me a favor I can never repay. Whenever you're ready, I can teach you some of my designs, as I promised. I can only hope that will be enough.
+			It worked? It worked, I believe. My eyes don't hurt, my skin doesn't prickle, I...
+			
+			=name=, words cannot describe what you have done for me. You have done me a favor I can never repay. Whenever you're ready, I can teach you some of my designs, as I promised. I can only hope that will be enough.
 
 			Thank you.
 			</text>
@@ -192,20 +196,23 @@
 			<choice Target="End">I'm glad to hear. Live and drink.</choice>
 		</node>
 		<node ID="Cat">
-			<text>That's rather personal. I'm uncertain how disposed I am to open up to someone I don't know.</text>
+			<text>That's rather personal, I'm afraid.</text>
 			<choice UseID="OtherQuestions" />
 			<choice Target="End">Understandable. Live and drink.</choice>
 		</node>
 		<node ID="Cat_PostQuest">
-			<text>Cat and I used to... well. We were very close. She became much harder to talk to when she took on the mantle of warden. Eventually we fell out of touch. With how miserable I was in the light, I rarely ever interacted with her. I guess there was some resentment.
+			<text>Cat and I used to... well. We were very close. She became much harder to talk to when she took on the mantle of warden. Eventually we stopped speaking. With how miserable I'd become in the light, I rarely ever interacted with her. I suppose some resentment was to be expected.
 			
-			Now that I can go outside again, I see her a lot more. I like to believe that she's starting to warm up again; the other day she even laughed with me. It isn't much, but I'm thankful to be on talking terms with her again.</text>
+			But now that I can go outside again, I see her much more. And I think things have been going rather well.</text>
 			<choice UseID="OtherQuestions" />
-			<choice Target="End">Hopefully it works out. Live and drink.</choice>
+			<choice Target="End">You have my well-wishes. Live and drink.</choice>
 		</node>
 		<node ID="GiveReward">
 			<text>That is correct. Would you like to learn now? You need not know the requisite skills -- anything I teach you may be put into practice even if you only know the basics of tinkering.</text>
-			<choice Target="End" CallScript="XRL.World.QuestManagers.Ava_Jademouth_ChaosTheoryManager.HandleReward">Yes, teach me now.</choice>
+			<choice Target="End">
+				<text>Yes, teach me now.</text>
+				<part Name="Ava_Jademouth_BrightTeachMods" />
+			</choice>
 			<choice Target="End">Perhaps not yet. Live and drink.</choice>
 		</node>
 	</conversation>

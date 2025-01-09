@@ -7,9 +7,19 @@ Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.o
 ## Credits
 
 * **Ilysen** - Code, mapping, and most of the writing
-* **Lamb** - All of the sprites, and some help with the writing
+* **Cleo** - All of the sprites, and some help with the writing
 
 ## Changelog
+
+### 9 January, 2025
+Happy new year!
+
+#### Version 1.2.7
+* Dialogue tweaks. Shocking, I know :P
+* Added an emblem to Jademouth's faction on the faction screen.
+* Jademouth's faction changes to a new one in the chiliad.
+* Miners can now spawn with handheld glowspheres, increasing the variety of their potential light sources. Still no torches, open flames are dangerous underground!
+* Learning item mods from Bright after Chaos Theory now gives a confirmation prompt showing you which mods you'll learn.
 
 ### 23 September, 2024
 #### Version 1.2.6

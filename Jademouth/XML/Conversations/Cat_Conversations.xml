@@ -3,7 +3,7 @@
 	<conversation ID="Ava_Jademouth_WardenCatConversation">
 		<start ID="PlayerKilledBright" IfTestState="Ava_Jademouth_BrightState contains KilledByPlayer" AllowEscape="false">
 			<text>
-				{{emote|*You feel a telepathic wave of intense negativity.*}}
+				{{emote|*You feel a telepathic wave of intense hate.*}}
 
 				You...
 
@@ -93,7 +93,7 @@
 		<node ID="Bright">
 			<text>{{w|*Cat's expression is unreadable underneath =pronouns.possessive= veil, but you feel telepathic waves of... is it disdain? Pity? Regret?*}}
 				
-				Bright does a lot of things. She calls herself our tinker.</text>
+				Bright does a lot of things. She's our tinker, I suppose.</text>
 			<choice UseID="Fizz" />
 			<choice UseID="Atacama" />
 			<choice Target="DontGetAlong" SetBooleanState="Ava_Jademouth_CatMentionedBright,true">You don't seem to think very highly of her.</choice>
