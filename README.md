@@ -10,7 +10,9 @@ A friend of mine named Cleo is responsible for all of the unique sprites in the 
 
 ## Changelog
 ### Version 1.2.8
-* Fixed a harmless warning caused by a missing bit of XML. I had this stored locally but never released it, oops
+* Fixed a harmless warning caused by a missing bit of XML. I had this stored locally but never released it, oops.
+* Corrected Cat calling Fizz "they" instead of "it" in her dialogue.
+* Updated to work with Diaspora.
 
 ### 9 January, 2025
 Happy new year!

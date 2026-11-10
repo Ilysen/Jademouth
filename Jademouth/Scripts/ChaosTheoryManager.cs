@@ -30,10 +30,14 @@ namespace XRL.World.QuestManagers
 				{
 					foreach (BaseMutation mut in m.MutationList.ToList())
 						m.RemoveMutation(mut);
-					m.AddMutation("Analgesia", 1); // replaces Albino (-2 points)
-					m.AddMutation("Psychometry", 5); // replaces Triple-jointed (3 points)
-					m.AddMutation("ElectricalGeneration", 10); // replaces Multiple Arms (4 points)
-					m.AddMutation("LightManipulation", 5); // replaces Regeneration (4 points)
+					if (MutationFactory.TryGetMutationEntry("Analgesia", out var nervePoppy)) // replaces Albino (-2 points)
+						m.AddMutation(nervePoppy);
+					if (MutationFactory.TryGetMutationEntry("Psychometry", out var psychometry)) // replaces Triple-jointed (3 points)
+						m.AddMutation(psychometry, 5);
+					if (MutationFactory.TryGetMutationEntry("ElectricalGeneration", out var elecGen)) // replaces Multiple Arms (4 points)
+						m.AddMutation(elecGen, 10);
+					if (MutationFactory.TryGetMutationEntry("LightManipulation", out var lightManip)) // replaces Regeneration (4 points)
+						m.AddMutation(lightManip, 5);
 				}
 				gameObject.AddPart(new GivesRep());
 				gameObject.SetStringProperty("WaterRitual_Skill", "Tinkering_Tinker2");
