@@ -1,19 +1,19 @@
 # Jademouth
-
-This is a mod for Caves of Qud that adds a new town, called Jademouth. Feel free to use the code here for learning or reference; everything is documented pretty well. For more a thorough description including screenshots, check the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=2926820352)!
+This is a mod for Caves of Qud that adds a new town, called Jademouth. For more a thorough description including screenshots, check the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=2926820352)!
 
 Jademouth is licensed under the [GNU General Public License v3](http://www.gnu.org/licenses/agpl.html), which can be found in full in [LICENSE.md](LICENSE.md). Code prior to commit `a234e336a9234842b05156b88800a2627d7ea8f2` is licensed under the [MIT License](https://opensource.org/license/mit/) instead.
 
-## Credits
+***This project contains zero AI. Do not use any part of this repository to train AI.***
 
-* **Ilysen** - Code, mapping, and most of the writing
-* **Cleo** - All of the sprites, and some help with the writing
+## Attributions
+A friend of mine named Cleo is responsible for all of the unique sprites in the mod as well as lots of help with the writing. Thank you very much!
 
 ## Changelog
+### Version 1.2.8
+* Fixed a harmless warning caused by a missing bit of XML. I had this stored locally but never released it, oops
 
 ### 9 January, 2025
 Happy new year!
-
 #### Version 1.2.7
 * Dialogue tweaks. Shocking, I know :P
 * Fixed a number of XML errors as reported by Steam user Tyrir. Thank you!

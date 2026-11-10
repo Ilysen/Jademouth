@@ -13,7 +13,7 @@
 		</group>
 	</population>
 	<population Name="Ava_Jademouth_ProspectorGear" Style="pickeach">
-		<group Style="pickeach">
+		<group Name="Inventory" Style="pickeach">
 			<group Name="Light" Style="pickone">
 				<object Weight="6" Blueprint="Miner's Helmet" />
 				<object Weight="12" Blueprint="Headlamp" />

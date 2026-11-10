@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using XRL.UI;
 using XRL.World.Parts;
 using XRL.World.Parts.Mutation;
-using XRL.World.Tinkering;
 
 namespace XRL.World.QuestManagers
 {
